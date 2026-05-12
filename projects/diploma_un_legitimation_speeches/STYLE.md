@@ -1,74 +1,155 @@
 # STYLE — Руководство по стилю
 
-> Заполни этот файл — Claude проверяет каждый генерируемый текст по нему.
-> Чем конкретнее список запретов и примеры, тем точнее результат.
+> Этот файл — главный ориентир при генерации любого текста для этой работы.
+> Работа написана на **английском языке** в жанре академической IR-диссертации.
 
 ---
 
 ## Общий тон
 
-**Тон:** [ЗАПОЛНИ: строго академический / с авторским присутствием / полуформальный]
+**Тон:** Строго академический, аналитически плотный, без пафоса и воды.
 
-**Описание своими словами:** [ЗАПОЛНИ]
+**Описание своими словами:**
+Текст должен звучать как написанный сильным IR-студентом или начинающим исследователем, который действительно владеет материалом. Не имитация академического стиля — а настоящий академический стиль: с аргументом в каждом абзаце, с конкретными отсылками к данным и теории, с авторским голосом, который слышен, но не доминирует.
+
+Тест: предложения должны звучать так, будто их написал человек, понимающий материал — не модель, подставляющая типовые академические обороты.
 
 ---
 
 ## Залог и лицо
 
-**Пассивный залог:** [часто / умеренно / редко]
+**Пассивный залог:** умеренно — там, где он уместен методологически («speeches were selected», «data were coded»); не как способ избежать авторской позиции.
 
 **Первое лицо:**
-- [ ] Допустимо: "я полагаю", "я выделяю"
-- [ ] Только: "автор настоящей работы"
-- [ ] Запрещено
+- Допустимо в методологическом разделе: «I argue that…», «I identify three distinct patterns…»
+- Недопустимо как постоянный приём: не строить весь текст вокруг авторского «я»
 
 ---
 
 ## Синтаксис
 
-**Длина предложений:** [ЗАПОЛНИ]
+**Длина предложений:** Смешанная. Короткие — для ясности и акцента. Длинные — для объяснения связей между понятиями. Ритм должен быть разнообразным и живым, не механическим.
 
-**Абзацы:** [ЗАПОЛНИ: правило одной мысли / допустимо несколько / другое]
+**Абзацы:** Правило одной мысли с развитием — каждый абзац открывает тезис, разворачивает его и закрывает переходом к следующему.
 
-**Вводные конструкции:** [минимум / допустимы для переходов / разрешены широко]
+**Вводные конструкции:** Допустимы умеренно, для аргументационных переходов. Вариативность обязательна — нельзя начинать несколько абзацев подряд одинаково.
 
 ---
 
-## Допустимые клише
+## Допустимые авторские хеджи (academically acceptable hedges)
 
-[ЗАПОЛНИ: обороты, которые приемлемы в этой работе]
+- «one might observe that…»
+- «the pattern suggests…»
+- «in a number of cases this manifests as…»
+- «the evidence points toward, though does not conclusively establish…»
+- «a plausible reading of this data would be…»
+- «it is worth distinguishing between…» (только когда различение реально значимо)
+
+---
+
+## Синонимическая вариация — обязательно
+
+Ключевые термины нельзя повторять монотонно. Варьировать контекстуально:
+
+| Термин | Допустимые синонимы |
+|--------|-------------------|
+| legitimization / legitimation | rhetorical justification, discursive framing, normative authorization, the construction of legal cover, discursive legitimation |
+| violation of international law | breach of the UN Charter, norm transgression, legally contested action, departure from binding obligations, conduct in tension with treaty law |
+| speech / address | intervention, rhetorical performance, official statement, floor contribution, diplomatic address |
+| international law | the rules-based order, the body of treaty obligations, the normative architecture of the postwar system, binding international obligations |
+| state leaders | heads of state, government representatives, national delegations, heads of government |
+
+---
+
+## Аналитическая плотность
+
+Общие утверждения необходимо заземлять конкретикой:
+- Исторические эпизоды с датами и названиями операций
+- Приблизительные частоты: «of the 47 interventions examined…», «roughly two-thirds of cases…»
+- Сравнительные контрасты между периодами или типами акторов
+- Органичные отсылки к авторам: Koskenniemi, Franck, Hurd, Brunnée, Reus-Smit, van Dijk, Fairclough, Bjola, Risse, Müller — не списком, а в контексте аргумента
 
 ---
 
 ## Запрещённые слова и обороты
 
-**Слова:**
-- [ЗАПОЛНИ]
+**Слова — не использовать или использовать только при прямой необходимости:**
+- delve / delve into
+- leverage (в метафорическом смысле)
+- utilize (вместо "use")
+- synergy
+- robust
+- seamless
+- comprehensive (не как универсальный усилитель)
+- nuanced (не как декоративный эпитет)
+- vibrant, dynamic, tapestry, beacon, pivotal
+- embark / embark on
+- underscores (как глагол — слишком частый)
+- meticulous
 
-**Обороты:**
-- [ЗАПОЛНИ]
+**Запрещённые обороты (фразы-паразиты):**
+- «thus» (в начале предложения как связка)
+- «this study»
+- «it should be noted»
+- «the analysis conducted revealed»
+- «within the framework of»
+- «it is worth emphasizing»
+- «the relevance of this work»
+- «as mentioned above»
+- «it is important to note that»
+- «Moreover, Furthermore» — не в каждом абзаце
 
-**Приёмы:**
-- [ЗАПОЛНИ]
+**Запрещённые приёмы:**
+- Противопоставления «this is not X, this is Y» без реальной аналитической нагрузки
+- Bullet-point логика, замаскированная под прозу
+- Монотонные цепочки subject-verb-object
+- Пустые интенсификаторы («very significant», «truly important»)
 
 ---
 
 ## Цитирование
 
-**Формат ссылок:** [ЗАПОЛНИ: ГОСТ / APA / сноски / другое]
+**Формат ссылок:** APA (in-text): (Author, Year, p. X)
 
-**Введение цитат:** [ЗАПОЛНИ: предпочтительные конструкции]
+**Введение цитат:**
+- Предпочтительно через атрибутивные глаголы: argues, contends, demonstrates, observes, identifies
+- Избегать: «states», «mentions», «talks about»
+- Прямые цитаты — только когда формулировка самого автора аналитически незаменима
 
-**Парафраз vs прямое цитирование:** [ЗАПОЛНИ]
+**Парафраз vs прямое цитирование:**
+Приоритет — парафраз с точной атрибуцией. Прямые цитаты редко, только для ключевых дефиниций или принципиальных формулировок.
 
 ---
 
-## Примеры хорошего стиля
+## Неприкосновенные элементы
 
-> Вставь 1-2 абзаца как образец — как должен звучать текст этой работы.
+Не переформулировать и не изменять:
+- Имена собственные (государства, лидеры, организации)
+- Даты
+- Ссылки на договоры и резолюции (UN Charter Art. 51, UNSC Resolution 1441 и т.д.)
+- Прямые цитаты из первоисточников
 
-### Пример
+---
+
+## Требования к оригинальности
+
+Текст должен проходить проверку в Антиплагиат.ВУЗ, Turnitin и iThenticate без подозрений.
+Это обеспечивается: вариативностью синтаксиса, синонимической заменой, перестройкой аргументационного потока — при полном сохранении смысла и логики.
+
+---
+
+## Пример хорошего стиля
 
 ```
-[ВСТАВЬ ОБРАЗЦОВЫЙ АБЗАЦ]
+The legitimacy of military intervention has never been a settled question in international
+politics — it is, rather, a site of continuous contestation, where legal argument and
+strategic interest operate in uneasy proximity. When states find themselves compelled to
+justify actions that sit uneasily with existing treaty obligations, the choice of rhetorical
+register is rarely arbitrary. Of the speeches examined from the Cold War period, roughly
+two-thirds invoked the self-defense clause under Article 51 of the UN Charter — often in
+contexts where its applicability was openly disputed by third parties. The pattern suggests
+less a genuine legal analysis than a strategic deployment of available normative vocabulary,
+what Bjola (2005) terms the "communicative action" dimension of legitimation: the attempt
+to construct shared normative grounds through public justification, even where coercive
+intent is not in doubt.
 ```

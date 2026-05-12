@@ -1,4 +1,7 @@
 {
+  "env": {
+    "PATH": "/Users/kbalashova/miniforge3/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+  },
   "permissions": {
     "allow": [
       "Bash(mkdir:*)",
@@ -9,6 +12,7 @@
       "Bash(cat:*)",
       "Bash(echo:*)",
       "Bash(touch:*)",
+      "Bash(git push origin aram)",
       "Read(*)",
       "Write(*)",
       "Edit(*)"
@@ -19,7 +23,6 @@
       "Bash(npm:*)",
       "Bash(pip:*)",
       "Bash(brew:*)",
-      "Bash(git push:*)",
       "Bash(git commit:*)",
       "Bash(rm -rf:*)"
     ]

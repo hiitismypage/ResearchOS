@@ -229,8 +229,12 @@ projects/*/sources/files/*.doc
 # ResearchOS — результаты симуляций (бинарные/крупные артефакты)
 projects/*/results/
 
-# ResearchOS — крупные файлы данных (>100MB, не помещаются в GitHub)
+# ResearchOS — крупные файлы данных (не помещаются в GitHub)
 projects/*/data/*.csv
+projects/*/data/*.xlsx
+projects/*/data/*.tar.gz
+projects/*/data/*.gz
+projects/*/data/*.zip
 
 # ResearchOS — черновики DOCX (бинарные, версии отслеживаются через git-lfs если нужно)
 projects/*/drafts/*.docx
