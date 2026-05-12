@@ -246,3 +246,7 @@ Thumbs.db
 
 # Временные файлы скриптов
 .claude/scripts/tmp_*.py
+
+# Установщики и крупные бинарники
+*.sh
+Miniforge3.sh
