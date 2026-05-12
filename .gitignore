@@ -226,6 +226,16 @@ projects/*/sources/files/*.pdf
 projects/*/sources/files/*.docx
 projects/*/sources/files/*.doc
 
+# ResearchOS — результаты симуляций (бинарные/крупные артефакты)
+projects/*/results/
+
+# ResearchOS — крупные файлы данных (>100MB, не помещаются в GitHub)
+projects/*/data/*.csv
+
+# ResearchOS — черновики DOCX (бинарные, версии отслеживаются через git-lfs если нужно)
+projects/*/drafts/*.docx
+projects/*/chapters/*.docx
+
 # OS
 .DS_Store
 Thumbs.db
