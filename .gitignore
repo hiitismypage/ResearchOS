@@ -216,3 +216,19 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ResearchOS — выходные файлы
+projects/*/output/*.docx
+projects/*/reference.docx
+
+# ResearchOS — оригиналы литературы (могут быть большими и иметь авторские права)
+projects/*/sources/files/*.pdf
+projects/*/sources/files/*.docx
+projects/*/sources/files/*.doc
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Временные файлы скриптов
+.claude/scripts/tmp_*.py
