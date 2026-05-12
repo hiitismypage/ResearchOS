@@ -23,7 +23,6 @@
       "Bash(npm:*)",
       "Bash(pip:*)",
       "Bash(brew:*)",
-      "Bash(git commit:*)",
       "Bash(rm -rf:*)"
     ]
   }
