@@ -66,14 +66,14 @@ What legitimation strategies are employed by state leaders in speeches delivered
 - [VERIFY: возможно потребуется дополнительная гипотеза об эволюции стратегий во времени — обсудить с руководителем]
 
 **Методология:**
-- **Корпус:** Harvard Dataverse — UN General Debate Corpus / UNGDC (Baturo et al., 2017). Речи лидеров на ГА ООН, 1946–2024 (~10 000 речей). Данные: `/Users/kbalashova/Downloads/dataverse_files`
-- **Период фокуса:** преимущественно пост-холодная война (1990–2024) — период наибольшей нормативной конкуренции; полный диапазон 1945–2023 для эволюционного анализа
+- **Корпус:** Harvard Dataverse — UN General Debate Corpus / UNGDC (Baturo et al., 2017). Речи лидеров на ГА ООН, 1946–2023 [N TBD по UNGDC]. Данные: `/Users/kbalashova/Downloads/dataverse_files`
+- **Период фокуса:** преимущественно пост-холодная война (1990–2023) — период наибольшей нормативной конкуренции; полный диапазон 1946–2023 для эволюционного анализа
 - **Дизайн:** Directed qualitative content analysis (Hsieh & Shannon, 2005) + ограниченная дескриптивная квантификация (частоты кодов, co-occurrence)
-- **Выборка:** Целенаправленная (purposive), ~50–80 речей. Критерий: государства, у которых есть стимул публично оправдывать оспариваемые действия (contested uses of force, territorial disputes, IHL allegations, treaty non-compliance, human rights repression). Case identification — по UN reporting, НКО, новостным архивам (контекст, не доказательство нарушения)
+- **Выборка:** Исчерпывающая в рамках критерия (criterion-based exhaustive). Включаются все speech-годы, в которых государство сталкивалось с задокументированными обвинениями в оспариваемых действиях И речь содержит материал, адресующий эти обвинения. Итоговый N определяется по завершении идентификации [VERIFY]. Case identification — по UN reporting (GA/SC records, special rapporteur reports), НКО (Amnesty International, HRW), академической вторичной литературе по конкретным конфликтам (контекст, не доказательство нарушения)
 - **Теоретическая рамка:** Теория коммуникативного действия Ю. Хабермаса; применение к МО — Bjola (2005), Risse (2000), Müller (2004); norm contestation theory (Wiener, 2018)
 - **Аналитические измерения (кодировочная рамка):**
   1. **Тип предполагаемого нарушения:** use of force / jus ad bellum; IHL allegations; human rights allegations; territorial integrity / sovereignty; treaty / UNSC-resolution non-compliance
-  2. **Стратегии легитимации:** self-defense / necessity; sovereignty / non-interference; denial / reinterpretation; moralization / counter-terrorism framing; whataboutism / tu quoque; procedural-legal claims; historical-existential narratives
+  2. **Стратегии легитимации (8):** self-defense / necessity; sovereignty / non-interference; denial / reinterpretation; moral and humanitarian framing; counter-terrorism and securitization framing; whataboutism / tu quoque; procedural-legal claims; historical-existential narratives
 - **Процедура:** подробный кодбук; double-coding (researcher + trained assistant); audit trail; iterative refinement
 - **Анализ:** (1) descriptive mapping — частоты и co-occurrence; (2) comparative qualitative interpretation — как одни стратегии реализуются в разных контекстах
 - **Вычислительная поддержка:** Python-скрипты для извлечения релевантных речей из корпуса, первичной фильтрации, дескриптивной статистики

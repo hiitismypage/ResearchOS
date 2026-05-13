@@ -134,7 +134,7 @@ _Версия 1, 2026-05-13_
    4.4.2. Sovereignty and Non-Interference Framing: external critique as illegitimate intervention
    4.4.3. Counter-Terrorism and Moralization: civilizational framing and "no alternative" logic
 
-4.5. Temporal Dimension: Strategy Evolution (1990–2024)
+4.5. Temporal Dimension: Strategy Evolution (1990–2023)
    — Post-Cold War baseline (1990–2000)
    — The War on Terror and its rhetorical legacy (2001–2013)
    — Sovereignty-revisionism and fragmentation (2014–2023)
