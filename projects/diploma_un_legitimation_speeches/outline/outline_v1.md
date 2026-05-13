@@ -93,11 +93,11 @@ _Версия 1, 2026-05-13_
    — Scope: [N TBD] speeches, 1946–2023; machine-readable, standardised texts
    — Period of focus: post–Cold War (~1990–2023)
 
-3.3. Sampling Strategy: Purposive and Theory-Driven
-   — Sampling logic: selects state-years in which governments are plausibly incentivized to justify contested conduct
-   — Case identification: UN reporting, NGO documentation, news archives — used as contextual indicators, not proof of illegality
-   — Sample: all speeches in which legitimation of alleged violations is identifiable
-   — Diversity criteria: regions, regime types, violation types
+3.3. Case Identification: Criterion-Based Exhaustive Selection
+   — Inclusion criterion: state faced documented allegation of contested conduct AND speech addresses it
+   — Case identification: UN reporting, NGO documentation, news archives — contextual indicators, not proof of illegality
+   — Sample: all qualifying speeches; no predetermined N; exhaustive within criterion
+   — Descriptive dimensions: regional distribution, regime type, violation type coverage, temporal spread
    — Illustrative case types: counter-terrorism operations; sovereignty responses to external critique; conflict-related civilian harm allegations; treaty/UNSC-resolution non-compliance
 
 3.4. Coding Framework
@@ -137,7 +137,7 @@ _Версия 1, 2026-05-13_
 4.5. Temporal Dimension: Strategy Evolution (1990–2024)
    — Post-Cold War baseline (1990–2000)
    — The War on Terror and its rhetorical legacy (2001–2013)
-   — Sovereignty-revisionism and fragmentation (2014–2024)
+   — Sovereignty-revisionism and fragmentation (2014–2023)
    — What changed, what persisted
 
 ---
