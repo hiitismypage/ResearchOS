@@ -13,11 +13,16 @@
 ```bash
 # Python-пакеты (для скриптов)
 pip install python-docx pdfplumber
-
-# Pandoc (для экспорта в DOCX)
-brew install pandoc        # macOS
-# или скачать с https://pandoc.org/installing.html
 ```
+
+**Pandoc** (для экспорта в DOCX) — установить один раз на компьютер:
+
+| ОС | Команда |
+|----|---------|
+| macOS | `brew install pandoc` |
+| Windows | `winget install JohnMacFarlane.Pandoc` |
+| Linux | `sudo apt-get install pandoc` |
+| Любая | Скачать установщик: https://pandoc.org/installing.html |
 
 ### 2. Заполнить Me.md
 
@@ -222,17 +227,20 @@ projects/<slug>/STYLE.md
 
 ### Экспорт в DOCX
 
-```bash
-bash .claude/scripts/export.sh projects/<slug> название_работы
+```
+/export-thesis
+/export-thesis diploma_un_legitimation_speeches
+/export-thesis diploma_un_legitimation_speeches final_draft
 ```
 
-Скрипт автоматически:
-1. Читает FORMAT.md → генерирует reference.docx
-2. Собирает все главы из `chapters/` в правильном порядке
-3. Подключает bibliography.bib если есть
-4. Запускает Pandoc → готовый DOCX в `output/`
+Скилл автоматически:
+1. Проверяет установку Pandoc — если нет, даёт инструкцию по установке (macOS / Windows / Linux)
+2. Генерирует `reference.docx` из `FORMAT.md` (шрифт, поля, межстрочный)
+3. Собирает все главы из `chapters/*.md` в правильном порядке (00_, 01_, 02_…)
+4. Подключает `bibliography.bib` если есть
+5. Запускает Pandoc с оглавлением → готовый DOCX в `output/thesis_YYYY-MM-DD.docx`
 
-Или через скилл только для reference.docx:
+Если нужен только шаблон форматирования без полного экспорта:
 ```
 /create-reference-doc projects/<slug>
 ```
@@ -274,7 +282,8 @@ bash .claude/scripts/export.sh projects/<slug> название_работы
 
 | Скилл | Что делает |
 |-------|-----------|
-| `/create-reference-doc <проект>` | FORMAT.md → reference.docx для Pandoc |
+| `/export-thesis [slug] [name]` | Собирает все главы в один DOCX с оглавлением и форматированием по FORMAT.md |
+| `/create-reference-doc <проект>` | FORMAT.md → reference.docx для Pandoc (только шаблон) |
 
 ### Синхронизация с репозиторием
 
@@ -353,7 +362,7 @@ projects/<slug>/
 15. /consistency-check       → проверка связности всей работы
 16. /style-check <файл>      → финальная вычитка стиля
 17. /abstract-write          → аннотация
-18. bash .claude/scripts/export.sh projects/<slug> название → DOCX
+18. /export-thesis           → собрать все главы в DOCX
 ```
 
 ---
