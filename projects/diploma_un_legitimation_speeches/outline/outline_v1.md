@@ -90,19 +90,19 @@ _Версия 1, 2026-05-13_
 
 3.2. Corpus and Data: the Harvard UNGDC
    — Baturo et al. (2017): description, validation, prior uses of the corpus
-   — Scope: ~10 000 speeches, 1946–2024; machine-readable, standardised texts
-   — Period of focus: post–Cold War (~1990–2024)
+   — Scope: [N TBD] speeches, 1946–2023; machine-readable, standardised texts
+   — Period of focus: post–Cold War (~1990–2023)
 
 3.3. Sampling Strategy: Purposive and Theory-Driven
    — Sampling logic: selects state-years in which governments are plausibly incentivized to justify contested conduct
    — Case identification: UN reporting, NGO documentation, news archives — used as contextual indicators, not proof of illegality
-   — Expected N: ~50–80 speeches
+   — Sample: all speeches in which legitimation of alleged violations is identifiable
    — Diversity criteria: regions, regime types, violation types
    — Illustrative case types: counter-terrorism operations; sovereignty responses to external critique; conflict-related civilian harm allegations; treaty/UNSC-resolution non-compliance
 
 3.4. Coding Framework
    — Dimension 1 — Violation types (5 categories)
-   — Dimension 2 — Legitimation strategies (7 categories)
+   — Dimension 2 — Legitimation strategies (8 categories)
    — Codebook: definitions, inclusion criteria, decision rules for ambiguous cases
    — Iterative refinement procedure
 
