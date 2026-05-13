@@ -1,0 +1,47 @@
+{
+  "use_of_force": [
+    "military operation", "armed forces", "invasion", "aggression",
+    "use of force", "military force", "military intervention",
+    "armed attack", "air strikes", "air campaign", "ground troops",
+    "bombing", "occupation forces", "combat operations", "military action",
+    "resort to force", "cross-border", "troops entered", "deployed forces",
+    "offensive", "military incursion", "armed conflict", "hostilities"
+  ],
+  "ihl_violations": [
+    "civilian casualties", "war crimes", "international humanitarian law",
+    "humanitarian law", "laws of armed conflict", "geneva conventions",
+    "proportionality", "civilian population", "protected persons",
+    "deliberate targeting", "excessive force", "indiscriminate attacks",
+    "hospitals", "schools attacked", "cluster munitions", "white phosphorus",
+    "mass graves", "summary executions", "prisoners mistreated",
+    "torture of detainees", "siege", "blockade", "starvation as weapon",
+    "crimes against humanity", "war crime", "targeting civilians"
+  ],
+  "human_rights": [
+    "human rights violations", "persecution", "ethnic cleansing",
+    "genocide", "mass atrocities", "political prisoners",
+    "torture", "repression", "discrimination", "minority rights",
+    "extrajudicial killings", "enforced disappearances", "arbitrary detention",
+    "freedom of expression", "religious persecution", "racial discrimination",
+    "apartheid", "forced displacement", "systematic violations", "brutality",
+    "crackdown", "suppress dissent", "fundamental rights", "rights abuses"
+  ],
+  "territorial_integrity": [
+    "annexation", "occupation", "territorial integrity", "sovereign territory",
+    "secession", "settlement", "illegal occupation", "borders",
+    "occupied territory", "self-determination", "colonization",
+    "land grab", "illegal annexation", "territorial claims",
+    "disputed territory", "recognized borders", "administrative control",
+    "partition", "dismemberment", "encroachment", "territorial dispute"
+  ],
+  "treaty_noncompliance": [
+    "sanctions", "non-compliance", "violation of resolution",
+    "security council demands", "weapons of mass destruction",
+    "nuclear program", "international obligations", "treaty obligations",
+    "breach of", "inspection regime", "safeguards agreement",
+    "nuclear test", "ballistic missile", "prohibited weapons",
+    "chemical weapons", "biological weapons", "arms embargo",
+    "resolutions ignored", "defiance of the council", "iaea",
+    "non-proliferation treaty", "treaty violation"
+  ]
+}

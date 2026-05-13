@@ -229,6 +229,10 @@ projects/*/sources/files/*.doc
 # ResearchOS — результаты симуляций (бинарные/крупные артефакты)
 projects/*/results/
 
+# ResearchOS — analysis pipeline: бинарные артефакты и кэш (CSV и coding/ отслеживаются)
+projects/*/analysis_output/cache/
+projects/*/analysis_output/figures/
+
 # ResearchOS — крупные файлы данных (не помещаются в GitHub)
 projects/*/data/*.csv
 projects/*/data/*.xlsx

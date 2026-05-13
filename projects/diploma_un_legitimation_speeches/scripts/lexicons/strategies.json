@@ -1,0 +1,72 @@
+{
+  "self_defense": [
+    "self-defense", "self defense", "right of self-defense", "article 51",
+    "armed attack", "inherent right", "defensive action", "defensive measures",
+    "provocation", "compelled to act", "forced to respond", "no alternative",
+    "necessary measures", "imminent threat", "preemptive", "preventive action",
+    "protect our citizens", "protecting our territory", "military necessity",
+    "act of aggression against us", "under attack", "right to protect",
+    "collective self-defense", "legitimate defense", "our forces were attacked"
+  ],
+  "sovereignty": [
+    "sovereignty", "sovereign right", "sovereign decision", "non-interference",
+    "non-intervention", "internal affairs", "domestic matter", "outside interference",
+    "inadmissible", "charter principles", "domestic policy", "national sovereignty",
+    "inviolable sovereignty", "internal matter", "exclusive jurisdiction",
+    "interference in our affairs", "right to self-determination", "principle of non-interference",
+    "in accordance with our sovereign", "matters within our jurisdiction"
+  ],
+  "denial": [
+    "categorically deny", "reject these allegations", "baseless accusations",
+    "false allegations", "fabricated", "distorted picture", "reject the claim",
+    "unfounded", "misrepresentation", "not accurate", "so-called",
+    "what they call", "alleged violations", "without basis", "contrary to facts",
+    "these claims are false", "we reject", "disinformation", "propaganda campaign",
+    "no such events took place", "taken out of context", "grossly distorted"
+  ],
+  "humanitarian": [
+    "humanitarian", "protect civilians", "civilian population",
+    "responsibility to protect", "prevent atrocities", "human suffering",
+    "innocent lives", "moral obligation", "humanitarian crisis",
+    "genocide prevention", "humanitarian intervention", "protecting the innocent",
+    "save lives", "lesser evil", "moral imperative", "mass atrocities",
+    "protect our people", "humanitarian necessity", "prevent further suffering",
+    "at risk of genocide", "civilian protection"
+  ],
+  "counterterrorism": [
+    "terrorism", "terrorist", "counter-terrorism", "counterterrorism",
+    "extremism", "extremist", "radical", "radicalism", "jihadist",
+    "national security", "security threat", "existential threat",
+    "civilizational threat", "war on terror", "terrorist organization",
+    "terror networks", "global terrorism", "combat terrorism",
+    "eliminate terrorism", "separatists", "bandits", "insurgents",
+    "unlawful combatants", "armed gangs", "militant groups"
+  ],
+  "whataboutism": [
+    "double standards", "double standard", "selectivity", "selective application",
+    "selective condemnation", "hypocrisy", "hypocritical", "those who accuse",
+    "accusers", "consistent", "inconsistency", "others also", "the same logic",
+    "why not condemn", "what about", "politicization", "politically motivated",
+    "biased", "impartial", "whose hands are clean", "who gave them the right",
+    "similarly", "the record of", "those pointing fingers", "unequal treatment"
+  ],
+  "procedural_legal": [
+    "united nations charter", "international law", "legal basis",
+    "authorized", "mandate", "security council resolution",
+    "multilateral", "in accordance with", "treaty obligation",
+    "consistent with international law", "lawful", "legitimate authority",
+    "legal right", "legally entitled", "under the charter",
+    "in conformity with", "international legal framework",
+    "in compliance with", "under international law", "article 2",
+    "chapter vii", "general assembly resolution", "international community"
+  ],
+  "historical": [
+    "historical", "historical right", "centuries", "colonial legacy",
+    "colonialism", "historical injustice", "ancestral", "national identity",
+    "existential", "historical territory", "heritage", "indigenous",
+    "historical claims", "our people have always", "historically",
+    "traditional territory", "historical grievances", "original homeland",
+    "ancient", "historical context", "deep historical roots",
+    "liberation struggle", "colonial powers"
+  ]
+}
