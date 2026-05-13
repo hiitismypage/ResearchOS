@@ -16,6 +16,7 @@
 - [Müller, 2004] Arguing, Bargaining and All That: Communicative Action, Rationalist Theory and the Logic of Appropriateness in International Relations. *EJIR*, 10(3), 395–435. → notes/müller_2004_arguing_bargaining.md
 - [O'Connor, 2007] The Meaning of "Legitimacy" in World Affairs. SGIR Conference Paper. → notes/oconnor_2007_meaning_legitimacy.md ⚠️ не прорецензирован; использовать только как контраргумент
 - [Rapp, 2022] Justifying force: international law, foreign policy decision-making, and the use of force. *EJIR*, 28(2), 337–360. → notes/rapp_2022_justifying_force.md
+- [Scott & Ambler, 2007] Does Legality Really Matter? Accounting for the Decline in US Foreign Policy Legitimacy. *EJIR*, 13(1), 67–[VERIFY]. → notes/scott_ambler_2007_legality_legitimacy.md ⚠️ карточка не заполнена (PDF не читается)
 - [Risse, 2000] "Let's Argue!": Communicative Action in World Politics. *IO*, 54(1), 1–39. → notes/risse_2000_lets_argue.md
 
 ## Нерелевантные файлы (не использовать)
