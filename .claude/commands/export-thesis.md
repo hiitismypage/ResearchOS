@@ -21,38 +21,85 @@ description: Экспортирует главы подпроекта из chapt
 
 ---
 
-## Шаг 2 — проверить зависимости
+## Шаг 2 — определить ОС и проверить зависимости
+
+### Определи операционную систему
+
+```bash
+uname -s 2>/dev/null || echo "Windows"
+```
+
+- `Darwin` → macOS
+- `Linux` → Linux
+- Ошибка или `Windows` → Windows
 
 ### Pandoc
 
+**macOS / Linux:**
 ```bash
 which pandoc
 ```
 
-Если не найден — **Pandoc нужно установить на компьютер.** Попробуй установить автоматически через conda (miniforge):
+**Windows (PowerShell / Git Bash):**
+```powershell
+where pandoc
+```
+
+Если не найден — **Pandoc нужно установить на компьютер.** Попробуй автоматически через conda (если miniforge установлен):
 
 ```bash
 conda install -c conda-forge pandoc -y
 ```
 
-Если conda недоступна или установка не удалась — сообщи пользователю:
+Если conda недоступна или установка не удалась — сообщи пользователю инструкцию для его ОС:
 
+**macOS:**
 ```
-⚠️  Pandoc не установлен. Установи его вручную одним из способов:
+⚠️  Pandoc не установлен. Установи:
 
-    Вариант 1 — через Homebrew:
-        brew install pandoc
+    brew install pandoc
+    # или
+    conda install -c conda-forge pandoc
+    # или скачай установщик: https://pandoc.org/installing.html
+```
 
-    Вариант 2 — через conda/miniforge:
+**Windows:**
+```
+⚠️  Pandoc не установлен. Установи одним из способов:
+
+    Вариант 1 — через winget (встроен в Windows 10/11):
+        winget install --id JohnMacFarlane.Pandoc
+
+    Вариант 2 — через Scoop:
+        scoop install pandoc
+
+    Вариант 3 — через conda/miniforge:
         conda install -c conda-forge pandoc
 
-    Вариант 3 — скачать установщик напрямую:
+    Вариант 4 — скачать .msi установщик:
         https://pandoc.org/installing.html
+        (выбрать Windows installer)
 
-После установки снова запусти /export-thesis.
+    После установки перезапусти терминал и снова запусти /export-thesis.
+```
+
+**Linux:**
+```
+⚠️  Pandoc не установлен. Установи:
+
+    sudo apt-get install pandoc   # Debian/Ubuntu
+    sudo dnf install pandoc       # Fedora
+    conda install -c conda-forge pandoc
 ```
 
 Не продолжай выполнение скилла, пока Pandoc не установлен.
+
+### Учёт Windows при запуске скрипта
+
+На Windows `bash` может быть недоступен. Используй Git Bash, WSL, или адаптируй команду:
+
+- **Git Bash / WSL:** `bash .claude/scripts/export.sh projects/<slug> <name>` — работает как на macOS
+- **PowerShell без bash:** запусти Pandoc напрямую (см. шаг 4 ниже)
 
 ### python-docx (для генерации reference.docx)
 
@@ -96,11 +143,34 @@ ls projects/<slug>/chapters/*.md 2>/dev/null | sort -V
 
 ## Шаг 4 — запустить экспорт
 
+**macOS / Linux / Git Bash / WSL:**
 ```bash
 bash .claude/scripts/export.sh projects/<slug> <output_name>
 ```
 
-Скрипт автоматически:
+**Windows (PowerShell, если bash недоступен)** — собери Pandoc-команду вручную:
+```powershell
+# Определи переменные
+$PROJECT = "projects/<slug>"
+$DATE = Get-Date -Format "yyyy-MM-dd"
+$OUTPUT = "$PROJECT/output/thesis_$DATE.docx"
+
+# Создай папку output если нет
+New-Item -ItemType Directory -Force -Path "$PROJECT/output"
+
+# Сгенерируй reference.docx (если python-docx установлен)
+python .claude/scripts/create_reference_doc.py "$PROJECT/FORMAT.md" "$PROJECT/reference.docx"
+
+# Запусти Pandoc
+$chapters = Get-ChildItem "$PROJECT/chapters/*.md" | Sort-Object Name
+pandoc $chapters --from markdown --to docx --toc --toc-depth=3 `
+  --reference-doc="$PROJECT/reference.docx" `
+  --output="$OUTPUT"
+
+Write-Host "Готово: $OUTPUT"
+```
+
+Скрипт автоматически (bash-версия):
 - Генерирует `reference.docx` из `FORMAT.md` (Times New Roman 12pt, поля 25/10/20/20мм, межстрочный 1.5, отступ 1.25см)
 - Собирает все `chapters/*.md` в порядке имён файлов
 - Добавляет автоматическое оглавление (`--toc`, глубина 3)
@@ -153,11 +223,14 @@ du -h projects/<slug>/output/*.docx | tail -1
 
 | Проблема | Решение |
 |---------|---------|
-| `pandoc: command not found` | `brew install pandoc` |
+| `pandoc: command not found` (macOS) | `brew install pandoc` |
+| `pandoc: command not found` (Windows) | `winget install JohnMacFarlane.Pandoc` или скачать .msi с pandoc.org |
+| `bash: command not found` (Windows) | Использовать Git Bash, WSL, или PowerShell-вариант команды из шага 4 |
 | `python-docx not found` | `pip install python-docx` |
 | Неправильный порядок глав | Переименовать файлы: `00_`, `01_`, `02_`… |
 | Нет оглавления | Убедись что заголовки в `.md` используют `#`, `##`, `###` |
 | Кривое форматирование | Запустить `/create-reference-doc` и повторить экспорт |
+| Путь с пробелами не работает (Windows) | Обернуть путь в кавычки: `"projects/my thesis"` |
 
 ---
 
