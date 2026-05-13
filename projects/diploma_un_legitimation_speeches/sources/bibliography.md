@@ -8,6 +8,8 @@
 
 ### На иностранных языках
 
+- [Franck, 1990] The Power of Legitimacy Among Nations. Oxford University Press. → notes/franck_1990_power_of_legitimacy.md
+
 - [Bjola, 2005] Legitimating the Use of Force in International Politics: A Communicative Action Perspective. *EJIR*, 11(2), 266–303. → notes/bjola_2005_legitimating_force.md
 - [Dutse & Abdullahi, 2025] Pragmatic Strategies in Political Communication: A Speech Acts and Politeness Analysis of Shettima's Address at UNGA 79. *Journal of English Studies*, 1(2), 427–443. → notes/dutse_abdullahi_2025_pragmatic_strategies.md ⚠️ маргинальная релевантность
 - [Gronau & Schmidtke, 2016] The quest for legitimacy in world politics – international institutions' legitimation strategies. *Review of International Studies*, 42, 535–557. → notes/gronau_schmidtke_2016_quest_legitimacy.md
