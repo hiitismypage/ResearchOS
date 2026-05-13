@@ -90,7 +90,7 @@ def build_temporal_trends(coded: pd.DataFrame, cases: pd.DataFrame) -> pd.DataFr
     Computes strategy distribution across the four analytical periods.
     Returns a DataFrame with periods as index and strategy labels as columns.
     """
-    merged = coded.merge(
+    merged = coded.drop(columns=["period"], errors="ignore").merge(
         cases[["country_iso3", "year", "period"]],
         on=["country_iso3", "year"],
         how="left",
@@ -107,7 +107,9 @@ def build_temporal_trends(coded: pd.DataFrame, cases: pd.DataFrame) -> pd.DataFr
 
 
 def build_regional_distribution(coded: pd.DataFrame, cases: pd.DataFrame) -> pd.DataFrame:
-    merged = coded.merge(cases[["country_iso3", "year"]], on=["country_iso3", "year"], how="left")
+    merged = coded.drop(columns=["period"], errors="ignore").merge(
+        cases[["country_iso3", "year"]], on=["country_iso3", "year"], how="left"
+    )
     merged = merged[merged["manual_strategy_code"] != ""]
     merged["region"] = merged["country_iso3"].apply(assign_region)
     merged["strategy_label"] = merged["manual_strategy_code"].map(STRATEGY_LABELS)
