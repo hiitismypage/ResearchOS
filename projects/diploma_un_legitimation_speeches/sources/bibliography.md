@@ -2,7 +2,7 @@
 
 ## Основные источники
 
-- Baturo, A., Dasandi, N., & Mikhaylov, S. J. (2017). Understanding state preferences with text as data: Introducing the UN General Debate corpus. *Research & Politics*, 4(2). DOI: 10.1177/2053168017712821. Dataset: Harvard Dataverse doi:10.7910/DVN/0TJX8Y
+- Baturo, A., Dasandi, N., & Mikhaylov, S. J. (2017). Understanding state preferences with text as data: Introducing the UN General Debate corpus. *Research & Politics*, 4(2). DOI: 10.1177/2053168017712821. Dataset: Harvard Dataverse doi:10.7910/DVN/0TJX8Y → notes/baturo_2017_ungdc.md
 
 ## Теоретическая литература
 
