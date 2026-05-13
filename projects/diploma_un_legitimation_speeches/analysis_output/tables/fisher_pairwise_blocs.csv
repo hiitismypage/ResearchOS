@@ -1,0 +1,13 @@
+habermas_type,bloc_1,bloc_2,n1_yes,n2_yes,odds_ratio,p_value,sig
+communicative,Western bloc,Soviet/Eastern bloc,19,19,2.5,0.128,n.s.
+communicative,Western bloc,Non-Aligned Movement,19,12,4.75,0.0051,**
+communicative,Soviet/Eastern bloc,Non-Aligned Movement,19,12,1.9,0.2412,n.s.
+normative,Western bloc,Soviet/Eastern bloc,3,15,0.2,0.0231,*
+normative,Western bloc,Non-Aligned Movement,3,17,0.14,0.0027,**
+normative,Soviet/Eastern bloc,Non-Aligned Movement,15,17,0.699,0.4897,n.s.
+dramaturgical,Western bloc,Soviet/Eastern bloc,2,4,0.7,1.0,n.s.
+dramaturgical,Western bloc,Non-Aligned Movement,2,6,0.4,0.4483,n.s.
+dramaturgical,Soviet/Eastern bloc,Non-Aligned Movement,4,6,0.571,0.5063,n.s.
+strategic,Western bloc,Soviet/Eastern bloc,0,0,,1.0,n.s.
+strategic,Western bloc,Non-Aligned Movement,0,0,,1.0,n.s.
+strategic,Soviet/Eastern bloc,Non-Aligned Movement,0,0,,1.0,n.s.

@@ -1,0 +1,34 @@
+country_iso3,year,period,bloc,allegation,n_segments,n_classified,pct_unclassified,pct_justification,pct_dialogue_appeal,pct_legal_normative,pct_sovereignty_norm,pct_historical_context,pct_victim_narrative,pct_denial,pct_counter_accusation,pct_delegitimation,pct_communicative,pct_normative,pct_dramaturgical,pct_strategic
+GBR,1956,Cold War (1946–1989),Western bloc,"UK military participation in Suez intervention (Operation Musketeer, 1956)",1,1,0.0,0.0,0.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,100.0,0.0,0.0
+RUS,1956,Cold War (1946–1989),Soviet/Eastern bloc,Soviet military intervention in Hungary (November 1956),3,3,0.0,33.3,0.0,0.0,33.3,33.3,0.0,0.0,0.0,0.0,33.3,33.3,33.3,0.0
+ZAF,1960,Cold War (1946–1989),Non-Aligned Movement,Alleged human rights violations and racial segregation policies in South Africa (1960),2,2,0.0,0.0,0.0,0.0,50.0,50.0,0.0,0.0,0.0,0.0,0.0,50.0,50.0,0.0
+USA,1965,Cold War (1946–1989),Western bloc,"US military intervention in Dominican Republic (Operation Power Pack, 1965)",1,1,0.0,0.0,0.0,0.0,0.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,100.0,0.0
+RUS,1968,Cold War (1946–1989),Soviet/Eastern bloc,Warsaw Pact military intervention in Czechoslovakia (1968),1,1,0.0,0.0,0.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,100.0,0.0,0.0
+VNM,1980,Cold War (1946–1989),Soviet/Eastern bloc,Vietnamese military presence in Cambodia following 1979 intervention,2,2,0.0,0.0,0.0,0.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,100.0,0.0,0.0
+RUS,1980,Cold War (1946–1989),Soviet/Eastern bloc,Soviet military operation in Afghanistan (December 1979),1,1,0.0,0.0,0.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,100.0,0.0,0.0
+USA,1983,Cold War (1946–1989),Western bloc,"US military intervention in Grenada (Operation Urgent Fury, 1983)",1,0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+IRQ,1990,Post–Cold War (1990–2001),Non-Aligned Movement,Iraqi military intervention in Kuwait and subsequent incorporation (1990),3,3,0.0,0.0,0.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,100.0,0.0,0.0
+IDN,1992,Post–Cold War (1990–2001),Non-Aligned Movement,Indonesian administration of East Timor; Santa Cruz incident and alleged human rights violations (1991),2,2,0.0,50.0,0.0,0.0,0.0,50.0,0.0,0.0,0.0,0.0,50.0,0.0,50.0,0.0
+RUS,1995,Post–Cold War (1990–2001),Soviet/Eastern bloc,First Chechen conflict: counter-insurgency operations and alleged civilian harm (1994–1996),4,4,0.0,75.0,0.0,25.0,0.0,0.0,0.0,0.0,0.0,0.0,75.0,25.0,0.0,0.0
+CHN,1997,Post–Cold War (1990–2001),Non-Aligned Movement,Contested human rights situation in Tibet and Xinjiang (1997),3,3,0.0,0.0,0.0,66.7,33.3,0.0,0.0,0.0,0.0,0.0,0.0,100.0,0.0,0.0
+IRQ,1997,Post–Cold War (1990–2001),Non-Aligned Movement,Non-compliance with UNSC disarmament and WMD inspection regime,5,5,0.0,0.0,0.0,80.0,20.0,0.0,0.0,0.0,0.0,0.0,0.0,100.0,0.0,0.0
+USA,1999,Post–Cold War (1990–2001),Western bloc,NATO military campaign in the Federal Republic of Yugoslavia — Kosovo crisis (1999),1,1,0.0,0.0,0.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,100.0,0.0,0.0
+IDN,1999,Post–Cold War (1990–2001),Non-Aligned Movement,Armed conflict in East Timor following independence referendum (1999),1,1,0.0,0.0,0.0,0.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,100.0,0.0,0.0
+RUS,2000,Post–Cold War (1990–2001),Soviet/Eastern bloc,Second Chechen conflict: counter-terrorism operations and alleged civilian harm (1999–2000),6,6,0.0,83.3,0.0,16.7,0.0,0.0,0.0,0.0,0.0,0.0,83.3,16.7,0.0,0.0
+YUG,2001,Post–Cold War (1990–2001),Non-Aligned Movement,FRY response to NATO military campaign — Kosovo crisis (first UNGA speech post-readmission 2000),3,3,0.0,66.7,0.0,0.0,33.3,0.0,0.0,0.0,0.0,0.0,66.7,33.3,0.0,0.0
+USA,2003,Post-9/11 Security Turn (2002–2013),Western bloc,"US-led military operation in Iraq (Operation Iraqi Freedom, 2003)",6,5,16.7,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,100.0,0.0,0.0,0.0
+USA,2004,Post-9/11 Security Turn (2002–2013),Western bloc,Allegations regarding Abu Ghraib detention facility and Guantanamo Bay detention practices (2004),3,3,0.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,100.0,0.0,0.0,0.0
+ISR,2006,Post-9/11 Security Turn (2002–2013),Western bloc,Second Lebanon War: alleged civilian casualties and infrastructure damage (2006),3,3,0.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,100.0,0.0,0.0,0.0
+PRK,2006,Post-9/11 Security Turn (2002–2013),Soviet/Eastern bloc,First nuclear weapons test (October 2006),1,1,0.0,0.0,0.0,0.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,100.0,0.0,0.0
+RUS,2008,Post-9/11 Security Turn (2002–2013),Soviet/Eastern bloc,Russian military operation in Georgia; recognition of South Ossetia and Abkhazia (2008),7,6,14.3,50.0,0.0,33.3,16.7,0.0,0.0,0.0,0.0,0.0,50.0,50.0,0.0,0.0
+ISR,2009,Post-9/11 Security Turn (2002–2013),Western bloc,"Operation Cast Lead (Gaza, December 2008 – January 2009): alleged civilian casualties",3,3,0.0,66.7,0.0,0.0,0.0,33.3,0.0,0.0,0.0,0.0,66.7,0.0,33.3,0.0
+IRN,2011,Post-9/11 Security Turn (2002–2013),Non-Aligned Movement,IAEA findings on undisclosed aspects of Iranian nuclear programme (2011),3,3,0.0,0.0,0.0,0.0,0.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,100.0,0.0
+SYR,2013,Post-9/11 Security Turn (2002–2013),Non-Aligned Movement,Alleged chemical weapons use in Eastern Ghouta (August 2013),7,7,0.0,85.7,0.0,14.3,0.0,0.0,0.0,0.0,0.0,0.0,85.7,14.3,0.0,0.0
+RUS,2014,Post-2014 Normative Fragmentation,Soviet/Eastern bloc,Change of Crimea's status; armed conflict in eastern Ukraine (2014),5,5,0.0,80.0,0.0,0.0,20.0,0.0,0.0,0.0,0.0,0.0,80.0,20.0,0.0,0.0
+SAU,2015,Post-2014 Normative Fragmentation,Non-Aligned Movement,Saudi-led coalition military operations in Yemen: alleged civilian harm and blockade (2015),2,2,0.0,50.0,0.0,50.0,0.0,0.0,0.0,0.0,0.0,0.0,50.0,50.0,0.0,0.0
+CHN,2015,Post-2014 Normative Fragmentation,Non-Aligned Movement,Disputed construction activities in South China Sea; measures regarding Xinjiang population (2015),2,2,0.0,0.0,0.0,0.0,50.0,50.0,0.0,0.0,0.0,0.0,0.0,50.0,50.0,0.0
+MMR,2017,Post-2014 Normative Fragmentation,Non-Aligned Movement,Military operations in Rakhine State: alleged displacement and human rights violations (2017),2,1,50.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,100.0,0.0,0.0,0.0
+TUR,2019,Post-2014 Normative Fragmentation,Western bloc,Operation Peace Spring in northeast Syria (October 2019),8,7,12.5,85.7,0.0,0.0,14.3,0.0,0.0,0.0,0.0,0.0,85.7,14.3,0.0,0.0
+AZE,2020,Post-2014 Normative Fragmentation,Soviet/Eastern bloc,Second Nagorno-Karabakh armed conflict (September–November 2020),6,6,0.0,16.7,0.0,50.0,0.0,16.7,16.7,0.0,0.0,0.0,16.7,50.0,33.3,0.0
+ETH,2021,Post-2014 Normative Fragmentation,Non-Aligned Movement,Tigray armed conflict: alleged violations of international humanitarian law (2020–2021),1,1,0.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,100.0,0.0,0.0,0.0
+RUS,2022,Post-2014 Normative Fragmentation,Soviet/Eastern bloc,Russia's military operation in Ukraine (February 2022),3,3,0.0,66.7,0.0,0.0,0.0,33.3,0.0,0.0,0.0,0.0,66.7,0.0,33.3,0.0

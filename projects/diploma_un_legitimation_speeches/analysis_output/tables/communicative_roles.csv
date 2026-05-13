@@ -1,0 +1,103 @@
+country_iso3,year,period,bloc,paragraph_id,manual_strategy_code,dominant_role,habermas_type,role_score_justification,role_score_dialogue_appeal,role_score_legal_normative,role_score_sovereignty_norm,role_score_historical_context,role_score_victim_narrative,role_score_denial,role_score_counter_accusation,role_score_delegitimation
+GBR,1956,Cold War (1946–1989),Western bloc,6,procedural_legal,legal_normative,normative,0.0,0.0,15.625,0.0,0.0,0.0,0.0,0.0,0.0
+RUS,1956,Cold War (1946–1989),Soviet/Eastern bloc,7,self_defense,justification,communicative,7.142857142857142,0.0,7.142857142857142,0.0,0.0,0.0,0.0,0.0,0.0
+RUS,1956,Cold War (1946–1989),Soviet/Eastern bloc,11,sovereignty,sovereignty_norm,normative,0.0,0.0,7.751937984496124,15.503875968992247,15.503875968992247,0.0,0.0,0.0,0.0
+RUS,1956,Cold War (1946–1989),Soviet/Eastern bloc,56,historical,historical_context,dramaturgical,0.0,0.0,0.0,0.0,40.0,0.0,0.0,0.0,0.0
+ZAF,1960,Cold War (1946–1989),Non-Aligned Movement,47,historical,historical_context,dramaturgical,0.0,0.0,0.0,0.0,20.0,0.0,0.0,0.0,0.0
+ZAF,1960,Cold War (1946–1989),Non-Aligned Movement,54,sovereignty,sovereignty_norm,normative,0.0,0.0,0.0,15.748031496062993,0.0,7.874015748031496,0.0,0.0,7.874015748031496
+USA,1965,Cold War (1946–1989),Western bloc,41,historical,historical_context,dramaturgical,0.0,0.0,0.0,6.993006993006993,20.97902097902098,0.0,0.0,0.0,0.0
+RUS,1968,Cold War (1946–1989),Soviet/Eastern bloc,51,procedural_legal,legal_normative,normative,0.0,0.0,21.428571428571427,0.0,0.0,0.0,7.142857142857142,0.0,0.0
+VNM,1980,Cold War (1946–1989),Soviet/Eastern bloc,25,sovereignty,sovereignty_norm,normative,0.0,0.0,0.0,27.586206896551722,0.0,0.0,6.896551724137931,0.0,0.0
+VNM,1980,Cold War (1946–1989),Soviet/Eastern bloc,32,sovereignty,sovereignty_norm,normative,0.0,0.0,0.0,6.622516556291391,0.0,0.0,0.0,0.0,0.0
+RUS,1980,Cold War (1946–1989),Soviet/Eastern bloc,6,procedural_legal,legal_normative,normative,0.0,0.0,16.393442622950822,8.196721311475411,0.0,0.0,0.0,0.0,0.0
+USA,1983,Cold War (1946–1989),Western bloc,16,procedural_legal,unclassified,unclassified,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+IRQ,1990,Post–Cold War (1990–2001),Non-Aligned Movement,4,denial,legal_normative,normative,0.0,0.0,7.142857142857142,0.0,0.0,0.0,7.142857142857142,0.0,0.0
+IRQ,1990,Post–Cold War (1990–2001),Non-Aligned Movement,13,procedural_legal,legal_normative,normative,0.0,0.0,38.04347826086957,0.0,0.0,0.0,0.0,0.0,0.0
+IRQ,1990,Post–Cold War (1990–2001),Non-Aligned Movement,26,whataboutism,legal_normative,normative,0.0,0.0,10.869565217391305,0.0,0.0,0.0,0.0,10.869565217391305,0.0
+IDN,1992,Post–Cold War (1990–2001),Non-Aligned Movement,11,historical,historical_context,dramaturgical,0.0,0.0,0.0,0.0,7.575757575757576,0.0,0.0,0.0,0.0
+IDN,1992,Post–Cold War (1990–2001),Non-Aligned Movement,20,whataboutism,justification,communicative,6.944444444444444,0.0,0.0,0.0,6.944444444444444,0.0,0.0,0.0,0.0
+RUS,1995,Post–Cold War (1990–2001),Soviet/Eastern bloc,1,whataboutism,legal_normative,normative,0.0,0.0,15.873015873015872,0.0,0.0,0.0,0.0,7.936507936507936,7.936507936507936
+RUS,1995,Post–Cold War (1990–2001),Soviet/Eastern bloc,5,whataboutism,justification,communicative,23.809523809523807,0.0,0.0,0.0,0.0,0.0,0.0,7.936507936507936,0.0
+RUS,1995,Post–Cold War (1990–2001),Soviet/Eastern bloc,9,whataboutism,justification,communicative,7.352941176470588,0.0,0.0,0.0,0.0,0.0,0.0,7.352941176470588,7.352941176470588
+RUS,1995,Post–Cold War (1990–2001),Soviet/Eastern bloc,14,counterterrorism,justification,communicative,26.785714285714285,0.0,8.928571428571429,0.0,0.0,0.0,0.0,0.0,0.0
+CHN,1997,Post–Cold War (1990–2001),Non-Aligned Movement,2,procedural_legal,legal_normative,normative,0.0,0.0,13.698630136986301,0.0,0.0,0.0,0.0,0.0,0.0
+CHN,1997,Post–Cold War (1990–2001),Non-Aligned Movement,4,sovereignty,sovereignty_norm,normative,0.0,0.0,0.0,31.25,0.0,0.0,0.0,0.0,6.25
+CHN,1997,Post–Cold War (1990–2001),Non-Aligned Movement,16,procedural_legal,legal_normative,normative,0.0,0.0,8.196721311475411,8.196721311475411,0.0,0.0,0.0,0.0,0.0
+IRQ,1997,Post–Cold War (1990–2001),Non-Aligned Movement,12,procedural_legal,legal_normative,normative,0.0,0.0,12.987012987012989,0.0,0.0,0.0,6.493506493506494,0.0,0.0
+IRQ,1997,Post–Cold War (1990–2001),Non-Aligned Movement,13,procedural_legal,legal_normative,normative,5.524861878453039,0.0,22.099447513812155,0.0,0.0,0.0,0.0,0.0,0.0
+IRQ,1997,Post–Cold War (1990–2001),Non-Aligned Movement,16,whataboutism,legal_normative,normative,0.0,0.0,23.809523809523807,0.0,0.0,0.0,0.0,7.936507936507936,0.0
+IRQ,1997,Post–Cold War (1990–2001),Non-Aligned Movement,19,procedural_legal,legal_normative,normative,6.802721088435374,0.0,20.408163265306122,13.605442176870747,0.0,6.802721088435374,0.0,0.0,0.0
+IRQ,1997,Post–Cold War (1990–2001),Non-Aligned Movement,20,sovereignty,sovereignty_norm,normative,0.0,0.0,0.0,27.397260273972602,0.0,0.0,0.0,0.0,6.8493150684931505
+USA,1999,Post–Cold War (1990–2001),Western bloc,15,procedural_legal,legal_normative,normative,0.0,0.0,7.633587786259541,0.0,0.0,0.0,0.0,0.0,0.0
+IDN,1999,Post–Cold War (1990–2001),Non-Aligned Movement,16,sovereignty,sovereignty_norm,normative,0.0,0.0,0.0,14.705882352941176,0.0,0.0,0.0,0.0,0.0
+RUS,2000,Post–Cold War (1990–2001),Soviet/Eastern bloc,1,procedural_legal,justification,communicative,8.196721311475411,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+RUS,2000,Post–Cold War (1990–2001),Soviet/Eastern bloc,9,procedural_legal,legal_normative,normative,0.0,0.0,14.285714285714285,0.0,0.0,0.0,0.0,0.0,0.0
+RUS,2000,Post–Cold War (1990–2001),Soviet/Eastern bloc,11,counterterrorism,justification,communicative,55.118110236220474,0.0,15.748031496062993,0.0,0.0,0.0,0.0,0.0,0.0
+RUS,2000,Post–Cold War (1990–2001),Soviet/Eastern bloc,12,counterterrorism,justification,communicative,39.0625,0.0,7.8125,0.0,0.0,0.0,0.0,0.0,0.0
+RUS,2000,Post–Cold War (1990–2001),Soviet/Eastern bloc,17,procedural_legal,justification,communicative,7.042253521126761,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+RUS,2000,Post–Cold War (1990–2001),Soviet/Eastern bloc,18,procedural_legal,justification,communicative,19.230769230769234,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+YUG,2001,Post–Cold War (1990–2001),Non-Aligned Movement,1,counterterrorism,justification,communicative,55.55555555555555,0.0,15.873015873015872,0.0,0.0,0.0,7.936507936507936,0.0,0.0
+YUG,2001,Post–Cold War (1990–2001),Non-Aligned Movement,2,counterterrorism,justification,communicative,76.92307692307693,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+YUG,2001,Post–Cold War (1990–2001),Non-Aligned Movement,8,procedural_legal,sovereignty_norm,normative,6.896551724137931,0.0,6.896551724137931,13.793103448275861,0.0,0.0,0.0,0.0,0.0
+USA,2003,Post-9/11 Security Turn (2002–2013),Western bloc,2,counterterrorism,justification,communicative,25.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+USA,2003,Post-9/11 Security Turn (2002–2013),Western bloc,7,counterterrorism,justification,communicative,7.936507936507936,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+USA,2003,Post-9/11 Security Turn (2002–2013),Western bloc,12,counterterrorism,justification,communicative,15.748031496062993,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+USA,2003,Post-9/11 Security Turn (2002–2013),Western bloc,13,counterterrorism,justification,communicative,13.157894736842104,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+USA,2003,Post-9/11 Security Turn (2002–2013),Western bloc,16,humanitarian,justification,communicative,8.196721311475411,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+USA,2003,Post-9/11 Security Turn (2002–2013),Western bloc,17,humanitarian,unclassified,unclassified,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+USA,2004,Post-9/11 Security Turn (2002–2013),Western bloc,1,counterterrorism,justification,communicative,15.503875968992247,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+USA,2004,Post-9/11 Security Turn (2002–2013),Western bloc,3,counterterrorism,justification,communicative,14.598540145985401,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+USA,2004,Post-9/11 Security Turn (2002–2013),Western bloc,5,counterterrorism,justification,communicative,13.888888888888888,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+ISR,2006,Post-9/11 Security Turn (2002–2013),Western bloc,10,counterterrorism,justification,communicative,15.037593984962406,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+ISR,2006,Post-9/11 Security Turn (2002–2013),Western bloc,12,counterterrorism,justification,communicative,7.407407407407407,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+ISR,2006,Post-9/11 Security Turn (2002–2013),Western bloc,13,counterterrorism,justification,communicative,15.267175572519083,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+PRK,2006,Post-9/11 Security Turn (2002–2013),Soviet/Eastern bloc,10,whataboutism,sovereignty_norm,normative,0.0,0.0,0.0,8.264462809917356,0.0,0.0,0.0,8.264462809917356,0.0
+RUS,2008,Post-9/11 Security Turn (2002–2013),Soviet/Eastern bloc,1,counterterrorism,justification,communicative,13.513513513513514,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+RUS,2008,Post-9/11 Security Turn (2002–2013),Soviet/Eastern bloc,6,counterterrorism,justification,communicative,23.62204724409449,0.0,7.874015748031496,0.0,0.0,0.0,7.874015748031496,7.874015748031496,0.0
+RUS,2008,Post-9/11 Security Turn (2002–2013),Soviet/Eastern bloc,7,procedural_legal,legal_normative,normative,0.0,0.0,26.143790849673202,0.0,0.0,0.0,6.5359477124183005,0.0,0.0
+RUS,2008,Post-9/11 Security Turn (2002–2013),Soviet/Eastern bloc,9,sovereignty,sovereignty_norm,normative,0.0,0.0,22.22222222222222,29.62962962962963,0.0,0.0,0.0,0.0,7.407407407407407
+RUS,2008,Post-9/11 Security Turn (2002–2013),Soviet/Eastern bloc,10,whataboutism,justification,communicative,13.513513513513514,0.0,6.756756756756757,0.0,0.0,0.0,0.0,6.756756756756757,0.0
+RUS,2008,Post-9/11 Security Turn (2002–2013),Soviet/Eastern bloc,16,procedural_legal,legal_normative,normative,7.246376811594203,0.0,14.492753623188406,0.0,0.0,0.0,0.0,0.0,0.0
+RUS,2008,Post-9/11 Security Turn (2002–2013),Soviet/Eastern bloc,17,procedural_legal,unclassified,unclassified,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+ISR,2009,Post-9/11 Security Turn (2002–2013),Western bloc,0,historical,historical_context,dramaturgical,0.0,0.0,0.0,0.0,7.575757575757576,0.0,0.0,0.0,0.0
+ISR,2009,Post-9/11 Security Turn (2002–2013),Western bloc,8,counterterrorism,justification,communicative,15.625,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+ISR,2009,Post-9/11 Security Turn (2002–2013),Western bloc,14,counterterrorism,justification,communicative,15.625,0.0,0.0,0.0,0.0,0.0,7.8125,0.0,7.8125
+IRN,2011,Post-9/11 Security Turn (2002–2013),Non-Aligned Movement,2,historical,historical_context,dramaturgical,7.299270072992701,7.299270072992701,0.0,0.0,14.598540145985401,0.0,0.0,0.0,0.0
+IRN,2011,Post-9/11 Security Turn (2002–2013),Non-Aligned Movement,5,historical,historical_context,dramaturgical,0.0,0.0,0.0,0.0,7.194244604316547,0.0,0.0,7.194244604316547,0.0
+IRN,2011,Post-9/11 Security Turn (2002–2013),Non-Aligned Movement,9,historical,historical_context,dramaturgical,0.0,0.0,0.0,0.0,14.285714285714285,0.0,0.0,0.0,0.0
+SYR,2013,Post-9/11 Security Turn (2002–2013),Non-Aligned Movement,1,humanitarian,legal_normative,normative,0.0,0.0,8.0,0.0,0.0,0.0,0.0,8.0,0.0
+SYR,2013,Post-9/11 Security Turn (2002–2013),Non-Aligned Movement,3,counterterrorism,justification,communicative,15.384615384615385,0.0,0.0,0.0,0.0,0.0,7.6923076923076925,0.0,0.0
+SYR,2013,Post-9/11 Security Turn (2002–2013),Non-Aligned Movement,5,counterterrorism,justification,communicative,49.586776859504134,0.0,33.057851239669425,0.0,0.0,8.264462809917356,0.0,0.0,0.0
+SYR,2013,Post-9/11 Security Turn (2002–2013),Non-Aligned Movement,6,counterterrorism,justification,communicative,72.0,0.0,0.0,0.0,0.0,8.0,0.0,0.0,0.0
+SYR,2013,Post-9/11 Security Turn (2002–2013),Non-Aligned Movement,10,counterterrorism,justification,communicative,30.303030303030305,15.151515151515152,0.0,0.0,0.0,0.0,7.575757575757576,0.0,7.575757575757576
+SYR,2013,Post-9/11 Security Turn (2002–2013),Non-Aligned Movement,11,historical,justification,communicative,8.130081300813009,0.0,0.0,8.130081300813009,8.130081300813009,0.0,0.0,0.0,0.0
+SYR,2013,Post-9/11 Security Turn (2002–2013),Non-Aligned Movement,12,counterterrorism,justification,communicative,34.72222222222222,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+RUS,2014,Post-2014 Normative Fragmentation,Soviet/Eastern bloc,8,sovereignty,sovereignty_norm,normative,7.462686567164179,0.0,0.0,14.925373134328359,0.0,0.0,0.0,0.0,14.925373134328359
+RUS,2014,Post-2014 Normative Fragmentation,Soviet/Eastern bloc,13,whataboutism,justification,communicative,13.986013986013987,0.0,13.986013986013987,0.0,0.0,0.0,0.0,6.993006993006993,0.0
+RUS,2014,Post-2014 Normative Fragmentation,Soviet/Eastern bloc,14,procedural_legal,justification,communicative,34.013605442176875,0.0,13.605442176870747,0.0,0.0,0.0,0.0,0.0,0.0
+RUS,2014,Post-2014 Normative Fragmentation,Soviet/Eastern bloc,15,counterterrorism,justification,communicative,34.48275862068965,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+RUS,2014,Post-2014 Normative Fragmentation,Soviet/Eastern bloc,16,counterterrorism,justification,communicative,34.48275862068965,6.896551724137931,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+SAU,2015,Post-2014 Normative Fragmentation,Non-Aligned Movement,1,procedural_legal,legal_normative,normative,0.0,0.0,33.11258278145696,19.867549668874172,0.0,0.0,0.0,0.0,0.0
+SAU,2015,Post-2014 Normative Fragmentation,Non-Aligned Movement,6,counterterrorism,justification,communicative,49.586776859504134,0.0,0.0,8.264462809917356,0.0,8.264462809917356,0.0,0.0,8.264462809917356
+CHN,2015,Post-2014 Normative Fragmentation,Non-Aligned Movement,3,historical,historical_context,dramaturgical,0.0,0.0,0.0,0.0,7.936507936507936,0.0,0.0,0.0,0.0
+CHN,2015,Post-2014 Normative Fragmentation,Non-Aligned Movement,5,sovereignty,sovereignty_norm,normative,0.0,0.0,0.0,38.75968992248062,0.0,0.0,15.503875968992247,0.0,0.0
+MMR,2017,Post-2014 Normative Fragmentation,Non-Aligned Movement,3,procedural_legal,justification,communicative,15.151515151515152,0.0,15.151515151515152,0.0,0.0,0.0,0.0,0.0,0.0
+MMR,2017,Post-2014 Normative Fragmentation,Non-Aligned Movement,13,procedural_legal,unclassified,unclassified,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+TUR,2019,Post-2014 Normative Fragmentation,Western bloc,1,procedural_legal,justification,communicative,8.264462809917356,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+TUR,2019,Post-2014 Normative Fragmentation,Western bloc,5,counterterrorism,justification,communicative,21.73913043478261,7.246376811594203,0.0,0.0,0.0,7.246376811594203,0.0,0.0,0.0
+TUR,2019,Post-2014 Normative Fragmentation,Western bloc,6,counterterrorism,justification,communicative,24.193548387096772,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+TUR,2019,Post-2014 Normative Fragmentation,Western bloc,9,counterterrorism,justification,communicative,7.518796992481203,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+TUR,2019,Post-2014 Normative Fragmentation,Western bloc,10,humanitarian,sovereignty_norm,normative,7.518796992481203,7.518796992481203,0.0,15.037593984962406,0.0,0.0,0.0,0.0,0.0
+TUR,2019,Post-2014 Normative Fragmentation,Western bloc,11,counterterrorism,justification,communicative,16.260162601626018,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+TUR,2019,Post-2014 Normative Fragmentation,Western bloc,14,humanitarian,unclassified,unclassified,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+TUR,2019,Post-2014 Normative Fragmentation,Western bloc,25,counterterrorism,justification,communicative,42.25352112676056,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+AZE,2020,Post-2014 Normative Fragmentation,Soviet/Eastern bloc,0,procedural_legal,legal_normative,normative,0.0,0.0,15.748031496062993,0.0,0.0,0.0,0.0,0.0,0.0
+AZE,2020,Post-2014 Normative Fragmentation,Soviet/Eastern bloc,2,procedural_legal,legal_normative,normative,0.0,0.0,37.59398496240601,0.0,0.0,0.0,0.0,0.0,0.0
+AZE,2020,Post-2014 Normative Fragmentation,Soviet/Eastern bloc,3,historical,historical_context,dramaturgical,0.0,0.0,0.0,0.0,7.633587786259541,0.0,0.0,0.0,0.0
+AZE,2020,Post-2014 Normative Fragmentation,Soviet/Eastern bloc,8,counterterrorism,justification,communicative,21.58273381294964,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+AZE,2020,Post-2014 Normative Fragmentation,Soviet/Eastern bloc,9,counterterrorism,victim_narrative,dramaturgical,8.064516129032258,0.0,0.0,0.0,0.0,16.129032258064516,0.0,0.0,0.0
+AZE,2020,Post-2014 Normative Fragmentation,Soviet/Eastern bloc,11,procedural_legal,legal_normative,normative,0.0,0.0,48.78048780487805,32.520325203252035,8.130081300813009,0.0,0.0,0.0,0.0
+ETH,2021,Post-2014 Normative Fragmentation,Non-Aligned Movement,6,humanitarian,justification,communicative,16.528925619834713,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+RUS,2022,Post-2014 Normative Fragmentation,Soviet/Eastern bloc,1,historical,historical_context,dramaturgical,0.0,0.0,0.0,0.0,14.285714285714285,0.0,0.0,0.0,0.0
+RUS,2022,Post-2014 Normative Fragmentation,Soviet/Eastern bloc,21,counterterrorism,justification,communicative,21.12676056338028,0.0,7.042253521126761,0.0,0.0,0.0,0.0,0.0,0.0
+RUS,2022,Post-2014 Normative Fragmentation,Soviet/Eastern bloc,23,procedural_legal,justification,communicative,14.814814814814815,0.0,7.407407407407407,0.0,0.0,7.407407407407407,0.0,0.0,0.0

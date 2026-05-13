@@ -1,0 +1,4 @@
+test,chi2,df,p_value,cramers_v,sig,n,pct_cells_expected_lt5
+Habermas type × bloc,11.9907,4,0.017421,0.2486,*,97,33.3
+Habermas type × period,21.0564,6,0.001792,0.3295,**,97,41.7
+Role × bloc (adjusted residuals),14.204,8,0.076601,0.2706,†,97,53.3

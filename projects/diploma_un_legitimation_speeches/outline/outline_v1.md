@@ -13,9 +13,12 @@ _Версия 1, 2026-05-13_
 2. Research Questions and Hypotheses
    — Main RQ: What legitimation strategies are employed by state leaders in UNGA General Debate speeches to justify conduct alleged to violate international law (1945–2023)?
    — Sub-Q1: Which strategies are most frequently used?
-   — Sub-Q2: How have strategies evolved across the period?
-   — H1: Justifications most frequently address contested uses of force and humanitarian/human rights allegations
-   — H2: Dominant strategies are self-defense/necessity, counter-terrorism framing, sovereignty/non-interference, and delegitimation of accusers
+   — Sub-Q2: How have strategies evolved across historical periods?
+   — Sub-Q3: Do states from different geopolitical blocs draw on distinguishable legitimation repertoires, or does the discourse converge across bloc boundaries?
+   — H1 (convergence): Post-9/11 counter-terrorism framing increases uniformly across all geopolitical blocs with no significant bloc-based differentiation — ideational convergence, not divergence. Falsifiable if one bloc shows systematically greater uptake than others.
+   — H2 (repertoire): Dominant strategies function as normative-legal action (Habermas) — legal Charter invocations, sovereignty appeals, self-defense claims — not as purely strategic evasion or denial.
+   — H3 (temporal): Strategy distribution shifts across historical periods — counter-terrorism dominant post-2001, sovereignty-revisionist framing intensifies post-2014. Falsifiable if distribution is stable across periods.
+   — H4 (geopolitical): Western states show systematically lower normative-legal framing relative to Soviet/Eastern and Non-Aligned states — observable despite surface convergence in H1.
 
 3. Research Goal and Objectives
    — Goal: identify and systematize legitimation strategies; trace their evolution
@@ -144,7 +147,7 @@ _Версия 1, 2026-05-13_
 
 **5. Discussion** (~9%, ~8 100 зн.)
 
-5.1. Hypothesis Assessment: H1 and H2
+5.1. Hypothesis Assessment: H1, H2, H3, H4
 5.2. Communicative vs. Strategic Action in Practice: What the Pattern Reveals
 5.3. Theoretical Contributions and Limitations
 5.4. Directions for Future Research
