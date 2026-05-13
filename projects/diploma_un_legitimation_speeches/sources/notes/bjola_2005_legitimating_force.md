@@ -26,7 +26,7 @@ processed: true
 
 1. **Юридический редукционизм как слабость.** Отождествление легитимности применения силы с законностью (резолюция СБ ООН = легитимность) игнорирует, как правовые стандарты превращаются в инструменты политической манипуляции в руках сильнейших акторов.
 
-2. **Deliberative legitimacy.** Определяется как «non-coerced commitment of an actor to obey a norm adopted on the basis of criteria and rules reached through communicative action» (p. 270). Дополняет правовую легитимность процедурным измерением: не только *что* решено, но *как* достигнут консенсус.
+2. **Deliberative legitimacy.** Определяется как «non-coerced commitment of an actor to obey a norm adopted on the basis of criteria and rules reached through communicative action» (p. 266, abstract). Дополняет правовую легитимность процедурным измерением: не только *что* решено, но *как* достигнут консенсус.
 
 3. **Communicative vs. strategic action.** Применяя типологию Хабермаса: акторы либо аргументируют искренне (communicative), либо разыгрывают аргументацию стратегически (rhetorical/strategic). Ключевой вопрос: нацелен ли дискурс на взаимопонимание или только на получение согласия?
 
@@ -46,9 +46,9 @@ processed: true
 
 > "The legal provisions of the United Nations Charter offer imprecise and insufficient criteria for discriminating properly between legitimate vs illegitimate uses of force." (p. 266)
 
-> "Deliberative legitimacy [is] understood as the non-coerced commitment of an actor to obey a norm adopted on the basis of the criteria and rules reached through a process of communicative action." (p. 270)
+> "Deliberative legitimacy [is] understood as the non-coerced commitment of an actor to obey a norm adopted on the basis of the criteria and rules reached through a process of communicative action." (p. 266, abstract)
 
-> "Do the promoters of military interventions try to reach a reasoned consensus on the need for the use of force, or do they just engage in power games based on credible threats, intimidation or rhetorical exchanges with no visible intention to achieve argumentative consensus?" (p. 268)
+> "Do the promoters of military interventions try to reach a reasoned consensus on the need for the use of force, or do they just engage in power games based on credible threats, intimidation or rhetorical exchanges with no visible intention to achieve argumentative consensus?" (p. 267)
 
 ---
 
