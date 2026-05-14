@@ -4,7 +4,7 @@
 
 The theoretical foundation of this study rests on Jürgen Habermas's theory of communicative action, developed in *The Theory of Communicative Action*, first published in German in 1981. Habermas's project was animated by dissatisfaction with accounts of rationality that reduced it to instrumental and strategic reason, oriented toward the efficient pursuit of pre-given ends. Against this, he argued that a second form of rationality — *communicative rationality* — is embedded in the structures of language use and oriented not toward success but toward mutual understanding (*Verständigung*). This shift from a subject-object to a subject-subject paradigm is the conceptual foundation on which his typology of social action rests.
 
-In Volume 1, Chapter I, Habermas distinguishes four concepts of social action. *Teleological action* — and, when it incorporates other actors as part of the strategic calculus, *strategic action* — is oriented toward the attainment of an end through the selection of appropriate means. *Normatively regulated action* refers to behavior governed by shared group values; in later institutionalist terms, it approximates what March and Olsen would call a logic of appropriateness. *Dramaturgical action* involves the self-presentation of an actor before an audience, the management of impressions in a social performance. *Communicative action* is the fourth and analytically central type: action coordinated through language oriented toward reaching intersubjective agreement, in which actors seek to harmonize their plans not through incentives, threats, or norm compliance alone, but by advancing claims that are open to reasoned acceptance or rejection. As Habermas puts it, "the communicative model of action does not equate action with communication. Language is a means of communication which serves mutual understanding, whereas actors, in coming to an understanding with one another so as to coordinate their actions, pursue their particular aims" (Habermas, 1984, p. 101).
+In Volume 1, Chapter I, Habermas distinguishes four concepts of social action. *Teleological action* — and, when it incorporates other actors as part of the strategic calculus, *strategic action* — is oriented toward the attainment of an end through the selection of appropriate means. *Normatively regulated action* refers to behavior governed by shared group values; in later institutionalist terms, it approximates the logic of appropriateness. *Dramaturgical action* involves the self-presentation of an actor before an audience, the management of impressions in a social performance. *Communicative action* is the fourth and analytically central type: action coordinated through language oriented toward reaching intersubjective agreement, in which actors seek to harmonize their plans not through incentives, threats, or norm compliance alone, but by advancing claims that are open to reasoned acceptance or rejection. As Habermas puts it, "the communicative model of action does not equate action with communication. Language is a means of communication which serves mutual understanding, whereas actors, in coming to an understanding with one another so as to coordinate their actions, pursue their particular aims" (Habermas, 1984, p. 101).
 
 Following the IR applications of Habermas developed by Risse and Bjola, this study focuses on three validity claims most relevant to political justification. *Truth* concerns whether the propositional content corresponds to states of affairs in the objective world. *Rightness* concerns whether the utterance is normatively appropriate within a shared social world and whether the underlying norm can be justified. *Sincerity* concerns whether the expression corresponds to the speaker's actual intentions. These claims carry the expectation that they could, in principle, be defended discursively if challenged. The communicative model treats speech not as the mere transmission of information but as a form of social action in which coordination depends on the intersubjective recognition of validity.
 
@@ -54,24 +54,3 @@ On the basis of the theoretical framework developed in Sections 2.1–2.3 and th
 
 All four hypotheses are tested in Chapter 4 against the 33-case sample. Their results are interpreted in Chapter 5.
 
----
-
-## Self-review
-
-**Сильные стороны этого черновика:**
-- Логическая цепочка Habermas → Risse → Müller → Bjola → Head выстроена без разрывов; каждый автор добавляет аналитический слой, а не повторяет предыдущего
-- Раздел 2.3 напрямую выводит кодировочную рамку из теории — мост между теорией и методологией чёткий
-- Гипотезы в 2.4 формально сформулированы и привязаны к теоретическим источникам
-- Прямые цитаты использованы только для ключевых дефиниций, с номерами страниц
-- Стиль соответствует STYLE.md: без запрещённых слов, смешанные предложения, нет bullet-point логики в прозе
-
-**Слабые места / требуют доработки:**
-- 2.1 не обращается к «Lifeworld vs. System» из outline — намеренно опущено как менее релевантное для оперативного анализа, но стоит проверить с руководителем
-- В 2.2 синтезирующий абзац в конце может быть чуть короче — немного длиннее нужного
-- В 2.3 кодировочные категории описаны без примеров — примеры появятся в главе 3 (Methodology), поэтому здесь оставлены только дефиниции
-- Ссылка на Gronau & Schmidtke в 2.3 — проверить, что она не дублирует то, что уже было в гл. 1
-
-**Флаги:**
-- `[VERIFY]` (2.1, пара 2): точная глава и страницы типологии в Habermas 1984 Vol. 1 — проверить по тексту/карточке
-- `[VERIFY]` (2.4): "post-2014 rightward shift" — нужна поддержка конкретного источника
-- `[SOURCE NEEDED]` (2.4 конец): литература по authoritarian norm contestation — Ginsburg (2020) из outline, возможно Voeten или Krebs & Jackson

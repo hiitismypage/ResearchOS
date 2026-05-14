@@ -8,8 +8,6 @@ Thomas Franck's (1990) foundational contribution established the link between le
 
 Hurd (1999) offered an equally important reorientation. Departing from coercion- and interest-based accounts of norm compliance, Hurd argued that legitimacy operates as a third mechanism of social control — alongside coercion and self-interest — grounded in internalized belief in the rightness of norms. As Hurd defines it, legitimacy is "the normative belief by an actor that a rule or institution ought to be obeyed" — a subjective, relational quality constituted by the actor's perception of the norm rather than by the norm's objective properties (Hurd, 1999, p. 381). The critical move was to treat legitimacy as a social fact rather than an evaluative standard: what matters analytically is not whether a norm meets an external criterion of justice but whether relevant actors believe it to be binding. This constructivist reframing opened legitimacy to empirical analysis: if it is constituted through belief and practice, it can be traced in the public statements and justificatory moves of state actors — precisely the objects this study examines.
 
-Clark (2003) and Steffek (2003) extended the analysis toward questions of authority and governance in international society. [SOURCE NEEDED: Clark, 2003; Steffek, 2003] Clark emphasized the role of intersubjective recognition and consensus in conferring authority within international society. Steffek developed a discourse-centered account in which legitimacy depends on public justification and discursive acceptance — a connection that anticipates the analytical move of the present study.
-
 Gronau and Schmidtke (2016) positioned legitimation as an active, top-down practice rather than a passive outcome of norm compliance. Building on Weberian ideas about legitimacy and domination, they developed a typology of legitimation strategies organized around three distinct constituencies: member states, institutional staff, and wider publics. While their empirical focus was on international institutions — the G8 and the IMF during periods of contested authority — their conceptual architecture can be adapted to state actors addressing multilateral audiences.
 
 Wiener's (2014) norm contestation framework provides a further theoretical resource. Where earlier constructivist accounts treated legitimacy as a relatively stable attribute of particular rules reproduced within established communities of practice, Wiener argues that contestation is itself a norm-generative social practice: through acts of challenging, questioning, and justifying, actors continuously re-enact the normative structure of meaning-in-use, which is the basis of legitimacy in global governance (Wiener, 2014). Legitimation, in this view, is not a one-off act of compliance or defection but a running negotiation over what a norm means and who it binds. This has direct implications for the temporal scope of the present study: the evolution of legitimation strategies from 1946 to 2023 reflects an ongoing contestation over the terms of the postwar normative architecture, not a fixed repertoire deployed against a fixed standard.
@@ -35,40 +33,5 @@ Head (2008) extends the Habermasian approach into a more explicitly critical reg
 
 Rapp (2022) approaches the problem through an entirely different method. Drawing on declassified archival documents from British and American decision-makers, he traces the internal reasoning behind legal justifications for force in the Suez crisis (1956) and the Grenada military intervention (1983). His central claim is that "in a deeply legalized system actors feel compelled to portray their behaviors as legal, even if these justifications are tenuous or if pursuing them is time and resource consuming" (Rapp, 2022, p. 337). The justificatory preference followed a clear hierarchy: references to codified treaty obligations were preferred over customary international law, and both were preferred over non-legal rationales, because written legal text offers a standard that opponents find harder to dismiss. In the Suez case, British officials sought not the legally strongest argument but the most *palatably* legal one — the formulation most capable of managing anticipated criticism. In the Grenada case, the United States assembled three individually weak grounds into a composite justification — an invitation from the Governor-General, a threat to American citizens, and authorization under the OECS regional treaty — because no single argument was persuasive in isolation. The contribution is significant, establishing that legitimation is a strategic and resource-intensive practice even for preponderant states. The method, however, forecloses analysis of the public dimension: the speeches delivered to the UN General Assembly in these same episodes remain unexamined, and the gap between internal decision-making and public justification is itself an analytically interesting object.
 
-Scott and Ambler (2007) examine the decline in the perceived legitimacy of US foreign policy after the 2003 invasion of Iraq and argue that this decline cannot be explained by illegality alone. Drawing on the theory of International Law as Ideology, they show that US legitimacy was damaged when discrepancies between American legal rhetoric and the realities of the Iraq campaign became increasingly visible. Their analysis supports the premise of the present study: public legal justification matters because failures of justification can affect how legitimate a state's foreign policy appears to international audiences.
-
 Taken together, this body of work establishes several important premises: that the legitimation of legally contested conduct is a systematic practice across a wide range of states and contexts; that the UN General Assembly and the Security Council are the primary arenas for its public expression; and that the gap between formal legal compliance and perceived legitimacy is analytically tractable. What the existing literature does not provide is a systematic account of which legitimation strategies appear in the UNGDC corpus, in what combinations, with what frequency, and how the distribution has shifted across the postwar period. The published research consists of deep vertical borings into particular episodes; the horizontal view — across states, across time, across violation types — remains unavailable. This study addresses that gap.
 
----
-
-## Self-review
-
-**Сильные стороны черновика:**
-- Narrative arc чёткий: теоретический пейзаж (1.1) → институциональная арена (1.2) → конкретные источники и gap (1.3). Читатель видит, откуда берётся исследовательский вопрос.
-- 1.3 критически разбирает каждый источник — указывает не только на вклад, но и на ограничения метода; gap сформулирован содержательно ("deep vertical borings" vs. "horizontal view"), а не банально.
-- Gronau & Schmidtke (2016) введены с определением и прямой цитатой, что даёт аналитическую опору для термина "legitimation strategies".
-- Стиль соответствует STYLE.md: смешанный ритм, атрибутивные глаголы (argues, contends, demonstrates), синонимическая вариация (legitimation / justificatory moves / normative vocabulary).
-
-**Слабые места / требуют доработки:**
-- 1.2 относительно тонкий: тезис об ambiguous position между communicative и strategic action правильный, но недостаточно заземлён литературой по дипломатии как публичной коммуникации — нужны источники о performativity в multilateral settings.
-- В 1.1 три источника (Hurd, Clark, Steffek, Wiener) помечены как [SOURCE NEEDED] — раздел требует пополнения после обработки этих источников. Сейчас это пробелы, а не аргументы.
-- Переход от 1.2 к 1.3 немного резкий — можно усилить связку через обозначение того, что corpus-based подход к UNGA ещё не применялся к legitimation strategies.
-- Scott & Ambler (2007) введены с [VERIFY] — после заполнения карточки источника параграф нужно уточнить.
-
-**Флаги:**
-
-Верифицировано по карточкам источников:
-- Franck (1990) — ✓ notes/franck_1990_power_of_legitimacy.md
-- Bjola (2005) — ✓ notes/bjola_2005_legitimating_force.md: определение p. 266 (abstract), "power games" p. 267 — верифицировано по PDF
-- Head (2008) — ✓ notes/head_2008_critical_theory_kosovo.md: косовские албанцы, паттерны исключения верны
-- Rapp (2022) — ✓ notes/rapp_2022_justifying_force.md: Suez/Grenada, legal palatability, composite justification верны
-- Gronau & Schmidtke (2016) — ✓ notes/gronau_schmidtke_2016_quest_legitimacy.md: определение legitimation strategies верно
-
-Требуют доработки:
-- `[SOURCE NEEDED]`: Clark (2003); Steffek (2003) — нет карточек, нет PDF
-- `[SOURCE NEEDED]`: Литература по performativity / public diplomacy (раздел 1.2)
-- Scott & Ambler (2007) — карточка источника неполная (PDF зашифрован)
-
-Верифицировано (обновлено 2026-05-14):
-- Hurd (1999) — ✓ notes/hurd_1999_legitimacy_authority.md: цитата p. 381 верифицирована по PDF; [SOURCE NEEDED] снят
-- Wiener (2014) — ✓ notes/wiener_2014_theory_contestation.md: карточка создана по PDF 1-го изд. Springer 2014; [SOURCE NEEDED] снят

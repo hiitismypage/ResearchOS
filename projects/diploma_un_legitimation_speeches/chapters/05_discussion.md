@@ -42,31 +42,9 @@ Two limitations constrain the scope of these contributions. The keyword-based cl
 
 ## 5.4. Directions for Future Research
 
-Three extensions appear most immediately productive. The first is a cross-venue comparison: systematically applying the coding framework to Security Council debates for the same state-years as the present sample would test whether legitimation registers shift when the audience changes from the universal membership of the General Assembly to the restricted great-power veto context of the Council. The expectation, consistent with audience-design principles in discourse analysis [SOURCE NEEDED], is that Security Council rhetoric would show higher normative-legal framing and reduced counter-terrorism argumentation — the Council's institutional architecture incentivizes legal citation more directly than the General Debate format, while the absence of a universal audience reduces the rhetorical payoff of broad-coalition counter-terrorism framing.
+Three extensions appear most immediately productive. The first is a cross-venue comparison: systematically applying the coding framework to Security Council debates for the same state-years as the present sample would test whether legitimation registers shift when the audience changes from the universal membership of the General Assembly to the restricted great-power veto context of the Council. The expectation is that Security Council rhetoric would show higher normative-legal framing and reduced counter-terrorism argumentation — the Council's institutional architecture incentivizes legal citation more directly than the General Debate format, while the absence of a universal audience reduces the rhetorical payoff of broad-coalition counter-terrorism framing.
 
 The second extension concerns the temporal scope of the corpus itself. Pre-1956 speeches — which fall within the UNGDC's coverage from Jankin, Baturo, and Dasandi (2025) but are underrepresented in the present sample due to sparser documentation of contested episodes — would allow assessment of whether Cold War normative dominance was present from the founding of the UN system or emerged gradually over the first decade of the organization's operation. The hypothesis that early General Assembly sessions showed more explicit legal-formalist argumentation, before counter-terrorism framing and quasi-legal necessity arguments became available, is testable with the extended corpus.
 
 The third extension addresses the translation constraint. All non-English speeches in the UNGDC are represented through official UN translations. For the Arabic, Chinese, and Russian subcorpora — which together account for the majority of the Non-Aligned and Soviet/Eastern segments in the present sample — systematic comparison of original-language texts with their English translations would test whether the keyword-based classification performs equivalently across the two versions or whether the translation process consistently flattens strategic distinctions in ways that distort the role assignments. Such a comparison would be particularly important for the assessment of the H4 finding, where bloc-level differences in normative-legal framing are substantial and theoretically consequential.
 
----
-
-## Self-review
-
-**Сильные стороны черновика:**
-- Все четыре гипотезы оценены в 5.1 без простого повтора данных гл. 4 — добавлена интерпретационная ценность
-- 5.2 выходит на теоретический уровень: соединяет отсутствие стратегического действия с институциональной логикой УНООН и Хабермасовским различием communicative/strategic
-- Вклад в дискуссию о "rules-based order" в 5.3 конкретен и несколько провокационен в хорошем смысле
-- 5.4 — три конкретных расширения с обоснованием, не абстрактное "будущие исследования могли бы..."
-- Нейтральность соблюдена: Iraq 2003 разобран с той же аналитической дистанцией, что и другие случаи
-
-**Слабые места / требуют доработки:**
-- 5.3 абзац о "rules-based order" помечен [WEAK ARG] — стоит либо усилить ссылкой на IL-литературу (Koskenniemi), либо смягчить формулировку
-- 5.2 можно расширить: различие между синcerely communicative и стратегически имитирующим коммуникативное действие — это центральный вопрос для дискуссии, сейчас он обозначен, но мог бы быть развёрнут подробнее
-- Объём: ~9 200 знаков — чуть выше целевых 8 100; при правке можно сократить блок 5.1, если его дублирует Summary в гл. 4
-
-**Флаги:**
-- `[SOURCE NEEDED]` (5.4): audience-design principles in discourse analysis — кандидат: van Dijk или Fairclough
-
-Закрытые флаги (2026-05-14):
-- `[WEAK ARG]` (5.3) — закрыт: добавлена опора на Koskenniemi (2005) structural bias + descending/ascending аргументация
-- `[SOURCE NEEDED]` (5.3, 9/11 как дискурсивный перелом) — закрыт: добавлена Wiener (2014), norm-generative events

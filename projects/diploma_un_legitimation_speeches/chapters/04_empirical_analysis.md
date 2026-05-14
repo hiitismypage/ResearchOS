@@ -47,7 +47,7 @@ This four-part structure permits the analysis to ask not only *which* strategies
 
 The choice to structure the geopolitical comparison around Cold War institutional blocs — rather than, for instance, UN regional groups, regime type classifications, or contemporary alliance memberships — requires explicit justification.
 
-Cold War bloc membership reflects shared institutional embeddedness during the period in which the foundational normative architecture of the postwar international order was being constructed and contested. States aligned with NATO and the Western alliance not only shared security arrangements but also participated in overlapping legal, economic, and diplomatic institutions that shaped a common normative vocabulary — one oriented toward liberal rules-based frameworks and, in later decades, human rights conditionality. States of the Soviet and Eastern bloc operated within a distinct normative context that privileged formal sovereignty, non-interference, and the legal primacy of the UN Charter as a check on Western interventionism. Non-Aligned Movement states, particularly through the Bandung framework and subsequent Group of 77 solidarities, constructed a third normative repertoire oriented simultaneously toward formal legal equality, anti-colonialism, and sovereignty protection.
+Cold War bloc membership reflects shared institutional embeddedness during the period in which the foundational normative architecture of the postwar international order was being constructed and contested. States aligned with NATO and the Western alliance not only shared security arrangements but also participated in overlapping legal, economic, and diplomatic institutions that shaped a common normative vocabulary — one oriented toward liberal rules-based frameworks and, in later decades, human rights conditionality. States of the Soviet and Eastern bloc operated within a distinct normative context that privileged formal sovereignty, non-interference, and the legal primacy of the UN Charter as a check on Western interventionism. Non-Aligned Movement states, particularly through the Bandung framework and subsequent Group of 77 solidarities, constructed a third normative repertoire oriented simultaneously toward formal legal equality, anti-colonialism, and sovereignty protection (Prashad, 2007; Dinkel, 2019).
 
 If legitimation strategies are shaped by normative context — by the standards of rightness that a speaker's core audience treats as legitimate grounds — then bloc membership during the Cold War period should predict rhetorical patterns in ways that post-Cold War alliance configurations or regional groupings would not capture as cleanly.
 
@@ -225,26 +225,3 @@ The four hypotheses receive the following empirical assessments on the basis of 
 
 **H4 (geopolitical variation):** Supported. Western states show systematically lower normative-legal framing and significantly higher communicative (justification) framing than both Soviet/Eastern and Non-Aligned states. The CA Dimension 1 is interpretable as a justification–norm invocation axis, with the Western bloc at the justification pole and the other two blocs at the normative pole. Soviet/Eastern and Non-Aligned states are not significantly differentiated from each other.
 
----
-
-## Self-review
-
-**Сильные стороны черновика:**
-- Структура плотная и данные используются систематически: каждый количественный результат привязан к конкретной таблице и конкретному рисунку
-- Все четыре гипотезы оценены эмпирически, с ясной логикой поддержки/квалификации
-- Методологические решения (конструкция блоков, BLOC_TRANSITIONS, ключевые слова, unclassified rate) объяснены в тексте главы 4.2, а не просто в методологии
-- Сравнительный анализ кейсов (4.4) конкретен — не перечень событий, а разбор риторических структур
-- Нейтральность соблюдена: RUS/Chechnya и USA/Iraq рассматриваются через одну и ту же аналитическую линзу
-
-**Слабые места / требуют доработки:**
-- Раздел 4.3 (co-occurrence) слабее остальных — данные матрицы ограничены (4×3 с небольшими N); при доработке стоит усилить или сократить
-- 4.4.3 (историко-драматургический регистр) несколько короче двух предыдущих — можно расширить при наличии квалитативного материала из карточек источников
-- Таблица 4.1 не будет правильно рендерится если заголовки столбцов длинные — при финальном экспорте проверить
-- Финальный summary (H1–H4) в конце можно сократить в финальной версии, если Глава 5 достаточно подробно их разбирает
-
-**Флаги:**
-- `[VERIFY]`: формулировка "F = 0.39, p = 0.678" и "F = 1.29, p = 0.288" — взяты из corpus_eda вывода, но лучше перепроверить цифры из h1_convergence_anova.csv
-- `[VERIFY]`: "UNSC Resolution 1373" — год принятия и полное название; связь с правовой базой контртерроризма
-- `[SOURCE NEEDED]`: "Müller (2004) показывает, что стратегические акторы могут использовать аргументацию тактически" — карточка есть, но прямой страницы нет → перейти на парафраз ✓ уже сделано
-- `[VERIFY]`: формулировка про BLOC_TRANSITIONS — список 14 стран и даты вступления в НАТО соответствуют данным скрипта config.py
-- `[SOURCE NEEDED]`: "Bandung framework" — нужна ссылка на академический источник по НДД и нормативному репертуару (Wiener 2018? Ginsburg 2020?)

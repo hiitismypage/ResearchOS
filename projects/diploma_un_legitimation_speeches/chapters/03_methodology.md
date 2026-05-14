@@ -124,26 +124,3 @@ Two further constraints apply. The corpus covers only the UNGA General Debate; l
 
 Subject to these constraints, the two-level analytical design produces a systematic, transparent, and theoretically grounded account — adequate for the empirical analysis reported in Chapter 4.
 
----
-
-## Self-review
-
-**Сильные стороны:**
-- Два уровня анализа (корпусный + кейс-уровень) явно описаны и связаны с гипотезами
-- Обоснование блоков подробное, логически связанное с 77-летним охватом и биполярной системой
-- Статистические методы описаны каждый отдельно, с обоснованием выбора
-- Keyword scoring представлен как основной классификационный метод
-- Источники с файлами: Habermas (1984), Risse (2000), Müller (2004), Bjola (2005), Rapp (2022), Baturo et al. (2017), Jankin et al. (2025), Hsieh & Shannon (2005), Prashad (2007), Dinkel (2019), Agresti (2002)
-
-**Статус флагов:** текстовые флаги убраны (2026-05-14)
-
-**Нужны файлы для восстановления цитат в 3.5–3.6:**
-Следующие источники были убраны из текста, т.к. нет PDF в sources/files/:
-- Krippendorff (2004) — unit of analysis, раздел 3.1
-- Cramér (1946) — Cramér's V, раздел 3.5
-- Haberman (1973) — adjusted standardized residuals, раздел 3.5
-- Greenacre (1984) — correspondence analysis, раздел 3.5
-- Cohen (1960) — Cohen's kappa, раздел 3.6
-- Landis & Koch (1977) — κ ≥ 0.70 threshold, раздел 3.6
-
-Как только файлы появятся в sources/files/ — запустить /process-source и восстановить цитаты.
