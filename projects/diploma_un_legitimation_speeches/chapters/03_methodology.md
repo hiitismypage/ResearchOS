@@ -12,7 +12,7 @@ The rationale for this two-level design is directly tied to the gap identified i
 
 Within the second level, the analytical procedure unfolds in two stages. The first stage is *descriptive mapping*: classifying all segments in the sample against the Habermas typology, calculating frequencies and co-occurrence patterns, and generating the quantitative findings reported in Sections 4.3–4.6. The second stage is *comparative qualitative interpretation*: examining in closer detail how specific legitimation strategies are realized in representative cases — which rhetorical resources are deployed, which legal and normative frameworks are invoked, and how the framing responds to the specific allegation addressed. As Hsieh and Shannon (2005) argue in their account of directed content analysis, this combination of deductive category-driven coding with qualitative interpretation allows a study to move between the pattern level and the meaning level in a principled way.
 
-The unit of analysis is the argumentative segment — a sentence or sequence of sentences constituting a rhetorically complete justificatory move (Krippendorff, 2004). A single speech may contain multiple coded segments, each classified independently, which reflects the empirical reality that states defending contested conduct typically assemble composite justifications rather than relying on a single argument.
+The unit of analysis is the argumentative segment — a sentence or sequence of sentences constituting a rhetorically complete justificatory move. A single speech may contain multiple coded segments, each classified independently, which reflects the empirical reality that states defending contested conduct typically assemble composite justifications rather than relying on a single argument.
 
 ---
 
@@ -40,7 +40,7 @@ Case identification proceeds in two steps. First, episodes of legally or normati
 
 The geopolitical comparative dimension of the analysis is structured around three Cold War institutional blocs: the **Western bloc** (NATO member states and their formal allies), the **Soviet/Eastern bloc** (Warsaw Pact member states and Soviet-aligned governments), and the **Non-Aligned Movement** (NAM member states and formally uncommitted governments). The choice of this classification over alternative schemes — UN regional groups, regime type classifications, or contemporary alliance configurations — requires explicit justification.
 
-The Cold War bloc classification is most appropriate for the temporal scope of this study for three interconnected reasons. First, the study covers 77 years of UN General Assembly discourse (1946–2023), the majority of which — roughly 44 years (1946–1989) — falls within the genuinely bipolar international system structured by the Cold War. During this period, bloc membership was not merely a diplomatic affiliation but a marker of shared normative contexts, overlapping legal frameworks, and distinctive vocabularies of legitimate international conduct. Western bloc states operated within a liberal internationalist normative framework emphasizing rule-based order and human rights conditionality; Soviet/Eastern bloc states prioritized formal sovereignty and non-interference as counterweights to Western interventionism; Non-Aligned states, shaped by the Bandung tradition, decolonization, and South–South diplomatic coordination, constructed a third normative repertoire emphasizing anti-colonialism, sovereign equality, non-interference, and self-determination (Prashad, 2007; Dinkel, 2019). If legitimation strategies are shaped by the normative standards that a speaker's core audience accepts as legitimate grounds — which the Habermasian framework would predict — then bloc membership is the analytically relevant dimension.
+The Cold War bloc classification is most appropriate for the temporal scope of this study for three interconnected reasons. First, the study covers 77 years of UN General Assembly discourse (1946–2023), the majority of which — roughly 44 years (1946–1989) — falls within the predominantly bipolar international system structured by the Cold War. During this period, bloc membership was not merely a diplomatic affiliation but a marker of shared normative contexts, overlapping legal frameworks, and distinctive vocabularies of legitimate international conduct. Western bloc states operated within a liberal internationalist normative framework emphasizing rule-based order and human rights conditionality; Soviet/Eastern bloc states prioritized formal sovereignty and non-interference as counterweights to Western interventionism; Non-Aligned states, shaped by the Bandung tradition, decolonization, and South–South diplomatic coordination, constructed a third normative repertoire emphasizing anti-colonialism, sovereign equality, non-interference, and self-determination (Prashad, 2007; Dinkel, 2019). If legitimation strategies are shaped by the normative standards that a speaker's core audience accepts as legitimate grounds — which the Habermasian framework would predict — then bloc membership is the analytically relevant dimension.
 
 Second, the bloc structure displays high institutional stability across the full period, unlike post-Cold War alliance configurations or economic groupings which have shifted substantially. The core composition of the Western and Soviet/Eastern blocs remained stable from the early 1950s through 1991. The Non-Aligned Movement, while more heterogeneous, maintained a broadly consistent normative orientation from its founding. This stability allows meaningful temporal comparison across all four analytical periods without requiring recoding of states' positions.
 
@@ -98,13 +98,13 @@ This periodization allows the analysis to test H3 (temporal shift) and provides 
 
 The quantitative dimension of the analysis employs a suite of statistical methods, selected to match the data structure (categorical, small-N, often with sparse cell frequencies) and the substantive questions being addressed.
 
-**Chi-square tests of independence (χ²)** are used to assess whether the distribution of Habermas action types differs significantly across blocs (H4) and across historical periods (H3). The chi-square statistic measures the deviation of observed cell frequencies from what would be expected if the two categorical variables were independent (Agresti, 2002). Effect size is reported as Cramér's V, which normalizes chi-square for table dimensions and sample size (Cramér, 1946). Given the small expected cell frequencies characteristic of the 33-case sample (many cells below the conventional threshold of 5), all chi-square results are accompanied by the percentage of cells with expected frequency below 5, and results with high proportions of such cells are interpreted with explicit caution.
+**Chi-square tests of independence (χ²)** are used to assess whether the distribution of Habermas action types differs significantly across blocs (H4) and across historical periods (H3). The chi-square statistic measures the deviation of observed cell frequencies from what would be expected if the two categorical variables were independent. Effect size is reported as Cramér's V, which normalizes chi-square for table dimensions and sample size. Given the small expected cell frequencies characteristic of the 33-case sample (many cells below the conventional threshold of 5), all chi-square results are accompanied by the percentage of cells with expected frequency below 5, and results with high proportions of such cells are interpreted with explicit caution.
 
-**Fisher's exact test** is used for pairwise bloc comparisons, where the small sample sizes render chi-square approximations unreliable. Fisher's exact test computes the exact probability of observing the given contingency table or a more extreme one under the null hypothesis of independence, without relying on large-sample approximations. It is preferred over chi-square for 2×2 and small contingency tables with expected cell counts below 5 (Agresti, 2002).
+**Fisher's exact test** is used for pairwise bloc comparisons, where the small sample sizes render chi-square approximations unreliable. Fisher's exact test computes the exact probability of observing the given contingency table or a more extreme one under the null hypothesis of independence, without relying on large-sample approximations. It is preferred over chi-square for 2×2 and small contingency tables with expected cell counts below 5.
 
-**Adjusted standardized residuals** (Haberman, 1973) are used to identify which specific role-bloc combinations deviate most substantially from expected frequencies. Unlike raw residuals, adjusted residuals account for both the marginal totals of the row and column and the overall sample size, making comparisons across cells in the same table meaningful (Haberman, 1973). Values exceeding ±2 are interpreted as indicating statistically notable over- or under-representation.
+**Adjusted standardized residuals** are used to identify which specific role-bloc combinations deviate most substantially from expected frequencies. Unlike raw residuals, adjusted residuals account for both the marginal totals of the row and column and the overall sample size, making comparisons across cells in the same table meaningful. Values exceeding ±2 are interpreted as indicating statistically notable over- or under-representation.
 
-**Correspondence analysis (CA)** provides a geometric representation of the association structure in a contingency table. CA decomposes the chi-square distance between row and column profiles via singular value decomposition (SVD), producing principal coordinates for both rows (communicative roles) and columns (blocs or periods) in a low-dimensional space. The proportion of total inertia (analogous to variance) captured by each dimension is reported via scree plots; dimensions capturing cumulatively more than 80 percent of total inertia are treated as the substantively meaningful space. Greenacre (1984) provides the standard account of the method and its interpretation. CA was implemented via SVD in Python (numpy) without external dimensionality-reduction libraries, ensuring full procedural transparency.
+**Correspondence analysis (CA)** provides a geometric representation of the association structure in a contingency table. CA decomposes the chi-square distance between row and column profiles via singular value decomposition (SVD), producing principal coordinates for both rows (communicative roles) and columns (blocs or periods) in a low-dimensional space. The proportion of total inertia (analogous to variance) captured by each dimension is reported via scree plots; dimensions capturing cumulatively more than 80 percent of total inertia are treated as the substantively meaningful space. CA was implemented via SVD in Python (numpy) without external dimensionality-reduction libraries, ensuring full procedural transparency.
 
 **One-way ANOVA** is used to test whether the mean corpus-level keyword signal score for the counter-terrorism dimension differs significantly across the three blocs in the pre-2001 and post-2001 periods separately. ANOVA tests the null hypothesis that group means are equal; a non-significant result (both pre- and post-2001) is the predicted outcome under H1, indicating that adoption of counter-terrorism framing did not cluster in a single bloc.
 
@@ -114,7 +114,7 @@ The quantitative dimension of the analysis employs a suite of statistical method
 
 ## 3.6. Reliability, Validity, and Scope of Claims
 
-*Reliability* is addressed through double-coding: a subset of the sample (approximately 20 percent of speeches) is independently coded by a trained research assistant working from the same codebook. Inter-coder reliability is calculated using Cohen's kappa (Cohen, 1960), with κ ≥ 0.70 treated as the study's pre-specified minimum acceptable threshold. This threshold falls within the "substantial agreement" range (0.61–0.80) in the widely used Landis and Koch (1977) interpretive scale. Disagreements are resolved through discussion and codebook refinement. All disagreements and resolutions are documented in an audit trail.
+*Reliability* is addressed through double-coding: a subset of the sample (approximately 20 percent of speeches) is independently coded by a trained research assistant working from the same codebook. Inter-coder reliability is calculated using Cohen's kappa, with κ ≥ 0.70 treated as the study's pre-specified minimum acceptable threshold — a level corresponding to "substantial agreement" in standard interpretive scales for kappa. Disagreements are resolved through discussion and codebook refinement. All disagreements and resolutions are documented in an audit trail.
 
 *Validity* in directed content analysis depends on whether the coding categories adequately capture the phenomenon of interest. Construct validity is grounded in the theoretical derivation of the categories from Habermas (1984), operationalized through the IR applications in Risse (2000), Müller (2004), and Bjola (2005). Face validity is assessed through the pilot phase: if trained coders systematically struggle to assign segments to categories, this signals that category definitions require refinement.
 
@@ -131,22 +131,20 @@ Subject to these constraints, the two-level analytical design produces a systema
 **Сильные стороны:**
 - Два уровня анализа (корпусный + кейс-уровень) явно описаны и связаны с гипотезами
 - Обоснование блоков подробное, логически связанное с 77-летним охватом и биполярной системой
-- Статистические методы описаны каждый отдельно, с обоснованием выбора и источниками
-- Keyword scoring представлен как основной классификационный метод, а не просто скрининг
-- Источники: Habermas (1984), Risse (2000), Müller (2004), Bjola (2005), Rapp (2022), Baturo et al. (2017), Jankin et al. (2025), Agresti (2002), Cramér (1946), Haberman (1973), Greenacre (1984), Cohen (1960), Landis & Koch (1977), Krippendorff (2004), Prashad (2007)
+- Статистические методы описаны каждый отдельно, с обоснованием выбора
+- Keyword scoring представлен как основной классификационный метод
+- Источники с файлами: Habermas (1984), Risse (2000), Müller (2004), Bjola (2005), Rapp (2022), Baturo et al. (2017), Jankin et al. (2025), Hsieh & Shannon (2005), Prashad (2007), Dinkel (2019)
 
-**Статус флагов:** все разрешены (2026-05-14)
-- Hsieh & Shannon страница → парафраз, страница не требуется (APA)
-- Krippendorff → добавлена citation (2004)
-- OCR ≤1992 → подтверждено Baturo (2017) и Jankin (2025)
-- NAM normative repertoire → Prashad (2007)
-- Chi-square → Agresti (2002); Cramér's V → Cramér (1946)
-- Fisher's exact → Agresti (2002); дублирование убрано
-- Haberman adjusted residuals → (Haberman, 1973) без страницы (парафраз)
-- Greenacre CA → author-year уже в тексте; флаг убран
-- ANOVA → базовый метод, описание null hypothesis не требует цитаты
-- Cohen's kappa → (Cohen, 1960); κ ≥ 0.70 → (Landis & Koch, 1977) "substantial agreement"
+**Статус флагов:** текстовые флаги убраны (2026-05-14)
 
-**Требует финальной проверки:**
-- Prashad (2007) — убедиться что страница/издание точные перед сдачей
-- Landis & Koch (1977) — убедиться в релевантности для IR content analysis (категория "substantial agreement" ≥ 0.61)
+**Нужны файлы для восстановления цитат в 3.5–3.6:**
+Следующие источники были убраны из текста, т.к. нет PDF в sources/files/:
+- Krippendorff (2004) — unit of analysis, раздел 3.1
+- Agresti (2002) — chi-square и Fisher's exact, раздел 3.5
+- Cramér (1946) — Cramér's V, раздел 3.5
+- Haberman (1973) — adjusted standardized residuals, раздел 3.5
+- Greenacre (1984) — correspondence analysis, раздел 3.5
+- Cohen (1960) — Cohen's kappa, раздел 3.6
+- Landis & Koch (1977) — κ ≥ 0.70 threshold, раздел 3.6
+
+Как только файлы появятся в sources/files/ — запустить /process-source и восстановить цитаты.
