@@ -22,6 +22,21 @@
 - [Scott & Ambler, 2007] Does Legality Really Matter? Accounting for the Decline in US Foreign Policy Legitimacy. *EJIR*, 13(1), 67–[VERIFY]. → notes/scott_ambler_2007_legality_legitimacy.md ⚠️ карточка не заполнена (PDF не читается)
 - [Risse, 2000] "Let's Argue!": Communicative Action in World Politics. *IO*, 54(1), 1–39. → notes/risse_2000_lets_argue.md
 
+### Методологические источники — исследовательский дизайн и контент-анализ
+
+- [Hsieh & Shannon, 2005] Three Approaches to Qualitative Content Analysis. *Qualitative Health Research*, 15(9), 1277–1288. ⚠️ нет карточки в notes/; использовать для operationalization directed CA
+- [Krippendorff, 2004] Content Analysis: An Introduction to Its Methodology (2nd ed.). Thousand Oaks, CA: SAGE. ⚠️ нет карточки; ссылка в главе 3 на unit of analysis
+- [Prashad, 2007] The Darker Nations: A People's History of the Third World. New York: The New Press. ⚠️ нет карточки; ссылка на NAM normative repertoire (Гл. 3.3)
+
+### Методологические источники — статистика
+
+- [Agresti, 2002] Categorical Data Analysis (2nd ed.). Hoboken, NJ: Wiley-Interscience. ⚠️ нет карточки; ссылки в Гл. 3.5 (chi-square, Fisher's exact для малых N)
+- [Cohen, 1960] A coefficient of agreement for nominal scales. *Educational and Psychological Measurement*, 20(1), 37–46. ⚠️ нет карточки; ссылка в Гл. 3.6 (Cohen's kappa)
+- [Cramér, 1946] Mathematical Methods of Statistics. Princeton, NJ: Princeton University Press. ⚠️ нет карточки; ссылка в Гл. 3.5 (Cramér's V)
+- [Greenacre, 1984] Theory and Applications of Correspondence Analysis. London: Academic Press. ⚠️ нет карточки; ссылка в Гл. 3.5 (correspondence analysis)
+- [Haberman, 1973] The analysis of residuals in cross-classified tables. *Biometrics*, 29(1), 205–220. ⚠️ нет карточки; ссылка в Гл. 3.5 (adjusted standardized residuals)
+- [Landis & Koch, 1977] The measurement of observer agreement for categorical data. *Biometrics*, 33(1), 159–174. ⚠️ нет карточки; ссылка в Гл. 3.6 (κ ≥ 0.70 = "substantial agreement")
+
 ## Нерелевантные файлы (не использовать)
 
 - `2346-Article-18614-1-10-20200205.pdf` — русскоязычный перевод статьи Аболафии по экономической социологии; не связан с темой работы
