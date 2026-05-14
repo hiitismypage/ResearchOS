@@ -46,7 +46,7 @@ Second, the bloc structure displays high institutional stability across the full
 
 Third, the only structural disruption — the entry of fourteen Eastern European states into NATO after 1991 — is handled through a period-aware transition rule (BLOC_TRANSITIONS): states retain their Soviet/Eastern bloc classification through their year of NATO accession, after which they are reclassified as Western bloc. The states affected by this rule (including Bulgaria, Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland, Romania, Slovakia, Slovenia — 2004; Albania, Croatia — 2009; Montenegro — 2017; North Macedonia — 2020) do not appear in the 33-case sample, so the transition rule does not affect the reported results. Its inclusion preserves conceptual integrity and relevance for any expanded analysis.
 
-The supervisor's question — whether blocs can be shown to differ in their legitimation repertoires — is precisely what the statistical comparisons in Chapter 4 test. The bloc classification is not assumed to produce differences; it is a theoretically motivated hypothesis that the data either support or reject.
+Whether blocs can be shown to differ in their legitimation repertoires is precisely what the statistical comparisons in Chapter 4 test. The bloc classification is not assumed to produce differences; it is a theoretically motivated hypothesis that the data either support or reject.
 
 ---
 

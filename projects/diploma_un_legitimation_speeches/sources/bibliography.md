@@ -10,6 +10,9 @@
 ### На иностранных языках
 
 - [Franck, 1990] The Power of Legitimacy Among Nations. Oxford University Press. → notes/franck_1990_power_of_legitimacy.md
+- [Hurd, 1999] Legitimacy and Authority in International Politics. *International Organization*, 53(2), 379–408. → notes/hurd_1999_legitimacy_authority.md
+- [Koskenniemi, 2005] From Apology to Utopia: The Structure of International Legal Argument (reissue with Epilogue). Cambridge University Press. ISBN 978-0-521-83806-1. → notes/koskenniemi_2005_apology_utopia.md
+- [Wiener, 2014] A Theory of Contestation. SpringerBriefs in Political Science. DOI: 10.1007/978-3-642-55235-9. → notes/wiener_2014_theory_contestation.md ⚠️ файл — 1-е изд. 2014; в CONTEXT.md указана Wiener (2018) — уточнить издание
 
 - [Bjola, 2005] Legitimating the Use of Force in International Politics: A Communicative Action Perspective. *EJIR*, 11(2), 266–303. → notes/bjola_2005_legitimating_force.md
 - [Dutse & Abdullahi, 2025] Pragmatic Strategies in Political Communication: A Speech Acts and Politeness Analysis of Shettima's Address at UNGA 79. *Journal of English Studies*, 1(2), 427–443. → notes/dutse_abdullahi_2025_pragmatic_strategies.md ⚠️ маргинальная релевантность

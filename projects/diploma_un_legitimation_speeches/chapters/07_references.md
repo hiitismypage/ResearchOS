@@ -14,9 +14,11 @@ Habermas, J. (1984). *The theory of communicative action: Vol. 1. Reason and the
 
 Head, N. (2008). Critical theory and its practices: Habermas, Kosovo and international relations. *Politics*, *28*(3), 150–159.
 
-Hsieh, H.-F., & Shannon, S. E. (2005). Three approaches to qualitative content analysis. *Qualitative Health Research*, *15*(9), 1277–1288. [VERIFY: confirm DOI and page range — no source card available]
+Hsieh, H.-F., & Shannon, S. E. (2005). Three approaches to qualitative content analysis. *Qualitative Health Research*, *15*(9), 1277–1288. https://doi.org/10.1177/1049732305276687
 
-Hurd, I. (1999). Legitimacy and authority in international politics. *International Organization*, *53*(2), 379–408. [VERIFY: confirm page range and DOI — no source card available]
+Hurd, I. (1999). Legitimacy and authority in international politics. *International Organization*, *53*(2), 379–408.
+
+Koskenniemi, M. (2005). *From apology to utopia: The structure of international legal argument* (Reissue with new Epilogue). Cambridge University Press.
 
 Jankin, S., Baturo, A., & Dasandi, N. (2025). Words to unite nations: The complete United Nations General Debate Corpus, 1946–present. *Journal of Peace Research*, *62*(4), 1339–1351. https://doi.org/10.1177/00223433241275335
 
@@ -30,7 +32,7 @@ Scott, S. V., & Ambler, O. (2007). Does legality really matter? Accounting for t
 
 Steffek, J. (2003). The legitimation of international governance: A discourse approach. *European Journal of International Relations*, *9*(2), 249–275. [VERIFY: confirm page range and DOI — no source card available]
 
-Wiener, A. (2018). *Contestation and constitution of norms in global international relations*. Cambridge University Press. [VERIFY: confirm full title and year — no source card available]
+Wiener, A. (2014). *A Theory of Contestation*. SpringerBriefs in Political Science. Springer. https://doi.org/10.1007/978-3-642-55235-9
 
 ---
 
@@ -61,11 +63,11 @@ United Nations Security Council. (2001, September 28). *Threats to international
 
 **Флаги — требуют верификации по первоисточникам:**
 - `[VERIFY]` Clark (2003) — нет карточки источника; указаны RIS 29(S1) pp. 75–95 по имеющимся знаниям, требует подтверждения
-- `[VERIFY]` Hsieh & Shannon (2005) — нет карточки; указаны QHR 15(9) pp. 1277–1288 по имеющимся знаниям
-- `[VERIFY]` Hurd (1999) — нет карточки; указаны IO 53(2) pp. 379–408 по имеющимся знаниям
+- Hsieh & Shannon (2005) — ✓ карточка есть, данные верифицированы
+- Hurd (1999) — ✓ карточка есть: IO 53(2) pp. 379–408 подтверждено по PDF
 - `[VERIFY]` Scott & Ambler (2007) — последняя страница и DOI не подтверждены
 - `[VERIFY]` Steffek (2003) — нет карточки; указаны EJIR 9(2) pp. 249–275 по имеющимся знаниям
-- `[VERIFY]` Wiener (2018) — нет карточки; CUP monograph, полное название и год требуют подтверждения
+- Wiener (2014) — ✓ карточка есть: A Theory of Contestation, Springer, DOI верифицирован по PDF
 
 **Что не включено и почему:**
 - Dutse & Abdullahi (2025) — не цитируется ни в одной главе (только в bibliography.md)
