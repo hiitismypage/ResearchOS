@@ -22,11 +22,15 @@
 - [Scott & Ambler, 2007] Does Legality Really Matter? Accounting for the Decline in US Foreign Policy Legitimacy. *EJIR*, 13(1), 67–[VERIFY]. → notes/scott_ambler_2007_legality_legitimacy.md ⚠️ карточка не заполнена (PDF не читается)
 - [Risse, 2000] "Let's Argue!": Communicative Action in World Politics. *IO*, 54(1), 1–39. → notes/risse_2000_lets_argue.md
 
+### Исторические и нормативные источники по NAM
+
+- [Dinkel, 2019] The Non-Aligned Movement: Genesis, Organization and Politics (1927–1992). Brill (New Perspectives on the Cold War, Vol. 5). DOI: 10.1163/9789004336131 → notes/dinkel_2019_non_aligned_movement.md
+- [Prashad, 2007] The Darker Nations: A People's History of the Third World. New York: The New Press. ISBN 978-1-56584-785-9. → notes/prashad_2007_darker_nations.md
+
 ### Методологические источники — исследовательский дизайн и контент-анализ
 
-- [Hsieh & Shannon, 2005] Three Approaches to Qualitative Content Analysis. *Qualitative Health Research*, 15(9), 1277–1288. ⚠️ нет карточки в notes/; использовать для operationalization directed CA
+- [Hsieh & Shannon, 2005] Three Approaches to Qualitative Content Analysis. *Qualitative Health Research*, 15(9), 1277–1288. DOI: 10.1177/1049732305276687 → notes/hsieh_shannon_2005_directed_ca.md
 - [Krippendorff, 2004] Content Analysis: An Introduction to Its Methodology (2nd ed.). Thousand Oaks, CA: SAGE. ⚠️ нет карточки; ссылка в главе 3 на unit of analysis
-- [Prashad, 2007] The Darker Nations: A People's History of the Third World. New York: The New Press. ⚠️ нет карточки; ссылка на NAM normative repertoire (Гл. 3.3)
 
 ### Методологические источники — статистика
 
