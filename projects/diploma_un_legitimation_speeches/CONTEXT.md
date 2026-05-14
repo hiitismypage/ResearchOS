@@ -60,10 +60,11 @@ What legitimation strategies are employed by state leaders in speeches delivered
 4. Провести эмпирический анализ корпуса: идентифицировать, классифицировать и измерить частотность легитимирующих стратегий; провести контент-анализ и семиотический анализ.
 5. Протестировать гипотезы на основе эмпирических данных; интерпретировать результаты в теоретическом контексте.
 
-**Гипотезы** (из Research Proposal, подлежат уточнению по результатам анализа):
-- H1: Justifications will most frequently concern contested uses of force and allegations related to humanitarian/human rights harm.
-- H2: Dominant legitimation strategies will be self-defense/necessity claims, counter-terrorism framing, sovereignty/non-interference appeals, and delegitimation of accusers.
-- [VERIFY: возможно потребуется дополнительная гипотеза об эволюции стратегий во времени — обсудить с руководителем]
+**Гипотезы** (финальные формулировки, согласованные с outline и тестируемые в гл. 4):
+- H1 (convergence): Post-9/11 counter-terrorism framing increases uniformly across all geopolitical blocs with no significant bloc-based differentiation — ideational convergence, not divergence. Falsifiable if one bloc shows systematically greater uptake than others.
+- H2 (repertoire): Dominant strategies function as normative-legal action (Habermas) — legal Charter invocations, sovereignty appeals, self-defense claims — not as purely strategic evasion or denial.
+- H3 (temporal): Strategy distribution shifts across historical periods — counter-terrorism dominant post-2001, sovereignty-revisionist framing intensifies post-2014. Falsifiable if distribution is stable across periods.
+- H4 (geopolitical): Western states show systematically lower normative-legal framing relative to Soviet/Eastern and Non-Aligned states — observable despite surface convergence in H1.
 
 **Методология:**
 - **Корпус:** Harvard Dataverse — UN General Debate Corpus / UNGDC (Baturo et al., 2017). Речи лидеров на ГА ООН, 1946–2023 [N TBD по UNGDC]. Данные: `/Users/kbalashova/Downloads/dataverse_files`
