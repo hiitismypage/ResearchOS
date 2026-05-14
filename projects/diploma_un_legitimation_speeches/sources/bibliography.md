@@ -34,7 +34,7 @@
 
 ### Методологические источники — статистика
 
-- [Agresti, 2002] Categorical Data Analysis (2nd ed.). Hoboken, NJ: Wiley-Interscience. ⚠️ нет карточки; ссылки в Гл. 3.5 (chi-square, Fisher's exact для малых N)
+- [Agresti, 2002] Categorical Data Analysis (2nd ed.). Hoboken, NJ: Wiley-Interscience. ISBN 0-471-36093-7. → notes/agresti_2002_categorical_data_analysis.md
 - [Cohen, 1960] A coefficient of agreement for nominal scales. *Educational and Psychological Measurement*, 20(1), 37–46. ⚠️ нет карточки; ссылка в Гл. 3.6 (Cohen's kappa)
 - [Cramér, 1946] Mathematical Methods of Statistics. Princeton, NJ: Princeton University Press. ⚠️ нет карточки; ссылка в Гл. 3.5 (Cramér's V)
 - [Greenacre, 1984] Theory and Applications of Correspondence Analysis. London: Academic Press. ⚠️ нет карточки; ссылка в Гл. 3.5 (correspondence analysis)

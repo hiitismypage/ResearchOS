@@ -98,9 +98,9 @@ This periodization allows the analysis to test H3 (temporal shift) and provides 
 
 The quantitative dimension of the analysis employs a suite of statistical methods, selected to match the data structure (categorical, small-N, often with sparse cell frequencies) and the substantive questions being addressed.
 
-**Chi-square tests of independence (χ²)** are used to assess whether the distribution of Habermas action types differs significantly across blocs (H4) and across historical periods (H3). The chi-square statistic measures the deviation of observed cell frequencies from what would be expected if the two categorical variables were independent. Effect size is reported as Cramér's V, which normalizes chi-square for table dimensions and sample size. Given the small expected cell frequencies characteristic of the 33-case sample (many cells below the conventional threshold of 5), all chi-square results are accompanied by the percentage of cells with expected frequency below 5, and results with high proportions of such cells are interpreted with explicit caution.
+**Chi-square tests of independence (χ²)** are used to assess whether the distribution of Habermas action types differs significantly across blocs (H4) and across historical periods (H3). The chi-square statistic measures the deviation of observed cell frequencies from what would be expected if the two categorical variables were independent (Agresti, 2002). Effect size is reported as Cramér's V, which normalizes chi-square for table dimensions and sample size. Given the small expected cell frequencies characteristic of the 33-case sample (many cells below the conventional threshold of 5), all chi-square results are accompanied by the percentage of cells with expected frequency below 5, and results with high proportions of such cells are interpreted with explicit caution.
 
-**Fisher's exact test** is used for pairwise bloc comparisons, where the small sample sizes render chi-square approximations unreliable. Fisher's exact test computes the exact probability of observing the given contingency table or a more extreme one under the null hypothesis of independence, without relying on large-sample approximations. It is preferred over chi-square for 2×2 and small contingency tables with expected cell counts below 5.
+**Fisher's exact test** is used for pairwise bloc comparisons, where the small sample sizes render chi-square approximations unreliable. Fisher's exact test computes the exact probability of observing the given contingency table or a more extreme one under the null hypothesis of independence, without relying on large-sample approximations (Agresti, 2002). It is preferred over chi-square for 2×2 and small contingency tables with expected cell counts below 5.
 
 **Adjusted standardized residuals** are used to identify which specific role-bloc combinations deviate most substantially from expected frequencies. Unlike raw residuals, adjusted residuals account for both the marginal totals of the row and column and the overall sample size, making comparisons across cells in the same table meaningful. Values exceeding ±2 are interpreted as indicating statistically notable over- or under-representation.
 
@@ -133,14 +133,13 @@ Subject to these constraints, the two-level analytical design produces a systema
 - Обоснование блоков подробное, логически связанное с 77-летним охватом и биполярной системой
 - Статистические методы описаны каждый отдельно, с обоснованием выбора
 - Keyword scoring представлен как основной классификационный метод
-- Источники с файлами: Habermas (1984), Risse (2000), Müller (2004), Bjola (2005), Rapp (2022), Baturo et al. (2017), Jankin et al. (2025), Hsieh & Shannon (2005), Prashad (2007), Dinkel (2019)
+- Источники с файлами: Habermas (1984), Risse (2000), Müller (2004), Bjola (2005), Rapp (2022), Baturo et al. (2017), Jankin et al. (2025), Hsieh & Shannon (2005), Prashad (2007), Dinkel (2019), Agresti (2002)
 
 **Статус флагов:** текстовые флаги убраны (2026-05-14)
 
 **Нужны файлы для восстановления цитат в 3.5–3.6:**
 Следующие источники были убраны из текста, т.к. нет PDF в sources/files/:
 - Krippendorff (2004) — unit of analysis, раздел 3.1
-- Agresti (2002) — chi-square и Fisher's exact, раздел 3.5
 - Cramér (1946) — Cramér's V, раздел 3.5
 - Haberman (1973) — adjusted standardized residuals, раздел 3.5
 - Greenacre (1984) — correspondence analysis, раздел 3.5
