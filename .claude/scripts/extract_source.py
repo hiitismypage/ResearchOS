@@ -9,17 +9,56 @@ import os
 
 
 def extract_pdf(path):
+    # 1. pdfplumber (лучшее качество)
     try:
         import pdfplumber
         with pdfplumber.open(path) as pdf:
             text = []
-            for page in pdf.pages[:15]:  # первые 15 страниц
+            for page in pdf.pages[:15]:
                 t = page.extract_text()
                 if t:
                     text.append(t)
-        return '\n'.join(text)
+        result = '\n'.join(text)
+        if result.strip():
+            return result
     except ImportError:
-        return "Ошибка: установи pdfplumber — pip install pdfplumber"
+        pass
+    except Exception:
+        pass
+
+    # 2. pdftotext из poppler (miniforge или системный)
+    import subprocess
+    import shutil
+    pdftotext = shutil.which('pdftotext') or '/Users/kbalashova/miniforge3/bin/pdftotext'
+    try:
+        result = subprocess.run(
+            [pdftotext, '-layout', path, '-'],
+            capture_output=True, text=True, timeout=30
+        )
+        if result.returncode == 0 and result.stdout.strip():
+            return result.stdout
+    except (FileNotFoundError, subprocess.TimeoutExpired):
+        pass
+
+    # 3. PyPDF2 (последний вариант)
+    try:
+        import PyPDF2
+        text = []
+        with open(path, 'rb') as f:
+            reader = PyPDF2.PdfReader(f)
+            for page in reader.pages[:15]:
+                t = page.extract_text()
+                if t:
+                    text.append(t)
+        result = '\n'.join(text)
+        if result.strip():
+            return result
+    except ImportError:
+        pass
+    except Exception:
+        pass
+
+    return "Ошибка: не удалось извлечь текст. Установи poppler (brew install poppler) или pdfplumber (pip install pdfplumber)."
 
 
 def extract_docx(path):

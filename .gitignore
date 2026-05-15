@@ -229,8 +229,19 @@ projects/*/sources/files/*.doc
 # ResearchOS — результаты симуляций (бинарные/крупные артефакты)
 projects/*/results/
 
-# ResearchOS — крупные файлы данных (>100MB, не помещаются в GitHub)
+# ResearchOS — analysis pipeline: бинарные артефакты и кэш (CSV и coding/ отслеживаются)
+projects/*/analysis_output/cache/
+projects/*/analysis_output/figures/
+# Исключение: фигуры диплома отслеживаются (нужны для переноса между ПК)
+!projects/diploma_un_legitimation_speeches/analysis_output/figures/
+!projects/diploma_un_legitimation_speeches/analysis_output/figures/**
+
+# ResearchOS — крупные файлы данных (не помещаются в GitHub)
 projects/*/data/*.csv
+projects/*/data/*.xlsx
+projects/*/data/*.tar.gz
+projects/*/data/*.gz
+projects/*/data/*.zip
 
 # ResearchOS — черновики DOCX (бинарные, версии отслеживаются через git-lfs если нужно)
 projects/*/drafts/*.docx
@@ -242,3 +253,7 @@ Thumbs.db
 
 # Временные файлы скриптов
 .claude/scripts/tmp_*.py
+
+# Установщики и крупные бинарники
+*.sh
+Miniforge3.sh
