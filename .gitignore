@@ -227,7 +227,7 @@ projects/*/sources/files/*.docx
 projects/*/sources/files/*.doc
 
 # ResearchOS — результаты симуляций (бинарные/крупные артефакты)
-projects/*/results/
+# projects/*/results/  ← разрешено для diploma_math_modeling
 
 # ResearchOS — analysis pipeline: бинарные артефакты и кэш (CSV и coding/ отслеживаются)
 projects/*/analysis_output/cache/

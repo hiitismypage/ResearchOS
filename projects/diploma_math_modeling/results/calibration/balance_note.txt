@@ -1,0 +1,4 @@
+Raw relative static residual:   0.328180
+Model relative static residual: 0.301251
+balance_lambda: 0.500
+u0_model = u0_raw + λ * max(X0 - A0 X0 - u0_raw, 0) with sector-wise cap at 0.98*X0.

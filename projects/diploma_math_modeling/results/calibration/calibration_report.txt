@@ -1,0 +1,102 @@
+CALIBRATION REPORT — Two-Level Agent-Based IO Model
+Generated: 2026-04-16 23:32:09
+
+────────────────────────────────────────────────────────────────────────────────
+                     SECTION 1: Macro Aggregate Parameters                      
+────────────────────────────────────────────────────────────────────────────────
+Parameter                       Value   Source
+────────────────────────────────────────────────────────────
+  alpha (K share)            0.650000   Эконом рост row 8  col B
+  beta (L share)             0.350000   Эконом рост row 9  col B
+  TFP growth δ_a             0.010000   Эконом рост row 7  col B
+  Depreciation Am            0.050000   Эконом рост row 16 col B
+  MPS                        0.218786   Эконом рост row 17 col B
+  g (LF growth)             -0.008430   Эконом рост row 25 col B
+  m (import prop.)           0.030650   Эконом рост row 12 col B
+
+────────────────────────────────────────────────────────────────────────────────
+                  SECTION 2: A(0) — Direct Requirements Matrix                  
+────────────────────────────────────────────────────────────────────────────────
+                    Extraction        Energy Manufacturing  Construction   Agriculture
+  Extraction          0.057789      0.121400      0.026759      0.006771      0.002041
+  Energy              0.027638      0.228126      0.013303      0.002198      0.015797
+  Manufacturing       0.213568      0.073537      0.397999      0.233560      0.190078
+  Construction        0.021776      0.032285      0.005192      0.076935      0.016779
+  Agriculture         0.004188      0.000066      0.025461      0.000000      0.067526
+
+────────────────────────────────────────────────────────────────────────────────
+           SECTION 3: B(0) — Capital Requirements Matrix  [rank=1/5]            
+────────────────────────────────────────────────────────────────────────────────
+                    Extraction        Energy Manufacturing  Construction   Agriculture
+  Extraction            0.0008        0.0017        0.0014        0.0006        0.0010
+  Energy                0.0000        0.0000        0.0000        0.0000        0.0000
+  Manufacturing         2.4017        5.2517        4.2448        1.9640        2.9229
+  Construction          2.0997        4.5914        3.7110        1.7171        2.5554
+  Agriculture           0.0041        0.0090        0.0072        0.0033        0.0050
+
+  B is rank-deficient. Moore-Penrose pseudoinverse B+:
+                    Extraction        Energy Manufacturing  Construction   Agriculture
+  Extraction          0.000007      0.000000      0.021347      0.018663      0.000036
+  Energy              0.000015      0.000000      0.046679      0.040810      0.000080
+  Manufacturing       0.000012      0.000000      0.037729      0.032985      0.000064
+  Construction        0.000006      0.000000      0.017457      0.015262      0.000030
+  Agriculture         0.000009      0.000000      0.025979      0.022713      0.000044
+
+────────────────────────────────────────────────────────────────────────────────
+          SECTION 4: u(0) Final Demand and X(0) Gross Output  [M EUR]           
+────────────────────────────────────────────────────────────────────────────────
+  Sector                      C            G           NX         u(0)           X(0)
+  ────────────────────────────────────────────────────────────────────────
+  Extraction             6160.0        176.0      10717.0      17053.0        10746.0
+  Energy                40051.0        351.0       4635.0      45037.0       106178.0
+  Manufacturing        321778.0      23327.0    1067901.0    1413006.0      1675563.0
+  Construction           5229.0          0.0       1893.0       7122.0       297148.0
+  Agriculture           20972.0          0.0      10798.0      31770.0        50958.0
+  TOTAL                394190.0      23854.0    1095944.0    1640877.6      2140593.0
+
+────────────────────────────────────────────────────────────────────────────────
+                 SECTION 5: Sector-Level Behavioural Parameters                 
+────────────────────────────────────────────────────────────────────────────────
+  Sector                  δ            ν        κ        η        α    p_inn        μ
+  ────────────────────────────────────────────────────────────────────────────────
+  Extraction         0.0600       3.0698   0.1252   0.0100   0.3000   0.1583   0.0267
+  Energy             0.0400   62892.0157   0.0500   0.0100   0.3000   0.1833   0.0241
+  Manufacturing      0.0550       0.2424   0.4500   0.0122   0.3000   0.0500   0.0223
+  Construction       0.0650       0.0565   0.4500   0.0150   0.5127   0.0500   0.0274
+  Agriculture        0.0500       4.5962   0.0500   0.0100   0.3000   0.1833   0.0261
+
+────────────────────────────────────────────────────────────────────────────────
+                      SECTION 6: Firm Distribution Summary                      
+────────────────────────────────────────────────────────────────────────────────
+  Sector               N       k mean        k std        k min        k max    θ mean    θ std
+  ──────────────────────────────────────────────────────────────────────────────────────────
+  Extraction          32       110.92        58.77        29.16       339.85    0.9845   0.1473
+  Energy              27         0.07         0.07         0.01         0.29    0.9117   0.1688
+  Manufacturing       41    169200.95     94775.80     38066.15    433528.27    0.9735   0.2222
+  Construction        25    213559.66    107442.96     58610.59    459853.79    0.8934   0.2312
+  Agriculture         34       340.05       188.52        79.32       922.90    1.0031   0.2921
+
+────────────────────────────────────────────────────────────────────────────────
+                         SECTION 7: Validation Results                          
+────────────────────────────────────────────────────────────────────────────────
+  [PASS]  rho_A_lt_1                      value/residual = 4.4413e-01
+  [FAIL]  static_balance                  value/residual = 3.0125e-01
+  [PASS]  omega_sum_1                     value/residual = 2.2204e-16
+  [PASS]  B_plus_consistent               value/residual = 1.2343e-16
+  [PASS]  kappa_j_range                   value/residual = 0.0000e+00
+  [PASS]  eta_j_range                     value/residual = 0.0000e+00
+  [PASS]  alpha_j_range                   value/residual = 0.0000e+00
+  [PASS]  mu_j_range                      value/residual = 0.0000e+00
+  [PASS]  nu_j_positive                   value/residual = 0.0000e+00
+  [PASS]  delta_j_range                   value/residual = 0.0000e+00
+  [FAIL]  raw_static_balance              value/residual = 3.2818e-01
+  [FAIL]  model_static_balance            value/residual = 3.0125e-01
+
+────────────────────────────────────────────────────────────────────────────────
+                   SECTION 8: Spectral Radius and Convergence                   
+────────────────────────────────────────────────────────────────────────────────
+  Spectral radius  ρ(A)      = 0.44413047
+  Dominant eigenvalue        = 0.444130+0.000000j (complex part: +0.0000e+00)
+  Convergence status         : YES — Leontief inverse exists
+
+────────────────────────────────────────────────────────────────────────────────
