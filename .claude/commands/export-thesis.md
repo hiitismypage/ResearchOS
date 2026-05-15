@@ -13,6 +13,43 @@ description: Экспортирует главы подпроекта из chapt
 
 ---
 
+## Шаг 0 — предэкспортная проверка соответствия методичке
+
+Перед экспортом выполни следующие проверки и сообщи о результатах.
+
+### Объём работы
+
+```bash
+cat projects/<slug>/chapters/*.md | wc -m
+```
+
+Требование: **≥ 90 000 знаков с пробелами** (без приложений). Markdown-разметка даёт ~10% накладных расходов — вычти при оценке.
+
+### Количество источников в references
+
+```bash
+grep -c "^[A-Z]" projects/<slug>/chapters/07_references.md 2>/dev/null || \
+grep -c "^[А-Я]" projects/<slug>/chapters/07_references.md 2>/dev/null
+```
+
+Требование: **≥ 45 академических источников** для исследовательской ВКР. Если меньше — предупреди:
+
+```
+⚠️  КРИТИЧНО: В references найдено X источников (требуется ≥ 45).
+    Необходимо добавить источники в chapters/07_references.md и bibliography.md
+    перед финальным экспортом.
+```
+
+### Структура глав
+
+```bash
+ls projects/<slug>/chapters/*.md | sort -V
+```
+
+Проверь что присутствуют: введение, обзор литературы, теор. рамка, методология, эмпирика, обсуждение, заключение, список источников.
+
+---
+
 ## Шаг 1 — определить подпроект
 
 Если подпроект не указан в аргументе — определи по контексту сессии (активный проект).
@@ -60,27 +97,15 @@ conda install -c conda-forge pandoc -y
     brew install pandoc
     # или
     conda install -c conda-forge pandoc
-    # или скачай установщик: https://pandoc.org/installing.html
 ```
 
 **Windows:**
 ```
 ⚠️  Pandoc не установлен. Установи одним из способов:
 
-    Вариант 1 — через winget (встроен в Windows 10/11):
-        winget install --id JohnMacFarlane.Pandoc
-
-    Вариант 2 — через Scoop:
-        scoop install pandoc
-
-    Вариант 3 — через conda/miniforge:
-        conda install -c conda-forge pandoc
-
-    Вариант 4 — скачать .msi установщик:
-        https://pandoc.org/installing.html
-        (выбрать Windows installer)
-
-    После установки перезапусти терминал и снова запусти /export-thesis.
+    winget install --id JohnMacFarlane.Pandoc
+    # или через conda: conda install -c conda-forge pandoc
+    # или скачать .msi: https://pandoc.org/installing.html
 ```
 
 **Linux:**
@@ -89,17 +114,9 @@ conda install -c conda-forge pandoc -y
 
     sudo apt-get install pandoc   # Debian/Ubuntu
     sudo dnf install pandoc       # Fedora
-    conda install -c conda-forge pandoc
 ```
 
 Не продолжай выполнение скилла, пока Pandoc не установлен.
-
-### Учёт Windows при запуске скрипта
-
-На Windows `bash` может быть недоступен. Используй Git Bash, WSL, или адаптируй команду:
-
-- **Git Bash / WSL:** `bash .claude/scripts/export.sh projects/<slug> <name>` — работает как на macOS
-- **PowerShell без bash:** запусти Pandoc напрямую (см. шаг 4 ниже)
 
 ### python-docx (для генерации reference.docx)
 
@@ -107,15 +124,7 @@ conda install -c conda-forge pandoc -y
 python3 -c "import docx; print('ok')" 2>/dev/null || echo "not found"
 ```
 
-Если не найден — сообщи:
-
-```
-⚠️  python-docx не установлен. Установи:
-
-    pip install python-docx
-
-reference.docx будет использован шаблон по умолчанию (форматирование может отличаться от FORMAT.md).
-```
+Если не найден — предупреди что форматирование может отличаться от FORMAT.md, предложи `pip install python-docx`.
 
 ---
 
@@ -127,7 +136,7 @@ ls projects/<slug>/chapters/*.md 2>/dev/null | sort -V
 
 Если список пустой — сообщи что нечего экспортировать.
 
-Если главы есть — **покажи их список** в порядке сортировки (именно в таком порядке они войдут в документ):
+Если главы есть — **покажи их список** в порядке сортировки:
 
 ```
 Главы для сборки:
@@ -148,33 +157,24 @@ ls projects/<slug>/chapters/*.md 2>/dev/null | sort -V
 bash .claude/scripts/export.sh projects/<slug> <output_name>
 ```
 
-**Windows (PowerShell, если bash недоступен)** — собери Pandoc-команду вручную:
+**Windows (PowerShell, если bash недоступен):**
 ```powershell
-# Определи переменные
 $PROJECT = "projects/<slug>"
 $DATE = Get-Date -Format "yyyy-MM-dd"
 $OUTPUT = "$PROJECT/output/thesis_$DATE.docx"
-
-# Создай папку output если нет
 New-Item -ItemType Directory -Force -Path "$PROJECT/output"
-
-# Сгенерируй reference.docx (если python-docx установлен)
 python .claude/scripts/create_reference_doc.py "$PROJECT/FORMAT.md" "$PROJECT/reference.docx"
-
-# Запусти Pandoc
 $chapters = Get-ChildItem "$PROJECT/chapters/*.md" | Sort-Object Name
 pandoc $chapters --from markdown --to docx --toc --toc-depth=3 `
   --reference-doc="$PROJECT/reference.docx" `
   --output="$OUTPUT"
-
 Write-Host "Готово: $OUTPUT"
 ```
 
 Скрипт автоматически (bash-версия):
-- Генерирует `reference.docx` из `FORMAT.md` (Times New Roman 12pt, поля 25/10/20/20мм, межстрочный 1.5, отступ 1.25см)
+- Генерирует `reference.docx` из `FORMAT.md`
 - Собирает все `chapters/*.md` в порядке имён файлов
 - Добавляет автоматическое оглавление (`--toc`, глубина 3)
-- Применяет язык из `FORMAT.md`
 - Подключает `bibliography.bib` если файл существует
 - Сохраняет в `projects/<slug>/output/<output_name>_YYYY-MM-DD.docx`
 
@@ -182,40 +182,88 @@ Write-Host "Готово: $OUTPUT"
 
 ## Шаг 5 — проверить результат
 
-После успешного запуска:
-
 ```bash
 du -h projects/<slug>/output/*.docx | tail -1
 ```
 
-Сообщи пользователю:
-- Полный путь к файлу
-- Размер файла
-- Список вошедших глав
-- Предупреждения если были (например: нет reference.docx, нет bibliography.bib)
+Сообщи пользователю: путь к файлу, размер, список вошедших глав, предупреждения.
 
 ---
 
-## Требования к форматированию (из методичка_ВКР.pdf)
+## Требования к форматированию
 
-Эти требования уже заложены в `FORMAT.md` и автоматически применяются через `reference.docx`:
+**Приоритет при конфликтах: Методичка ВКР > APA Guide > умолчания Pandoc.**
 
-| Параметр | Значение |
-|----------|---------|
-| Шрифт | Times New Roman 12pt |
-| Межстрочный интервал | 1.5 |
-| Отступ первой строки | 1.25 см |
-| Поля (лев/пр/верх/низу) | 25 / 10 / 20 / 20 мм |
-| Выравнивание текста | По ширине |
-| Нумерация страниц | Вверху по центру, с 2-й страницы |
-| Сноски | Times New Roman 10pt, по ширине |
+| Параметр | Значение | Источник |
+|----------|---------|---------|
+| Шрифт | Times New Roman 12pt | Методичка + APA |
+| Межстрочный интервал | **1.5** (не double, как в APA) | Методичка |
+| Отступ первой строки | 1.25 см | Методичка |
+| Поля (лев/пр/верх/низ) | **25 / 10 / 20 / 20 мм** | Методичка |
+| Выравнивание текста | **По ширине** (не left, как в APA) | Методичка |
+| Нумерация страниц | Вверху по центру, с 2-й страницы | Методичка |
+| Сноски | Times New Roman 10pt, по ширине, внизу страницы | Методичка |
+| Список источников | Hanging indent (первая строка у поля, продолжение с отступом ~1.25 см) | APA 7th ed. |
+| Цитирование в тексте | APA in-text: (Автор, год, p. X) | Методичка + APA |
 
-**Структурные требования** (необходимо проверить вручную после экспорта):
-- Каждая глава начинается с новой страницы ✓ (Pandoc делает автоматически для H1)
-- Заголовки нумеруются: Introduction / 1. Literature Review / 1.1 / 1.2 и т.д.
-- Точка в конце заголовка не ставится
-- Аннотации на рус. и англ. (125–175 слов каждая) — добавляются вручную на титульном листе
-- AI disclaimer обязателен (добавить вручную в финальный документ)
+### Форматирование списка источников (APA 7th ed.)
+
+Список References оформляется **в алфавитном порядке** с hanging indent:
+
+```
+Bjola, C. (2005). Legitimating the use of force in international politics:
+    A communicative action perspective. European Journal of International
+    Relations, 11(2), 266–303. https://doi.org/...
+```
+
+- Первая строка каждой записи — у левого поля
+- Все последующие строки — отступ ~1.25 см (hanging indent)
+- Курсив: названия книг и журналов (не статей)
+- DOI/URL в конце, без точки после ссылки
+- Работа начинается с новой страницы
+
+### Заголовки (Методичка ВКР — приоритет над APA)
+
+| Уровень | Формат | Пример |
+|---------|--------|--------|
+| Глава (H1) | Times New Roman 12pt, **жирный**, с новой страницы | `1. Literature Review` |
+| Раздел (H2) | Times New Roman 12pt, **жирный** | `1.1 Legitimacy in IR Theory` |
+| Подраздел (H3) | Times New Roman 12pt, *курсив* | `1.1.1 Early approaches` |
+
+Нумерация: глава `1.`, раздел `1.1`, подраздел `1.1.1`. Слово «Глава» не используется. Точка в конце заголовка не ставится.
+
+### Таблицы и рисунки (APA 7th ed. для тезисов)
+
+- Встраиваются в текст (не выносятся за References)
+- Нумеруются последовательно: Table 1, Table 2 / Figure 1, Figure 2
+- Название — над таблицей, жирным
+- Примечание — под таблицей, обычный шрифт
+
+---
+
+## Структурные требования (проверить вручную после экспорта)
+
+- [ ] Каждая глава начинается с новой страницы (Pandoc делает автоматически для H1)
+- [ ] Введение, заключение, список источников — с новой страницы
+- [ ] Заголовки нумеруются: `Introduction` / `1. Literature Review` / `1.1` / `1.2` и т.д.
+- [ ] Точка в конце заголовка не ставится
+- [ ] В оглавлении указаны номера страниц (обновить в Word: ПКМ → «Обновить поле»)
+- [ ] Список источников — hanging indent, алфавитный порядок
+- [ ] Таблицы и схемы пронумерованы и подписаны
+- [ ] ≥ 45 академических источников в References
+
+---
+
+## После экспорта — напомни пользователю
+
+1. Открыть DOCX и проверить форматирование вручную (поля, шрифт, интервал)
+2. Добавить **титульный лист** вручную в Word
+3. Добавить **аннотации** (рус. + англ., 125–175 слов каждая) после титульного листа — вручную
+4. Вставить **AI disclaimer** в конец работы (перед приложениями):
+   > *"I used AI-based tools to find relevant academic articles and books, to improve punctuation and spelling, and to refine the formatting of the reference list in accordance with APA style."*
+5. Обновить оглавление в Word (ПКМ → «Обновить поле»)
+6. Проверить hanging indent в списке источников
+7. Проверить нумерацию таблиц и рисунков
 
 ---
 
@@ -224,20 +272,9 @@ du -h projects/<slug>/output/*.docx | tail -1
 | Проблема | Решение |
 |---------|---------|
 | `pandoc: command not found` (macOS) | `brew install pandoc` |
-| `pandoc: command not found` (Windows) | `winget install JohnMacFarlane.Pandoc` или скачать .msi с pandoc.org |
-| `bash: command not found` (Windows) | Использовать Git Bash, WSL, или PowerShell-вариант команды из шага 4 |
+| `pandoc: command not found` (Windows) | `winget install JohnMacFarlane.Pandoc` |
 | `python-docx not found` | `pip install python-docx` |
 | Неправильный порядок глав | Переименовать файлы: `00_`, `01_`, `02_`… |
-| Нет оглавления | Убедись что заголовки в `.md` используют `#`, `##`, `###` |
+| Нет оглавления | Убедись что заголовки используют `#`, `##`, `###` |
+| Нет hanging indent в References | Настроить стиль абзаца в Word вручную или через reference.docx |
 | Кривое форматирование | Запустить `/create-reference-doc` и повторить экспорт |
-| Путь с пробелами не работает (Windows) | Обернуть путь в кавычки: `"projects/my thesis"` |
-
----
-
-## После экспорта — напомни пользователю
-
-1. Открыть DOCX и проверить форматирование вручную (особенно поля и шрифт)
-2. Добавить титульный лист вручную в Word
-3. Добавить аннотации (рус. + англ.) после титульного листа
-4. Вставить AI disclaimer в конец работы
-5. Проверить оглавление (обновить поля Word: правая кнопка → «Обновить поле»)
