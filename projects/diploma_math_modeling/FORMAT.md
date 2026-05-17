@@ -9,22 +9,22 @@ font_size: 14
 
 ## Заголовки
 heading1_font: Times New Roman
-heading1_size: 16
+heading1_size: 14
 heading1_bold: true
 heading1_uppercase: false
 heading1_alignment: center
 
 heading2_font: Times New Roman
-heading2_size: 16
+heading2_size: 14
 heading2_bold: true
 heading2_uppercase: false
-heading2_alignment: justify
+heading2_alignment: left
 
 heading3_font: Times New Roman
 heading3_size: 14
-heading3_bold: false
+heading3_bold: true
 heading3_italic: false
-heading3_alignment: justify
+heading3_alignment: left
 
 ## Абзацы
 line_spacing: 1.5
