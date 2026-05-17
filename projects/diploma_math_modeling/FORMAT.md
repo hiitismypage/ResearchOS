@@ -9,22 +9,22 @@ font_size: 14
 
 ## Заголовки
 heading1_font: Times New Roman
-heading1_size: 14
+heading1_size: 16
 heading1_bold: true
-heading1_uppercase: true
+heading1_uppercase: false
 heading1_alignment: center
 
 heading2_font: Times New Roman
-heading2_size: 14
+heading2_size: 16
 heading2_bold: true
 heading2_uppercase: false
-heading2_alignment: left
+heading2_alignment: justify
 
 heading3_font: Times New Roman
 heading3_size: 14
 heading3_bold: false
-heading3_italic: true
-heading3_alignment: left
+heading3_italic: false
+heading3_alignment: justify
 
 ## Абзацы
 line_spacing: 1.5
@@ -37,16 +37,16 @@ body_alignment: justify
 margin_top: 20
 margin_bottom: 20
 margin_left: 30
-margin_right: 15
+margin_right: 10
 
 ## Страница
 page_size: A4
 page_numbers: bottom_center
-page_numbers_start: 3
+page_numbers_start: 2
 
 ## Цитирование
 citation_style: GOST
-citation_format: footnote
+citation_format: inline
 
 ## Особые требования
 custom_notes: |
