@@ -175,8 +175,27 @@
   /* main area */
   .main { padding: 22px 26px 28px; min-width: 0; }
   .main-head { margin-bottom: 18px; }
+  .main-head-top { display: flex; align-items: flex-start; justify-content: space-between; gap: 16px; }
   .main-title { font-size: 18px; font-weight: 600; margin: 0; }
   .main-sub { font-size: 12px; color: var(--ink-2); margin-top: 3px; }
+
+  /* secondary (outlined) button — e.g. download CSV */
+  .btn-secondary {
+    display: inline-flex; align-items: center; gap: 7px;
+    background: #fff;
+    color: var(--ink);
+    border: 1px solid var(--line);
+    border-radius: 4px;
+    padding: 7px 12px 7px 11px;
+    font: inherit; font-size: 12.5px; font-weight: 500;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: background .12s ease, border-color .12s ease, color .12s ease;
+    flex-shrink: 0;
+  }
+  .btn-secondary:hover { background: #f5f6f8; border-color: #d4d4d4; color: var(--ink); }
+  .btn-secondary:active { background: #ededef; }
+  .btn-secondary svg { width: 14px; height: 14px; }
   .param-chips { display: grid; grid-template-columns: repeat(5, 1fr); gap: 8px; margin-top: 10px; }
   .param-chip {
     display: inline-flex; align-items: baseline; justify-content: center; gap: 7px;
@@ -453,8 +472,7 @@
   const DEFAULT_P_INN_ALL  = [0.10,  0.05,  0.18,  0.12,  0.15,  0.10,  0.10,  0.10];
   const DEFAULT_MU_ALL     = [0.022, 0.022, 0.027, 0.024, 0.023, 0.022, 0.022, 0.022];
   const DEFAULT_NJ_ALL     = [32,    27,    41,    25,    34,    20,    20,    20];
-  const MIN_SECTORS = 2;
-  const MAX_SECTORS = 8;
+  const SECTOR_COUNT = 5;
 
   // Info tooltips per parameter
   const INFO = {
@@ -477,27 +495,6 @@
     }));
   }
 
-  /* ---------------- PRNG (deterministic) ---------------- */
-  function hash(seed) {
-    let h = 2166136261 >>> 0;
-    const s = String(seed);
-    for (let i = 0; i < s.length; i++) {
-      h ^= s.charCodeAt(i);
-      h = Math.imul(h, 16777619);
-    }
-    return h >>> 0;
-  }
-  function mulberry32(a) {
-    return function() {
-      a |= 0; a = a + 0x6D2B79F5 | 0;
-      let t = Math.imul(a ^ a >>> 15, 1 | a);
-      t = t + Math.imul(t ^ t >>> 7, 61 | t) ^ t;
-      return ((t ^ t >>> 14) >>> 0) / 4294967296;
-    }
-  }
-
-  /* ---------------- Simulation (plausible synthetic) ---------------- */
-
   // ── Real API call (replaces mock runSimulation) ──────────────────────────
   async function fetchSimulation(params, sectors) {
     const resp = await fetch('/api/simulate', {
@@ -506,9 +503,8 @@
       body: JSON.stringify({ params, sectors }),
     });
     if (!resp.ok) throw new Error('API ' + resp.status);
-    return resp.json();  // { years, output, rho, investment, hhi, kpi }
+    return resp.json();
   }
-
 
   /* ---------------- Chart primitives ---------------- */
   const CHART_W = 460;
@@ -851,12 +847,12 @@
 
   /* ---------------- Main app ---------------- */
   function App() {
-    const [sectorCount, setSectorCount] = useState(5);
-    const [sectorNames, setSectorNames] = useState(DEFAULT_SECTOR_NAMES.slice(0, 8));
+    const SECTOR_COUNT_LOCAL = SECTOR_COUNT;
+    const [sectorNames, setSectorNames] = useState(DEFAULT_SECTOR_NAMES.slice(0, SECTOR_COUNT_LOCAL));
 
     const sectors = useMemo(
-      () => makeSectors(sectorCount, sectorNames),
-      [sectorCount, sectorNames]
+      () => makeSectors(SECTOR_COUNT_LOCAL, sectorNames),
+      [sectorNames]
     );
 
     const [params, setParams] = useState({
@@ -878,13 +874,13 @@
     const [appliedSectors, setAppliedSectors] = useState(null);
     const [fullscreenIdx, setFullscreenIdx] = useState(null);
 
-    // Keep all per-sector arrays in sync with sectorCount
+    // Keep all per-sector arrays in sync with SECTOR_COUNT (one-time normalization)
     useEffect(() => {
       setParams(p => {
-        if (p.kappa.length === sectorCount && p.eta.length === sectorCount) return p;
+        if (p.kappa.length === SECTOR_COUNT && p.eta.length === SECTOR_COUNT) return p;
         const extend = (arr, defaults, fallback) => {
-          let a = arr.slice(0, sectorCount);
-          while (a.length < sectorCount) a.push(defaults[a.length] ?? fallback);
+          let a = arr.slice(0, SECTOR_COUNT);
+          while (a.length < SECTOR_COUNT) a.push(defaults[a.length] ?? fallback);
           return a;
         };
         return {
@@ -896,7 +892,7 @@
           Nj:    extend(p.Nj,    DEFAULT_NJ_ALL,    20),
         };
       });
-    }, [sectorCount]);
+    }, []);
 
     // dirty = current params/sectors differ from those of last run
     const dirty = useMemo(() => {
@@ -923,8 +919,6 @@
         return arr;
       });
     }
-    function incSectors() { setSectorCount(c => Math.min(MAX_SECTORS, c + 1)); }
-    function decSectors() { setSectorCount(c => Math.max(MIN_SECTORS, c - 1)); }
 
     async function run() {
       setRunning(true);
@@ -938,6 +932,48 @@
       } finally {
         setRunning(false);
       }
+    }
+
+    function downloadCSV() {
+      if (!results || !appliedSectors || !appliedParams) return;
+      // Sanitize a sector name for use as a CSV column suffix
+      const slug = (s) => (s || '')
+        .replace(/\./g, '')
+        .replace(/\s+/g, '_')
+        .replace(/\//g, '')
+        .replace(/[,;"]/g, '');
+      const names = appliedSectors.map(s => slug(s.name));
+      const headers = [
+        'year',
+        ...names.map(n => `output_${n}`),
+        'rho_A',
+        ...names.map(n => `inv_${n}`),
+        ...names.map(n => `hhi_${n}`),
+      ];
+      const fmt = (v) => (v === null || v === undefined || isNaN(v)) ? '' : Number(v).toFixed(6);
+      const lines = [headers.join(',')];
+      for (let t = 0; t < results.years.length; t++) {
+        const row = [
+          results.years[t],
+          ...results.output.map(arr => fmt(arr[t])),
+          fmt(results.rho[t]),
+          ...results.investment.map(arr => fmt(arr[t])),
+          ...results.hhi.map(arr => fmt(arr[t])),
+        ];
+        lines.push(row.join(','));
+      }
+      // Prepend UTF-8 BOM so Excel opens Cyrillic headers correctly
+      const csv = '\uFEFF' + lines.join('\n');
+      const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
+      const url = URL.createObjectURL(blob);
+      const date = new Date().toISOString().slice(0, 10);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = `simulation_T${appliedParams.T}_${date}.csv`;
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      setTimeout(() => URL.revokeObjectURL(url), 1000);
     }
 
     // Auto-run on first mount — загружаем базовый сценарий с сервера
@@ -1016,7 +1052,6 @@
         <aside className="sidebar">
           <div className="sidebar-head">
             <h1>Двухуровневая модель межотраслевого баланса Леонтьева</h1>
-            <div className="sub">Агентный микроуровень · {sectorCount} отрасл{sectorCount === 1 ? 'ь' : sectorCount < 5 ? 'и' : 'ей'} · форвардная симуляция</div>
           </div>
 
           <div className="sidebar-body">
@@ -1069,12 +1104,8 @@
             {/* === Отрасли: количество и названия === */}
             <div className="section-title" style={{marginTop: 22}}>Отрасли</div>
             <div className="sector-count-row" style={{padding: '0 0 10px'}}>
-              <span style={{fontSize: 12, color: 'var(--ink-2)'}}>Количество отраслей</span>
-              <div className="stepper" style={{marginLeft: 'auto'}}>
-                <button onClick={decSectors} disabled={sectorCount <= MIN_SECTORS} aria-label="Убрать">−</button>
-                <span className="val">{sectorCount}</span>
-                <button onClick={incSectors} disabled={sectorCount >= MAX_SECTORS} aria-label="Добавить">+</button>
-              </div>
+              <span style={{fontSize: 12, color: 'var(--ink-2)'}}>5 отраслей</span>
+              <span style={{fontSize: 11, color: 'var(--ink-3)', marginLeft: 8}}>(фиксировано моделью)</span>
             </div>
             <div className="field-help" style={{marginBottom: 10}}>Названия отраслей (кликните для изменения)</div>
             {sectors.map((s, i) => (
@@ -1256,11 +1287,24 @@
 
         <main className="main">
           <div className="main-head">
-            <h2 className="main-title">Результаты симуляции</h2>
-            <div className="main-sub">
-              {isBaseline
-                ? <>Показан базовый сценарий. Задайте параметры и нажмите «Запустить».</>
-                : <>Сценарий рассчитан · горизонт {appliedParams.T} лет · {2015}–{2015 + appliedParams.T}</>}
+            <div className="main-head-top">
+              <div>
+                <h2 className="main-title">Результаты симуляции</h2>
+                <div className="main-sub">
+                  {isBaseline
+                    ? <>Показан базовый сценарий. Задайте параметры и нажмите «Запустить».</>
+                    : <>Сценарий рассчитан · горизонт {appliedParams.T} лет · {2015}–{2015 + appliedParams.T}</>}
+                </div>
+              </div>
+              {!isBaseline && results && (
+                <button className="btn-secondary" onClick={downloadCSV} title="Скачать результаты в формате CSV">
+                  <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                    <path d="M8 2v8m0 0l-3-3m3 3l3-3" />
+                    <path d="M2 12v1.5A1.5 1.5 0 003.5 15h9a1.5 1.5 0 001.5-1.5V12" />
+                  </svg>
+                  <span>Скачать CSV</span>
+                </button>
+              )}
             </div>
             <div className="param-chips">
               <span className={`param-chip ${isBaseline ? 'muted' : ''}`}><span className="k">T</span><span className="eq">=</span><span className="v">{(appliedParams || params).T}</span></span>
