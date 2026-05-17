@@ -14,9 +14,9 @@ import os
 from datetime import datetime
 from typing import Dict, List, Optional, Tuple
 
+import openpyxl
 import numpy as np
 import pandas as pd
-from scipy import linalg
 
 # ─────────────────────────────────────────────────────────────────────────────
 # SECTOR DEFINITIONS  — only place where sector metadata lives
@@ -359,8 +359,6 @@ def load_macro_params(xlsx_path: str) -> dict:
     K_series, Y_series, I_series (pd.Series indexed by year),
     GVA_series (empty dict — populated by calibrate_sector_params).
     """
-    import openpyxl
-
     wb = openpyxl.load_workbook(xlsx_path, read_only=True, data_only=True)
     ws = wb["Эконом рост"]
     sg = list(ws.iter_rows(values_only=True))
