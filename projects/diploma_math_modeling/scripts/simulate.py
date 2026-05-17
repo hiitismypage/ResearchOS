@@ -531,14 +531,16 @@ def run(seed: int | None = 42) -> pd.DataFrame:
 
 def make_figures(df: pd.DataFrame, out: Path) -> None:
     """
-    Построить 6 публикационных рисунков и сохранить в out/.
+    Построить 8 публикационных рисунков и сохранить в out/.
 
     fig_1_trajectories.png  — нормированный выпуск X_j(t)/X_j(0)
-    fig_2_structure.png     — структурная динамика совокупного выпуска
-    fig_3_stability.png     — спектральный анализ матрицы A
+    fig_2_structure.png     — структурная динамика: выпуск vs спрос + доли секторов
+    fig_3_stability.png     — ρ(A(t)) + диагональные самозатраты a_jj(t)
     fig_4_matrix.png        — эволюция матрицы A: t=0 → t=T
     fig_5_micro.png         — технология и капитал (микро-макро)
     fig_6_balance.png       — верификация динамического баланса
+    fig_7_investment.png    — инвестиционные волны: I_total(t) и структура I_j(t)
+    fig_8_hhi.png           — концентрация рынков: HHI_j(t)
     """
     out.mkdir(parents=True, exist_ok=True)
 
@@ -627,17 +629,21 @@ def make_figures(df: pd.DataFrame, out: Path) -> None:
     ax.set_title('Совокупный выпуск и конечный спрос')
     ax.legend(loc='upper left')
 
-    # Правый: стековая диаграмма долей секторов в совокупном выпуске (%)
+    # Правый: линейный график долей секторов — виден структурный сдвиг во времени
     ax = axes2[1]
     X_row_sum = X_mat.sum(axis=1, keepdims=True)
     with np.errstate(invalid='ignore', divide='ignore'):
-        X_share = np.where(X_row_sum > 0, X_mat / np.where(X_row_sum > 0, X_row_sum, 1.0) * 100, 0.0)
-    ax.stackplot(years, X_share.T, labels=SECTOR_NAMES, colors=COLORS, alpha=0.75)
+        X_share_ts = np.where(X_row_sum > 0,
+                              X_mat / np.where(X_row_sum > 0, X_row_sum, 1.0) * 100, 0.0)
+    for j in range(N):
+        ax.plot(years, X_share_ts[:, j], color=COLORS[j], lw=0.8, alpha=0.25)
+        ax.plot(years, _smooth(X_share_ts[:, j]),
+                color=COLORS[j], lw=2.0, marker=MARKERS[j],
+                markevery=5, label=SECTOR_NAMES[j])
     ax.set_xlabel('Год')
     ax.set_ylabel('Доля в совокупном выпуске, %')
-    ax.set_title('Отраслевая структура выпуска')
-    ax.set_ylim(0, 100)
-    ax.legend(loc='lower right', ncol=2, fontsize=8)
+    ax.set_title('Структурный сдвиг: доли секторов, %')
+    ax.legend(loc='right', ncol=1, fontsize=8)
 
     fig2.tight_layout()
     fig2.savefig(out / 'fig_2_structure.png')
@@ -671,25 +677,17 @@ def make_figures(df: pd.DataFrame, out: Path) -> None:
     ax.set_ylim(0, max(rho.max() * 1.15, 1.1))
     ax.legend(loc='lower right')
 
-    # Правый: комплексная плоскость — собственные числа A(0) и A(T)
+    # Правый: диагональные самозатраты a_jj(t) — технологический дрейф внутри секторов
     ax = axes3[1]
-    eig0 = np.linalg.eigvals(A_t0)
-    eigT = np.linalg.eigvals(A_tT)
-    # Единичная окружность
-    theta_circ = np.linspace(0, 2 * np.pi, 300)
-    ax.plot(np.cos(theta_circ), np.sin(theta_circ),
-            color='gray', lw=0.8, ls='-', alpha=0.6, label='единичная окружность')
-    ax.scatter(eig0.real, eig0.imag, s=80, marker='o', color='#1f77b4',
-               zorder=4, label=f'$A(0)$: кружки')
-    ax.scatter(eigT.real, eigT.imag, s=80, marker='*', color='#d62728',
-               zorder=4, label=f'$A(T)$: звёзды')
-    ax.axhline(0, color='black', lw=0.5, ls='-')
-    ax.axvline(0, color='black', lw=0.5, ls='-')
-    ax.set_xlabel('Re')
-    ax.set_ylabel('Im')
-    ax.set_title('Собственные числа $A(0)$ и $A(T)$ на комплексной плоскости')
-    ax.legend(loc='upper right', fontsize=8)
-    ax.set_aspect('equal', adjustable='box')
+    for j in range(N):
+        a_diag = df[f'A_diag_{SECTOR_NAMES[j]}'].values
+        ax.plot(years, a_diag, color=COLORS[j], lw=0.8, alpha=0.25)
+        ax.plot(years, _smooth(a_diag), color=COLORS[j], lw=2.0,
+                marker=MARKERS[j], markevery=5, label=SECTOR_NAMES[j])
+    ax.set_xlabel('Год')
+    ax.set_ylabel('$a_{jj}(t)$')
+    ax.set_title('Внутриотраслевые самозатраты $a_{jj}(t)$, ур-е (4.30)')
+    ax.legend(loc='best', fontsize=8, ncol=2)
 
     fig3.tight_layout()
     fig3.savefig(out / 'fig_3_stability.png')
@@ -819,6 +817,86 @@ def make_figures(df: pd.DataFrame, out: Path) -> None:
     fig6.savefig(out / 'fig_6_balance.png')
     plt.close(fig6)
     print(f'  Сохранён: {out / "fig_6_balance.png"}')
+
+    # ─────────────────────────────────────────────────────────────────────
+    # Рисунок 7: Инвестиционные волны — I_total(t) и структура I_j(t)
+    # ─────────────────────────────────────────────────────────────────────
+    fig7, axes7 = plt.subplots(1, 2, figsize=(12, 5))
+    fig7.suptitle(
+        'Инвестиционная динамика: объём и структура',
+        fontsize=12, fontweight='bold'
+    )
+
+    # Используем строки t=0..T-1 (последняя строка — нет инвестиций, t=T)
+    mask = df['I_total'].values > 0
+    years_I = years[mask]
+    I_total_v = df['I_total'].values[mask]
+
+    # Левый: совокупные инвестиции и ВВП
+    ax = axes7[0]
+    ax.bar(years_I, I_total_v / 1e3, color='#1f77b4', alpha=0.65, label='$I_{total}(t)$')
+    ax2_twin = ax.twinx()
+    gdp_I = gdp[mask]
+    ax2_twin.plot(years_I, gdp_I / 1e6, color='#d62728', lw=2.2, ls='-',
+                  marker='o', markevery=3, label='ВВП (прав. ось)')
+    ax.set_xlabel('Год')
+    ax.set_ylabel('Совокупные инвестиции, млрд евро')
+    ax2_twin.set_ylabel('ВВП, трлн евро', color='#d62728')
+    ax2_twin.tick_params(axis='y', labelcolor='#d62728')
+    ax.set_title('Совокупные инвестиции $I_{total}(t)$ и ВВП')
+    lines1, labels1 = ax.get_legend_handles_labels()
+    lines2, labels2 = ax2_twin.get_legend_handles_labels()
+    ax.legend(lines1 + lines2, labels1 + labels2, loc='upper left', fontsize=8)
+
+    # Правый: структура инвестиций по секторам (нормировано к t=0)
+    ax = axes7[1]
+    I_mat_I = I_mat[mask, :]
+    I_base   = I_mat_I[0, :]
+    I_base   = np.where(I_base > 0, I_base, 1.0)
+    I_norm_I = I_mat_I / I_base
+    for j in range(N):
+        ax.plot(years_I, I_norm_I[:, j], color=COLORS[j], lw=0.8, alpha=0.25)
+        ax.plot(years_I, _smooth(I_norm_I[:, j]), color=COLORS[j], lw=2.0,
+                marker=MARKERS[j], markevery=5, label=SECTOR_NAMES[j])
+    ax.axhline(1.0, color='black', lw=0.8, ls='--', alpha=0.5)
+    ax.set_xlabel('Год')
+    ax.set_ylabel('$I_j(t)\\,/\\,I_j(0)$')
+    ax.set_title('Нормированные инвестиции по секторам $I_j(t)\\,/\\,I_j(0)$')
+    ax.legend(ncol=2, loc='upper left', fontsize=8)
+
+    fig7.tight_layout()
+    fig7.savefig(out / 'fig_7_investment.png')
+    plt.close(fig7)
+    print(f'  Сохранён: {out / "fig_7_investment.png"}')
+
+    # ─────────────────────────────────────────────────────────────────────
+    # Рисунок 8: Рыночная концентрация — HHI_j(t)
+    # ─────────────────────────────────────────────────────────────────────
+    fig8, ax = plt.subplots(figsize=(9, 5))
+    fig8.suptitle(
+        'Динамика концентрации рынков: индекс Херфиндаля--Хиршмана $HHI_j(t)$',
+        fontsize=12, fontweight='bold'
+    )
+
+    HHI_mat = np.column_stack([df[f'HHI_{sn}'].values for sn in SECTOR_NAMES])
+    for j in range(N):
+        # Пунктир — теоретический минимум при равных долях (1/N_j)
+        hhi_min = 1.0 / N_FIRMS[j]
+        ax.axhline(hhi_min, color=COLORS[j], lw=0.8, ls=':', alpha=0.45)
+        ax.plot(years, HHI_mat[:, j], color=COLORS[j], lw=0.8, alpha=0.25)
+        ax.plot(years, _smooth(HHI_mat[:, j]), color=COLORS[j], lw=2.0,
+                marker=MARKERS[j], markevery=5,
+                label=f'{SECTOR_NAMES[j]} ($N_j={N_FIRMS[j]}$)')
+
+    ax.set_xlabel('Год')
+    ax.set_ylabel('$HHI_j = \\sum_f \\omega_{jf}^2$')
+    ax.set_title('HHI по отраслям (пунктир — равномерное распределение $1/N_j$)')
+    ax.legend(ncol=2, loc='upper right', fontsize=8)
+
+    fig8.tight_layout()
+    fig8.savefig(out / 'fig_8_hhi.png')
+    plt.close(fig8)
+    print(f'  Сохранён: {out / "fig_8_hhi.png"}')
 
 
 # ─────────────────────────────────────────────────────────────────────────────
