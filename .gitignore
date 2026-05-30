@@ -256,4 +256,5 @@ Thumbs.db
 
 # Установщики и крупные бинарники
 *.sh
+*.pkg
 Miniforge3.sh
