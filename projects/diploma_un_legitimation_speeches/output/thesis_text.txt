@@ -1,0 +1,2107 @@
+Pages: 62
+--- PAGE 1 ---
+ 
+ 
+THE GOVERNMENT OF RUSSIAN FEDERATION 
+STATE BUDGETARY HIGHER EDUCATION UNIT 
+NATIONAL RESEARCH UNIVERSITY 
+«HIGHER SCHOOL OF ECONOMICS» 
+FACULTY OF WORLD ECONOMY AND INTERNATIONAL AFFAIRS 
+International Program 'International Relations and Global Studies' 
+ 
+ 
+Thesis Paper 
+On the topic : 
+ 
+«Strategies of Legitimizing Violations of International Law in Leaders’ Speeches at the United 
+Nations General Assembly (1945–2023)»  
+ 
+By the student 
+of the 4th year, 
+group 222 
+Ayvazyan Aram 
+Academic supervisor: 
+Ivan Pavlyutkin , Candidate of Science in Sociology,​
+Associate Professor, Department of Economic Sociology HSE 
+​
+ 
+ 
+MOSCOW 2026 
+
+--- PAGE 2 ---
+2 
+Abstract 
+How states publicly justify legally contested conduct before a universal institutional audience has 
+received theoretical attention but limited empirical study. This thesis examines legitimation strategies 
+employed by state leaders in UN General Assembly General Debate speeches, drawing on a 
+criterion-based sample of 33 case-years (102 manually coded segments) Harvard UN General Debate 
+Corpus. Directed qualitative content analysis, structured around Habermas’s typology of social action, is 
+applied alongside an eight-category manual coding framework. Counter-terrorism and securitization 
+framing (34.3%) and procedural-legal claims (27.5%) are the dominant strategy types; strategic action is 
+absent as a dominant mode across the sample. A significant temporal shift marks the post-2001 rise of 
+communicative-justificatory framing, partially reversed after 2014. Cross-bloc convergence in 
+counter-terrorism rhetoric coexists with divergence in legitimation register: Western states rely 
+predominantly on justificatory framing while non-Western states invoke formal Charter provisions more 
+consistently. The findings extend corpus-based evidence for deliberative legitimacy and document 
+structurally conditioned asymmetries in how geopolitical blocs relate to the postwar normative 
+architecture. 
+Keywords: legitimation strategies, UN General Assembly, communicative action, Habermas, 
+international law, norm contestation, diplomatic discourse, geopolitical blocs 
+Вопрос о том, как государства публично обосновывают юридически оспариваемые действия 
+перед универсальной институциональной аудиторией, хорошо изучен теоретически, однако 
+систематических эмпирических исследований по-прежнему недостаточно. В работе анализируются 
+стратегии легитимации лидеров государств в речах на Генеральной Ассамблее ООН. На основе 
+критериальной выборки из 33 случаев (102 кодированных сегмента) Harvard UN General Debate 
+Corpus направленный качественный контент-анализ в рамках типологии социального действия Ю. 
+Хабермаса выявил две доминирующие стратегии: антитеррористическое и секьюритизирующее 
+фреймирование (34,3%) и процедурно-правовые апелляции (27,5%). Стратегическое действие как 
+доминирующий режим полностью отсутствует в выборке. Статистически значимый темпоральный 
+сдвиг фиксирует подъём коммуникативно-юстификаторского фреймирования после 2001 года, 
+частично обратившийся после 2014-го. Конвергенция блоков в антитеррористической риторике 
+сочетается со структурным расхождением в регистре легитимации: западные государства 
+опираются преимущественно на юстификаторские аргументы, тогда как советский/восточный и 
+неприсоединившийся блоки последовательнее апеллируют к нормам Устава ООН. Результаты 
+расширяют корпусную доказательную базу теории делиберативной легитимности и фиксируют 
+ 
+
+--- PAGE 3 ---
+3 
+структурно обусловленные асимметрии в ориентации геополитических блоков относительно 
+нормативной архитектуры послевоенного порядка. 
+Ключевые слова: стратегии легитимации, Генеральная Ассамблея ООН, коммуникативное 
+действие, Хабермас, международное право, нормативное оспаривание, дипломатический дискурс, 
+геополитические блоки 
+ 
+ 
+ 
+ 
+ 
+
+--- PAGE 4 ---
+4 
+Table of Contents 
+Introduction​
+6 
+1. Literature Review​
+9 
+1.1. Legitimacy in International Relations: Theoretical Landscape​
+9 
+1.2. Diplomacy as Public Communication: the UNGA as a Rhetorical Arena​
+10 
+1.3. Existing Research on Legitimation Discourse in UN Speeches: Contributions and Gaps​
+11 
+2. Theoretical Framework​
+14 
+2.1. Habermas’s Theory of Communicative Action: Core Tenets and Typology​
+14 
+2.2. Communicative Action in International Relations​
+15 
+2.3. Operationalizing Legitimation in Diplomatic Discourse​
+17 
+2.4. Research Hypotheses​
+18 
+3. Methodology​
+21 
+3.1. Research Design: A Two-Level Analytical Strategy​
+21 
+3.2. Data: The Harvard UN General Debate Corpus​
+22 
+3.3. Case Identification and Geopolitical Classification​
+23 
+3.3.1. Criterion-Based Case Selection​
+23 
+3.3.2. Cold War Bloc Classification​
+24 
+3.4. Coding Framework​
+25 
+3.4.1. Habermas’s Typology as the Master Coding Architecture​
+25 
+3.4.2. Keyword-Based Classification Procedure​
+26 
+3.4.3. Historical Periodization​
+27 
+3.5. Statistical Methods​
+28 
+3.6. Reliability, Validity, and Scope of Claims​
+29 
+4. Empirical Analysis​
+31 
+4.1. Sample Overview​
+31 
+4.2. Analytical Architecture. Operationalization and Methodological Rationale​
+33 
+4.2.1. Habermas’s Typology as a Coding Framework​
+33 
+4.2.2. Cold War Bloc Construction and Block Transitions​
+34 
+ 
+
+--- PAGE 5 ---
+5 
+4.2.3. Keyword Scoring and the Unclassified Segment Rate​
+35 
+4.3. Aggregate Distribution of Communicative Action Types​
+36 
+4.3.1. Co-occurrence. Strategy Pairings with Violation Types​
+38 
+4.4. Comparative Case Analysis​
+39 
+4.4.1. Self-Defense, Necessity, and the Counter-Terrorism Frame​
+39 
+4.4.2. Normative-Legal Invocations: Charter Appeals and Sovereignty Framing​
+41 
+4.5. Temporal Dynamics: Strategy Evolution and the H3 Assessment​
+44 
+4.5.1. The Corpus-Level Convergence Test: H1 Assessment​
+46 
+4.6. Geopolitical Bloc Differentiation. The H4 Assessment​
+48 
+4.6.1. Summary of Empirical Findings​
+53 
+5. Discussion​
+53 
+5.1. Hypothesis Assessment​
+53 
+5.2. Communicative vs. Strategic Action in Practice​
+55 
+5.3. Theoretical Contributions and Limitations​
+56 
+5.4. Directions for Future Research​
+57 
+Conclusion​
+58 
+References​
+61 
+ 
+ 
+
+--- PAGE 6 ---
+6 
+Introduction 
+When a state uses military force in circumstances that other governments characterize as illegal, 
+the diplomatic calendar offers a predictable ritual. At the United Nations General Assembly, its head of 
+state or foreign minister takes the floor and constructs a public justification. The justification may invoke 
+self-defense under Article 51 of the UN Charter, reframe the operation as counter-terrorism, appeal to 
+humanitarian necessity, contest the credibility of the accusing parties, or some combination of these 
+moves. What varies is the specific configuration and the rhetorical register. What does not vary – and this 
+is the central empirical observation motivating this thesis – is that the move is made – publicly, on the 
+record, in the one forum where virtually every state in the international system holds a seat – a body of 
+193 member governments. 
+This practice appears across a wide range of states, regardless of their material capabilities, 
+political systems, or ideological positions. This raises an important question for international relations 
+theory: why do states invest diplomatic resources in publicly justifying the use of force, even when the 
+decision to act has already been made? States do not usually rely on military power alone. They also seek 
+to present their actions as lawful, necessary, defensive, humanitarian, or consistent with broader principles 
+of international order. This suggests that legitimacy matters in international politics. It is not simply a form 
+of propaganda or a diplomatic afterthought. 
+The scholarly literature on legitimation in international relations has grown substantially over the 
+past three decades. Theoretical accounts now range from Franck’s (1990) early work on the compliance 
+pull of legitimate rules, through Hurd’s (1999) social constructivist account of legitimacy as belief, to 
+Bjola’s (2005) application of Habermasian communicative action theory to the justification of force, and 
+Wiener’s (2014) framework for norm contestation across institutional settings. What this body of work 
+does not provide is a systematic, corpus-based account of which legitimation strategies actually appear in 
+leaders’ speeches at the UNGA, in what combinations, and how the repertoire has changed from the 
+founding of the United Nations to the present. The existing empirical literature is built predominantly 
+from case studies of individual episodes – NATO’s intervention in Kosovo in 1999 (Bjola, 2005; Head, 
+2008), the US-led invasion of Iraq in 2003 (Rapp, 2022), the Suez crisis of 1956 (Rapp, 2022) – each of 
+which yields analytic depth but cannot speak to aggregate patterns, frequency distributions, or longitudinal 
+evolution. This thesis addresses that gap. 
+Three research questions structure the analysis. The main question asks: What legitimation 
+strategies are employed by state leaders in speeches delivered at the UN General Assembly General 
+Debate to justify conduct alleged to violate international law, from 1946 to 2023? Three sub-questions 
+ 
+
+--- PAGE 7 ---
+7 
+give the investigation further structure: Which of the identified strategies occur most frequently across the 
+sampled corpus? How has the distribution of strategies shifted across the period under study, from the 
+Cold War decade through the post-1990 normative expansion to the fragmentation of the rules-based order 
+after 2014? And do states from different geopolitical blocs draw on distinguishable legitimation 
+repertoires – or does the discourse converge across bloc boundaries despite divergent strategic interests? 
+The study proceeds from four theory-driven hypotheses. H1 addresses rhetorical convergence: 
+after September 2001, the adoption of counter-terrorism framing increased across all geopolitical blocs 
+without statistically significant bloc-based differentiation – a pattern consistent with ideational 
+convergence rather than bloc-specific rhetorical divergence. This hypothesis is falsifiable: had one bloc 
+demonstrated systematically greater uptake of counter-terrorism language than others, or had pre-9/11 
+inter-bloc differences persisted into the post-2001 period, H1 would be rejected. H2 addresses the 
+character of the legitimation repertoire: the dominant strategies deployed across the corpus – self-defense 
+and necessity claims, counter-terrorism framings, sovereignty and non-interference appeals, and 
+procedural-legal invocations of the UN Charter – function predominantly as normative-legal action in 
+Habermas’s typology, oriented toward shared legal frameworks rather than toward purely strategic evasion 
+or denial. H3 addresses temporal dynamics: the distribution of legitimation strategies shifts across 
+historical 
+periods, 
+with 
+counter-terrorism 
+framing 
+becoming 
+dominant 
+after 
+2001 
+and 
+sovereignty-revisionist framing intensifying after 2014, rather than remaining stable across the full period 
+of analysis. H4 addresses geopolitical variation: legitimation strategies differ systematically across Cold 
+War blocs, with Western states showing a lower reliance on normative-legal framing relative to 
+Soviet/Eastern and Non-Aligned states – a divergence observable despite the surface convergence 
+captured in H1. All four hypotheses are treated as theory-informed starting points subject to empirical 
+testing. 
+The empirical basis of the analysis is the Harvard UN General Debate Corpus (UNGDC), a 
+machine-readable dataset of all speeches delivered at the General Assembly’s annual General Debate from 
+1946 to 2023 – 11,127 speeches from 198 countries. The analytical sample is identified through a 
+criterion-based procedure: state-years in which the state-sessions in which a government faced recorded 
+accusations of conduct whose legality or normative status was disputed are selected on the basis of United 
+Nations documentation – resolutions and meeting records of the General Assembly, Security Council 
+proceedings, special rapporteur reports), NGO documentation (Amnesty International, Human Rights 
+Watch), and academic secondary literature on specific conflicts and episodes. Python scripts assist in 
+extracting and keyword-filtering the corresponding speeches from the full corpus; every identified speech 
+ 
+
+--- PAGE 8 ---
+8 
+is then read and coded manually. The coding employs directed qualitative content analysis (Hsieh & 
+Shannon, 2005) and proceeds in two stages. In the first stage, descriptive mapping establishes the 
+frequency and co-occurrence of coded strategies across the full sample. In the second stage, comparative 
+qualitative interpretation examines how specific strategies are realized across actors, periods, and 
+normative contexts. The coding framework operates along two analytical dimensions: the type of alleged 
+violation addressed, and the legitimation strategy deployed in response. Both dimensions are derived 
+deductively from existing theory and refined through iterative engagement with the corpus material. The 
+qualitative findings are supplemented by descriptive frequency counts and co-occurrence mapping across 
+the full period 1946–2023. 
+Several limitations require stating at the outset. The corpus covers only the UNGA General 
+Debate; positions articulated in closed Security Council sessions, bilateral correspondence, or domestic 
+political discourse fall outside the scope of analysis. The speeches examined represent a specific genre – 
+formal, high-stakes, public address before a global institutional audience – and the legitimation strategies 
+identified here should not be assumed to correspond to the full range of legal or political argumentation 
+available to states in other settings. No claim about the actual legality of the conduct in question is made 
+anywhere in this thesis: the designation “alleged violation” in every case signals an independently 
+documented accusation, not a legal finding. The analysis examines how states respond to that accusation 
+in public discourse, not whether the accusation was legally correct. A further constraint concerns 
+non-English-language speeches: while the UNGDC provides translated versions, strategic ambiguity or 
+omissions in translation may affect the precision of coding for certain passages. 
+The thesis is organized as follows. Chapter 1 reviews the relevant literature across three 
+overlapping fields: theories of legitimacy and legitimation in international relations, the UNGA General 
+Debate as a rhetorical and institutional arena, and existing empirical research on legitimation discourse in 
+multilateral settings. Chapter 2 develops the theoretical framework, moving from Habermas’s (1984) 
+typology of social action and validity claims through its IR applications in Risse (2000), Müller (2004), 
+and Bjola (2005), to an operational account of legitimation strategy for the purposes of this study. Chapter 
+3 describes the research design, corpus selection, sampling logic, and coding framework in detail. Chapter 
+4 presents the empirical findings: frequency and co-occurrence patterns, comparative case analysis across 
+three dominant strategy types, and a longitudinal account of how the repertoire has shifted across the 
+period 1946–2023. Chapter 5 interprets these findings against the theoretical framework, assesses all four 
+hypotheses, and identifies the study’s contributions and limitations. The conclusion returns directly to the 
+main research question and states what the analysis has established. 
+ 
+
+--- PAGE 9 ---
+9 
+1. Literature Review 
+1.1. Legitimacy in International Relations: Theoretical Landscape 
+Legitimacy has become an increasingly important, if contested, concept in IR scholarship on the 
+postwar international order. Its theoretical status shifted substantially over the past three decades, moving 
+from a largely normative concern – whether particular norms or institutions deserved compliance – toward 
+a more empirical and relational question of how legitimacy functions as a social fact structuring state 
+behavior. 
+Thomas Franck’s (1990) foundational contribution established the link between legitimacy and 
+rule compliance within the international legal system. Franck’s central question – why states comply with 
+international legal rules in the absence of centralized coercive enforcement – led him to the concept of 
+compliance pull: the force that legitimate rules exert on state behavior independently of coercive 
+sanctions. He identified four properties that assess how strongly a given rule commands compliance: 
+whether its formulation is clear and precise enough to guide behavior, whether recognized procedural 
+markers confer authenticity upon it, whether it sits consistently within the surrounding body of legal 
+principle, and whether it occupies a defined position within an established normative hierarchy. The 
+framework treated legitimacy as an observable quality of rules rather than a purely philosophical attribute, 
+and positioned it as a matter of degree rather than a binary judgment. This insight provides a starting point 
+for analysing why states seek to attach contested conduct to legal norms that retain recognized legitimacy. 
+Hurd (1999) offered an equally important reorientation. Departing from coercion- and 
+interest-based accounts of norm compliance, Hurd argued that legitimacy operates as a third mechanism of 
+social control – alongside coercion and self-interest – grounded in internalized belief in the rightness of 
+norms. As Hurd defines it, legitimacy is “the normative belief by an actor that a rule or institution ought to 
+be obeyed” – a subjective, relational quality constituted by the actor’s perception of the norm rather than 
+by the norm’s objective properties (Hurd, 1999, p. 381). The critical move was to treat legitimacy as a 
+social fact rather than an evaluative standard: what matters analytically is not whether a norm meets an 
+external criterion of justice but whether relevant actors believe it to be binding. This constructivist 
+reframing opened legitimacy to empirical analysis: if it is constituted through belief and practice, it can be 
+traced in the public statements and justificatory moves of state actors – precisely the objects this study 
+examines. 
+Gronau and Schmidtke (2016) positioned legitimation as an active, top-down practice rather than a 
+passive outcome of norm compliance. Building on Weberian ideas about legitimacy and domination, they 
+developed a typology of legitimation strategies organized around three distinct constituencies: member 
+ 
+
+--- PAGE 10 ---
+10 
+states, institutional staff, and wider publics. While their empirical focus was on international institutions – 
+the G8 and the IMF during periods of contested authority – their conceptual architecture can be adapted to 
+state actors addressing multilateral audiences. 
+Wiener’s (2014) norm contestation framework provides a further theoretical resource. Where 
+earlier constructivist accounts treated legitimacy as a relatively stable attribute of particular rules 
+reproduced within established communities of practice, Wiener argues that contestation is itself a 
+norm-generative social practice: through acts of challenging, questioning, and justifying, actors 
+continuously re-enact the normative structure of meaning-in-use, which is the basis of legitimacy in global 
+governance (Wiener, 2014). Legitimation, in this view, is not a one-off act of compliance or defection but 
+a running negotiation over what a norm means and who it binds. This has direct implications for the 
+temporal scope of the present study: the evolution of legitimation strategies from 1946 to 2023 reflects an 
+ongoing contestation over the terms of the postwar normative architecture, not a fixed repertoire deployed 
+against a fixed standard. 
+1.2. Diplomacy as Public Communication: the UNGA as a Rhetorical Arena 
+The United Nations General Assembly General Debate is one of the most regularized and visible 
+genres of public diplomatic communication in the international system. Convened annually each 
+September, it provides every member state with a designated speaking slot before the full plenary – an 
+opportunity that governments consistently use to state positions on contested norms, respond to 
+international criticism, and present their preferred interpretation of international events before a universal 
+audience. The ritual character of the event – fixed institutional setting, established speaking order, 
+universal participation, near-identical format from year to year – makes it unusually tractable for 
+systematic analysis. Genre constraints are relatively uniform across decades and states, which reduces the 
+interpretive noise that arises when comparing speech events from radically different institutional contexts. 
+The Harvard UN General Debate Corpus (UNGDC), introduced by Baturo, Dasandi, and 
+Mikhaylov (2017), made systematic text-as-data analysis of the General Debate feasible for the first time. 
+The original dataset comprises 7,314 statements from 198 countries covering sessions 1970–2014; the 
+corpus has since been extended on Harvard Dataverse to cover sessions from 1946 to 2023, comprising 
+11,127 speeches in its current release. Baturo et al. (2017) demonstrate that GD speeches can serve as 
+empirical proxies for state preferences precisely because they are less constrained than UNGA roll-call 
+votes: unlike voting, where aid relationships and strategic blocs shape behaviour, states deliver their 
+addresses without direct institutional stakes, which means the choice of topics and emphases more freely 
+reflects national priorities. Representatives of the Finnish and German missions to the UN, interviewed by 
+ 
+
+--- PAGE 11 ---
+11 
+the authors, described GD speeches as the place where states “speak their mind” and “the most sovereign 
+thing that a country does as a member of the UN” (Baturo et al., 2017, p. 2). Preference scores derived 
+from the corpus have been cross-validated against independent foreign policy indicators, establishing their 
+construct validity across multiple measurement approaches. Research drawing on this dataset has 
+concentrated primarily on recovering ideological alignment and positional signals; the analytical 
+framework here treats the same textual material with a qualitatively oriented analytical framework applied 
+to a theoretically motivated sub-sample. A relevant limitation is that GD speeches are strategically 
+constructed performances: as Baturo et al. (2017, p. 3) note, “member states present themselves 
+exclusively in the guise in which they wish to be known.” For the purposes of the present analysis, 
+however, this is a feature rather than a flaw – the strategic construction of public justification is precisely 
+the object of inquiry. 
+The General Debate occupies an ambiguous position between communicative and strategic action 
+– a distinction central to the theoretical framework developed in Chapter 2. On one account, it functions as 
+a site of public deliberation: governments advance positions, respond to challenges, and expose their 
+reasoning to scrutiny before a universal and formally equal audience. On another, it operates as a 
+performance arena where states manage reputational risks, address domestic audiences through 
+international ones, and deploy available normative vocabulary without genuine openness to argumentative 
+revision. Neither account fully captures the phenomenon. What can be said is that the General Debate is 
+the most consistently attended, most formally institutionalized, and most universally accessible farena 
+where heads of state and foreign ministers place their governments' legal and normative positions on the 
+record before a universal audience — a feature that makes it the analytically appropriate venue for 
+studying legitimation strategies across the full membership of the United Nations rather than one episode 
+at a time. 
+1.3. Existing Research on Legitimation Discourse in UN Speeches: Contributions and Gaps 
+The scholarly literature on the legitimation of contested conduct in multilateral settings has 
+generated a body of analytically rich case studies that establish the importance of the phenomenon while 
+leaving systematic questions unanswered. 
+Bjola (2005) provides the most theoretically developed account within this tradition. Applying 
+Habermas’s theory of communicative action to the NATO military campaign in Kosovo (1999) and the 
+coalition-led military action in Iraq (2003), Bjola contends that the degree of legitimacy accorded to 
+military action cannot be settled by reference to UN Charter compliance alone. His concept of deliberative 
+legitimacy, defined as “the non-coerced commitment of an actor to obey a norm adopted on the basis of 
+ 
+
+--- PAGE 12 ---
+12 
+the criteria and rules reached through a process of communicative action” (Bjola, 2005, p. 266), 
+introduces a procedural standard that distinguishes genuine normative justification from strategic 
+persuasion. The diagnostic question is whether the promoters of intervention genuinely sought “a reasoned 
+consensus on the need for the use of force” or merely engaged in “power games based on credible threats, 
+intimidation or rhetorical exchanges with no visible intention to achieve argumentative consensus” (Bjola, 
+2005, p. 267). Assessed against this standard, the two cases yield contrasting findings. In the Kosovo 
+episode, alliance members modified their positions in response to arguments and the process, however 
+imperfect, remained genuinely open to deliberative revision. The Iraq episode was dominated by strategic 
+action: the United States manipulated the legal framing of Resolution 1441 without openness to 
+argumentative revision, seeking agreement rather than understanding. The analytical value of this 
+distinction is considerable; its empirical scope is not. Two cases, both Western-led, selected for their 
+visibility rather than their representativeness, cannot speak to whether similar patterns obtain across the 
+full range of legitimation contexts the postwar system has generated. 
+Head (2008) extends the Habermasian approach into a more explicitly critical register, 
+demonstrating that patterns of “exclusion, coercion and illegitimacy… not only challenge the claims to 
+legitimacy of the intervention and of the interveners, but demonstrate the critical power of a 
+communicative framework” (Head, 2008, p. 150). The Kosovo episode supplies the evidence: Kosovar 
+Albanians were structurally absent from Security Council deliberations – having no state and therefore no 
+seat – which meant the principal affected party had no standing in a process nominally conducted on its 
+behalf. The Rambouillet negotiations reproduced the same asymmetry, with the Contact Group setting 
+terms while the threat of air strikes functioned as an instrument of pressure rather than persuasion. Head’s 
+concern is normative, but the analytical observation generalizes: case-study methods can identify such 
+structural dynamics with precision, but cannot measure their prevalence, frequency, or variation across the 
+diversity of the UN membership and the full postwar period. 
+Rapp (2022) approaches the problem through an entirely different method. Drawing on 
+declassified archival documents from British and American decision-makers, he traces the internal 
+reasoning behind legal justifications for force in the Suez crisis (1956) and the Grenada military 
+intervention (1983). His central claim is that “in a deeply legalized system actors feel compelled to portray 
+their behaviors as legal, even if these justifications are tenuous or if pursuing them is time and resource 
+consuming” (Rapp, 2022, p. 337). The justificatory preference followed a clear hierarchy: references to 
+codified treaty obligations were preferred over customary international law, and both were preferred over 
+non-legal rationales, because written legal text offers a standard that opponents find harder to dismiss. In 
+ 
+
+--- PAGE 13 ---
+13 
+the Suez case, British officials sought not the legally strongest argument but the most palatably legal one 
+– the formulation most capable of managing anticipated criticism. In the Grenada case, the United States 
+assembled three individually weak grounds into a composite justification – an invitation from the 
+Governor-General, a threat to American citizens, and authorization under the OECS regional treaty – 
+because no single argument was persuasive in isolation. The contribution is significant, establishing that 
+legitimation is a strategic and resource-intensive practice even for preponderant states. The method, 
+however, forecloses analysis of the public dimension: the speeches delivered to the UN General Assembly 
+in these same episodes remain unexamined, and the gap between internal decision-making and public 
+justification is itself an analytically interesting object. 
+Taken together, this body of work establishes several important premises: that the legitimation of 
+legally contested conduct is a systematic practice across a wide range of states and contexts; that the UN 
+General Assembly and the Security Council are the primary arenas for its public expression; and that the 
+gap between formal legal compliance and perceived legitimacy is analytically tractable. What the existing 
+literature does not provide is a systematic account of which legitimation strategies appear in the UNGDC 
+corpus, in what combinations, with what frequency, and how the distribution has shifted across the 
+postwar period. The published research consists of deep vertical borings into particular episodes; the 
+horizontal view – across states, across time, across violation types – remains unavailable. This study 
+addresses that gap. 
+ 
+ 
+
+--- PAGE 14 ---
+14 
+2. Theoretical Framework 
+2.1. Habermas’s Theory of Communicative Action: Core Tenets and Typology 
+The theoretical foundation of this study rests on Jürgen Habermas’s theory of communicative 
+action, developed in The Theory of Communicative Action, first published in German in 1981. Habermas’s 
+project was animated by dissatisfaction with accounts of rationality that reduced it to instrumental and 
+strategic reason, oriented toward the efficient pursuit of pre-given ends. Against this, he argued that a 
+second form of rationality – communicative rationality – is embedded in the structures of language use 
+and oriented not toward success but toward mutual understanding (Verständigung). This shift from a 
+subject-object to a subject-subject paradigm is the conceptual foundation on which his typology of social 
+action rests. 
+In Volume 1, Chapter I, Habermas distinguishes four concepts of social action. Teleological action 
+– and, when it incorporates other actors as part of the strategic calculus, strategic action – is oriented 
+toward the attainment of an end through the selection of appropriate means. Normatively regulated action 
+refers to behavior governed by shared group values; in later institutionalist terms, it approximates the logic 
+of appropriateness. Dramaturgical action involves the self-presentation of an actor before an audience, the 
+management of impressions in a social performance. Communicative action is the fourth and analytically 
+central type: action coordinated through language oriented toward reaching intersubjective agreement, in 
+which actors seek to harmonize their plans not through incentives, threats, or norm compliance alone, but 
+by advancing claims that are open to reasoned acceptance or rejection. As Habermas puts it, “the 
+communicative model of action does not equate action with communication. Language is a means of 
+communication which serves mutual understanding, whereas actors, in coming to an understanding with 
+one another so as to coordinate their actions, pursue their particular aims” (Habermas, 1984, p. 101). 
+Following the IR applications of Habermas developed by Risse and Bjola, this study focuses on 
+three validity claims most relevant to political justification. Truth concerns whether the propositional 
+content corresponds to states of affairs in the objective world. Rightness concerns whether the utterance is 
+normatively appropriate within a shared social world and whether the underlying norm can be justified. 
+Sincerity concerns whether the expression corresponds to the speaker’s actual intentions. These claims 
+carry the expectation that they could, in principle, be defended discursively if challenged. The 
+communicative model treats speech not as the mere transmission of information but as a form of social 
+action in which coordination depends on the intersubjective recognition of validity. 
+The distinction between communicative and strategic action is the analytical axis most relevant to 
+this study. Strategic action is oriented toward success (Erfolg) – the achievement of the actor’s own 
+ 
+
+--- PAGE 15 ---
+15 
+objectives regardless of others’ genuine agreement; communicative action is oriented toward 
+understanding (Verständigung) – a shared assessment of a situation arrived at through reasons that all 
+parties can in principle accept. Habermas identifies a degenerate but empirically pervasive phenomenon 
+he terms systematically distorted communication: strategic action dressed in the grammar of 
+communicative exchange, deploying the surface forms of reasoned argument while remaining, at the level 
+of orientation, purely strategic. This tension is especially relevant for UNGA speeches, where heads of 
+government may justify legally contested conduct before a universal audience in the language of reasoned 
+argument, even when the purpose is reputational management rather than genuine argumentative revision. 
+2.2. Communicative Action in International Relations 
+The application of Habermas’s theory to world politics required a deliberate theoretical translation. 
+Much of mainstream IR theory, particularly rationalist and realist work, had long been organized around 
+interest-based models – rational choice bargaining, deterrence theory, the strategic logic of great-power 
+competition – that treated communication as epiphenomenal to power and interest. The constructivist turn 
+of the 1990s brought normative factors back into analytical view, but the specific question of 
+argumentation as a mode of social action required a further step. 
+Thomas Risse (2000) made that step in a widely cited contribution. Against the bilateral opposition 
+between consequentialist rationalism and constructivist appropriateness, Risse proposed a third mode of 
+social interaction: the logic of arguing. “Processes of argumentation, deliberation, and persuasion,” he 
+contended, “constitute a distinct mode of social interaction to be differentiated from both strategic 
+bargaining…and rule-guided behavior” (Risse, 2000, p. 1). Actors engaged in arguing advance truth 
+claims or normative validity claims with a genuine openness to revising their positions in light of better 
+arguments – which is what distinguishes arguing from bargaining (adjusting positions through promises 
+and threats) and from rhetorical action (deploying the forms of argument without readiness for revision) 
+(Risse, 2000). Risse distinguishes between two settings in which argumentative processes operate in 
+international relations: restricted diplomatic exchanges among small numbers of participants, where actors 
+may undergo genuine shifts in their stated preferences, is at least conceivable; and open, public discourses 
+addressed to wider audiences where argumentative accountability operates at a different scale. The UNGA 
+General Debate belongs to the second category – its institutionalized, universally public character makes it 
+a site where states must advance normative justifications subject, in principle, to scrutiny from all 193 
+member states. Whether that scrutiny produces genuine arguing or merely a strategic performance of 
+argument is precisely the empirical question this study examines. 
+ 
+
+--- PAGE 16 ---
+16 
+Harald Müller (2004) introduced an important conceptual refinement to Risse’s framework. Risse 
+had treated “arguing” and “communicative action” as roughly synonymous – both contrasted with 
+bargaining and strategic action. Müller showed that this collapsed a critical distinction: “arguing and 
+bargaining are simply two different types of speech acts… Communicative and strategic action, in 
+contrast, are not speech acts, but types of action that include the wider orientation of the speakers” 
+(Müller, 2004, p. 396). The consequence is that strategic actors can and do use arguing speech acts, 
+deploying the form of reasoned justification instrumentally without any genuine openness to 
+argumentative revision. As Müller observes, “Jon Elster (1991) has shown how strategic actors would use 
+arguing for winning over their partners to their own preferences if they believe that arguments are a better 
+way to win than promises and threats” (Müller, 2004, p. 397). For this study, the distinction is analytically 
+essential: the presence of arguing speech acts in UNGA addresses does not establish that the speaker is 
+engaged in communicative action. The coding framework, developed in Section 2.3 below, therefore 
+tracks strategies – types of speech act – separately from the question of orientation, which is addressed in 
+the interpretive analysis of Chapter 4. 
+Corneliu Bjola (2005) offered the most direct bridge between the Habermasian framework and the 
+analysis of legitimation in diplomatic practice. Bjola argued that legal compliance criteria – specifically, 
+UNSC authorization – are insufficient to distinguish legitimate from illegitimate uses of force, because 
+legal standards can themselves become objects of strategic manipulation. He proposed instead the concept 
+of deliberative legitimacy, defined as “the non-coerced commitment of an actor to obey a norm adopted on 
+the basis of the criteria and rules reached through a process of communicative action” (Bjola, 2005, 
+p. 266). The operative question is whether a discourse is genuinely oriented toward building a reasoned 
+consensus or whether it performs the grammar of argument while remaining structurally closed to 
+outcome: “Do the promoters of military interventions try to reach a reasoned consensus on the need for 
+the use of force, or do they just engage in power games based on credible threats, intimidation or 
+rhetorical exchanges with no visible intention to achieve argumentative consensus?” (Bjola, 2005, p. 267). 
+Applying this distinction to the Kosovo and Iraq cases, Bjola found that NATO’s deliberative process prior 
+to 1999 exhibited at least some features of communicative action – positions shifted in response to 
+arguments advanced within the alliance – while the Bush administration’s management of the Security 
+Council process in 2002–2003 was characterized by strategic action: legal language (Resolution 1441) 
+used to construct cover for a decision that was not open to argumentative revision (Bjola, 2005). 
+Naomi Head (2008) extended this analysis toward the procedural conditions under which 
+legitimating discourse can be considered genuinely communicative. Drawing on Habermas’s concept of 
+ 
+
+--- PAGE 17 ---
+17 
+the ideal speech situation – defined by equal standing to initiate and participate in discourse, the right to 
+challenge claims, and the absence of coercion – Head identified patterns of structural exclusion that distort 
+apparently deliberative processes even when they occur in formally multilateral settings. “Habermas 
+develops the ideal speech situation in order to be able to distinguish genuine communication from false or 
+pseudo-communication,” she observes (Head, 2008, p. 152). In the Kosovo case, the exclusion of Kosovo 
+Albanians from Security Council deliberations and the coercive framing of the Rambouillet negotiations 
+meant that even the procedural forms of dialogue failed to satisfy minimal conditions of non-distorted 
+communication (Head, 2008). For this study, Head’s analysis points toward a structural feature of UNGA 
+speeches that bears on their interpretation: states delivering legitimation addresses before the General 
+Assembly are not participants in an equal deliberative exchange – they occupy a structurally marked 
+position within an asymmetric communicative space, defending conduct that is already the subject of 
+public contestation. 
+The synthesis these four contributions enable can be stated as follows. State leaders addressing the 
+UNGA in the wake of legally contested actions face a situation in which the validity claim of rightness – 
+the normative appropriateness of their conduct – is under explicit challenge. They must respond publicly, 
+before a universal audience, and in a genre that carries the institutional expectation of normative 
+justification. The theoretical expectation – grounded in Habermas’s typology, Risse’s distinction between 
+arguing and rhetorical action, Müller’s speech-act correction, and Bjola’s deliberative legitimacy 
+framework – is that the dominant mode will be strategic action in communicative form: arguing speech 
+acts deployed without genuine openness to argumentative revision. Verifying that expectation, and 
+mapping the specific strategies through which it is realized, is the task of Chapters 3 and 4. 
+2.3. Operationalizing Legitimation in Diplomatic Discourse 
+Converting the theoretical framework into an analytical instrument requires specifying what is to 
+be observed in UNGA speech texts. Legitimation, as used in this study, refers to the public construction of 
+normative justifications for conduct whose legality or normative acceptability is publicly disputed. This 
+definition draws on Gronau and Schmidtke’s (2016) characterization of legitimation as a goal-oriented 
+practice and connects it to the Habermasian account of validity claims – specifically the claim of rightness 
+– as the dimension of speech at stake when states seek to defend contested actions before international 
+audiences. 
+The coding framework operationalizes legitimation along two analytical dimensions. The first 
+captures the type of alleged violation that the speech is responding to: (1) use of force and jus ad bellum 
+allegations (contested resort to armed force); (2) IHL allegations (conduct alleged to violate the laws of 
+ 
+
+--- PAGE 18 ---
+18 
+armed conflict); (3) human rights allegations (domestic repression, mass atrocities, persecution); (4) 
+territorial integrity and sovereignty claims (annexation, occupation, contested secession); (5) treaty and 
+UNSC-resolution non-compliance. These categories are not mutually exclusive – a single address may 
+respond to overlapping allegations – but they provide the primary contextual variable against which the 
+choice of legitimation strategy can be assessed. 
+The second dimension captures the legitimation strategy itself: the discursive move through which 
+the speaker constructs normative cover for the contested action. Eight strategy types are distinguished: (1) 
+self-defense and necessity claims – a cluster of defensive justifications encompassing both the legal right 
+of self-defense under Art. 51 of the UN Charter and broader appeals to necessity (security, political, or 
+humanitarian) that frame the action as unavoidable given the circumstances; (2) sovereignty and 
+non-interference – characterization of external critique as illegitimate intervention in domestic affairs; (3) 
+denial and reinterpretation – factual denial of the alleged conduct or its redescription under a 
+non-violating frame; (4) moral and humanitarian framing – positioning the action as morally obligatory or 
+as the lesser harm, including humanitarian justifications that invoke the protection of civilians or 
+endangered populations; (5) counter-terrorism and securitization framing – invocation of exceptional 
+threat, terrorist designation, or civilizational danger to justify departure from ordinary legal standards; (6) 
+whataboutism and tu quoque – deflection through accusation of the accuser or generalization of the 
+alleged violation as universal; (7) procedural-legal claims – appeals to formal procedural compliance, 
+treaty authority, or multilateral authorization; (8) historical and existential narratives – justification 
+grounded in historical grievance, territorial-historical claims, or identity-based existential framing. 
+The cross-tabulation of these two dimensions – violation type against strategy type – generates the 
+analytical matrix for the empirical chapter. Descriptive frequencies identify which strategies are most 
+common within the selected sample and which cluster around particular violation types, providing a basis 
+for assessing the two hypotheses stated in Section 2.4. The qualitative comparative analysis in Chapter 4 
+then examines how the same strategies manifest differently across actors, periods, and normative contexts, 
+and what that variation reveals about the communicative structure of legitimation at the UNGA. 
+2.4. Research Hypotheses 
+On the basis of the theoretical framework developed in Sections 2.1–2.3 and the literature 
+reviewed in Chapter 1, four hypotheses are advanced for empirical testing in Chapter 4. 
+H1 (ideational convergence). Post-9/11 counter-terrorism framing increases uniformly across all 
+geopolitical blocs with no statistically significant inter-bloc differentiation – a pattern consistent with 
+ideational convergence rather than divergence. The theoretical basis is twofold. First, UNSC Resolution 
+ 
+
+--- PAGE 19 ---
+19 
+1373 (2001) formally established counter-terrorism as a universal obligation, making securitization 
+framing available to all state actors regardless of their underlying normative position. Second, Wiener’s 
+(2014) theory of contestation predicts that a norm-generative event of sufficient salience – here, the 
+institutionalization of the counter-terrorism framework – can reset the available repertoire of legitimation 
+resources across the international system, displacing prior bloc-specific patterns. This hypothesis is 
+falsifiable: it would be rejected if one bloc showed systematically greater uptake of counter-terrorism 
+language than others in the post-2001 period. 
+H2 (repertoire). The dominant legitimation strategies across the corpus will function as 
+normative-legal action in Habermas’s (1984) typology – oriented toward shared legal frameworks and 
+validity claims of rightness – rather than as purely strategic evasion or denial. The theoretical derivation 
+runs as follows. Bjola (2005) and Müller (2004) establish that states in institutionalized multilateral 
+settings deploy arguing speech acts even when their underlying orientation is strategic; the forum structure 
+generates a normative performance requirement. In the UNGA’s institutional setting – public, universal, 
+founded on the Charter architecture – states face strong incentives to construct justifications grounded in 
+shared legal standards, because purely strategic speech acts (denial, counter-accusation, delegitimation) 
+forfeit the legitimating function that public justification is meant to serve. The hypothesis is falsifiable: it 
+would be rejected if strategic action – as defined by the Habermas typology – constituted the dominant 
+mode across the sample. 
+H3 (temporal shift). The distribution of legitimation strategies shifts significantly across historical 
+periods, rather than remaining stable across the 77-year period of analysis. Specifically: normative-legal 
+framing is predicted to dominate during the Cold War; communicative justification – particularly 
+counter-terrorism framing – to surge in the post-9/11 period; and sovereignty-revisionist normative 
+framing to intensify after 2014, consistent with the fragmentation of the post-Cold War normative 
+consensus documented in recent IR scholarship. The theoretical basis is Wiener’s (2014) norm 
+contestation framework: if norms are continuously contested and their meaning is reproduced through 
+practice, then major ruptures in the normative environment – the end of the Cold War, the post-9/11 
+security turn, the post-2014 fragmentation – should produce observable shifts in the repertoire of 
+legitimation resources that states can plausibly deploy. The hypothesis is falsifiable: it would be rejected if 
+the chi-square test across periods yielded a non-significant result. 
+H4 (geopolitical differentiation). Legitimation strategies differ systematically across Cold War 
+blocs, with Western states showing a lower reliance on normative-legal framing relative to Soviet/Eastern 
+and Non-Aligned states – a divergence observable despite the surface convergence captured in H1. The 
+ 
+
+--- PAGE 20 ---
+20 
+theoretical derivation follows from the structural account in Section 2.3: if legitimation strategies are 
+shaped by the normative standards that a speaker’s core audience accepts as legitimate grounds, then bloc 
+membership – as a proxy for shared normative context – should predict rhetorical patterns. Western states 
+operating outside the Security Council authorization framework face a structural disincentive against 
+formal Charter invocations; Soviet/Eastern and Non-Aligned states, whose contested conduct typically 
+concerns the exercise of domestic sovereign authority, have stronger incentives to invoke Charter 
+provisions on sovereignty and non-interference. This structural asymmetry – not strategic preference – is 
+predicted to generate the observable register divergence. The hypothesis is falsifiable: it would be rejected 
+if the chi-square and Fisher’s exact tests across blocs yielded non-significant results. 
+All four hypotheses are tested in Chapter 4 against the 33-case sample. Their results are interpreted 
+in Chapter 5. 
+ 
+ 
+
+--- PAGE 21 ---
+21 
+3. Methodology 
+3.1. Research Design: A Two-Level Analytical Strategy 
+The analytical approach adopted in this study combines two complementary levels of analysis, 
+each designed to answer a distinct set of research questions and together enabling both breadth and 
+interpretive depth that neither level could achieve alone. 
+The first level is a corpus-level keyword signal analysis, applied to a broad sample of speeches 
+drawn from the full Harvard UN General Debate Corpus (UNGDC). This level is designed to address the 
+macro-questions motivating the study: When does the frequency of particular legitimation-related 
+linguistic signals increase or decrease across time? Are these changes associated with geopolitical bloc 
+membership, historical period, or the profile of actors involved in the discourse? The corpus-level analysis 
+does not code individual arguments; it tracks the normalized keyword density of seven thematic signals – 
+counter-terrorism and securitization framing, self-defense appeals, sovereignty invocations, humanitarian 
+discourse, procedural-legal references, historical framing, and whataboutism – across over 11,000 
+speeches, disaggregated by Cold War bloc membership and nine sub-periods: 1946–1959, 1960–1969, 
+1970–1979, 1980–1989, 1990–2001, 2002–2008, 2009–2013, 2014–2019, and 2020–2023. These nine 
+sub-periods serve exclusively as the temporal grid for corpus-level signal trend analysis and are distinct 
+from the four conceptually defined historical periods used for case-level coding in Section 3.4.3. Where 
+the nine sub-periods are approximately decadal intervals chosen to ensure adequate speech volume per 
+cell, the four analytical periods in Section 3.4.3 are defined by geopolitical inflection points (the end of the 
+Cold War, the post-9/11 security turn, and the post-2014 normative fragmentation) and serve as the 
+interpretive frame for the case-level comparative analysis. This level is the primary evidentiary basis for 
+testing H1 (convergence) and provides contextual grounding for the temporal patterns examined in H3. 
+The second level is a directed qualitative content analysis of 33 case-years identified through the 
+criterion-based sampling procedure described in Section 3.3. This level engages the 102 coded 
+argumentative segments from those cases and classifies each according to Habermas’s (1984) four-type 
+taxonomy of social action. This level is the primary evidentiary basis for testing H2, H3, and H4, and 
+generates the comparative case analysis in Chapter 4. 
+The rationale for this two-level design is directly tied to the gap identified in Chapter 1. Existing 
+research consists predominantly of case studies that yield analytic depth but cannot speak to patterns 
+across actors, periods, and violation types (Bjola, 2005; Rapp, 2022). What the literature lacks is a 
+horizontal account: which strategies are deployed, with what frequency, in what combinations, and how 
+the distribution has shifted over time. The corpus-level analysis provides the horizontal account at scale; 
+ 
+
+--- PAGE 22 ---
+22 
+the case-level analysis provides the interpretive depth necessary to understand the rhetorical logic of 
+individual legitimation moves. The two levels are designed to be mutually illuminating rather than 
+redundant. 
+Within the second level, the analytical procedure unfolds in two stages. The first stage is 
+descriptive mapping: classifying all segments in the sample against the Habermas typology, calculating 
+frequencies and co-occurrence patterns, and generating the quantitative findings reported in Sections 
+4.3–4.6. The second stage is comparative qualitative interpretation: examining in closer detail how 
+specific legitimation strategies are realized in representative cases – which rhetorical resources are 
+deployed, which legal and normative frameworks are invoked, and how the framing responds to the 
+specific allegation addressed. As Hsieh and Shannon (2005) argue in their account of directed content 
+analysis, this combination of deductive category-driven coding with qualitative interpretation allows a 
+study to move between the pattern level and the meaning level in a principled way. 
+The unit of analysis is the argumentative segment – a sentence or sequence of sentences 
+constituting a rhetorically complete justificatory move. A single speech may contain multiple coded 
+segments, each classified independently, since states defending contested conduct typically assemble 
+composite justifications rather than relying on a single argument. 
+3.2. Data: The Harvard UN General Debate Corpus 
+The primary data source is the UN General Debate Corpus (UNGDC). The original corpus was 
+compiled from UN official records and published on Harvard Dataverse by Baturo, Dasandi, and 
+Mikhaylov (2017), who made available the full texts of speeches delivered during the General Debate of 
+the United Nations General Assembly for sessions spanning 1970 to 2014, as a structured text-as-data 
+resource. The extended version used in this study was developed by Jankin, Baturo, and Dasandi (2025), 
+who expanded coverage backward to the inaugural General Assembly session in 1946 and forward 
+through 2023. As employed in the present study, the corpus encompasses 11,127 speeches from 198 
+countries across nearly eight decades of General Debate sessions. 
+The corpus offers several properties that make it suitable for both levels of the analysis. Speeches 
+are available as plain-text files, machine-readable and standardized in format, with consistent metadata on 
+the year of delivery, country, and session number. The General Debate format is highly uniform across 
+time: each member state receives a designated speaking slot, delivers an address on topics of its choosing 
+before a plenary audience that includes the full UN membership. As Baturo et al. (2017, p. 3) observe, this 
+genre stability – combined with the fact that “member states present themselves exclusively in the guise in 
+which they wish to be known” – makes the corpus particularly well-suited to the systematic analysis of 
+ 
+
+--- PAGE 23 ---
+23 
+strategic legitimation discourse. Rather than treating strategic self-presentation as a distortion to be 
+corrected, this study takes it as its primary analytical object. 
+The corpus-level analysis draws on the full UNGDC for signal frequency computation. The 
+case-level analysis draws on 33 state-years identified through the criterion-based procedure described 
+below. Python scripts serve three preparatory functions: extracting speeches for identified state-years; 
+applying the keyword-based role classifier to all segments; and generating the corpus-level keyword 
+signal scores used for ANOVA and temporal trend analysis. 
+Two limitations of the corpus require acknowledgment. First, speeches originally delivered in 
+languages other than English are represented through official UN translations. The translation process 
+introduces the possibility that strategic nuances in the original are smoothed out or lost, which the 
+qualitative interpretive stage notes where salient. Second, speeches prior to approximately 1992 were 
+stored as scanned copies of printed records and required OCR processing, which may affect text quality 
+for some early sessions (Baturo et al., 2017; Jankin et al., 2025). 
+3.3. Case Identification and Geopolitical Classification 
+3.3.1. Criterion-Based Case Selection 
+The analytical sample for the case-level analysis includes all speeches in the UNGDC that satisfy 
+the study’s inclusion criterion: the delivering state faced documented external criticism or allegation of 
+legally or normatively contested conduct at the time of the relevant UNGA session, and the speech itself 
+contains material – direct or indirect – addressing that contested conduct. No predetermined N constrains 
+the sample; the inclusion criterion is applied systematically to the full corpus. The present study identifies 
+33 state-years meeting both conditions, spanning 18 states across all four analytical periods (Cold War: 8 
+cases; post-Cold War normative expansion: 9; post-9/11 security turn: 8; post-2014 normative 
+fragmentation: 8). 
+Case identification proceeds in two steps. First, episodes of legally or normatively contested 
+conduct are identified using contextual documentation: UN reporting (General Assembly and Security 
+Council records, special rapporteur reports), NGO documentation (Amnesty International, Human Rights 
+Watch annual reports), and academic secondary literature on specific conflicts. These sources document 
+that a state faced external criticism at the time of its UNGA address; they do not establish that a legal 
+violation occurred, and no claim about the legality of the conduct is made. Second, identified state-years 
+are checked against the UNGDC to confirm that the speech for that country and session is available and 
+contains material relevant to the contested episode. Speeches that make no reference – direct or indirect – 
+to the contested conduct are excluded. 
+ 
+
+--- PAGE 24 ---
+24 
+3.3.2. Cold War Bloc Classification 
+The geopolitical comparative dimension of the analysis is structured around three Cold War 
+institutional blocs: the Western bloc (NATO member states and their formal allies), the Soviet/Eastern 
+bloc (Warsaw Pact member states and Soviet-aligned governments), and the Non-Aligned Movement 
+(NAM member states and formally uncommitted governments). The choice of this classification over 
+alternative schemes – UN regional groups, regime type classifications, or contemporary alliance 
+configurations – requires explicit justification. 
+The Cold War bloc classification is most appropriate for the temporal scope of this study for three 
+interconnected reasons. First, the study covers 77 years of UN General Assembly discourse (1946–2023), 
+the majority of which – roughly 44 years (1946–1989) – falls within the predominantly bipolar 
+international system shaped by the Cold War. During this period, bloc membership was not merely a 
+diplomatic affiliation but a marker of shared normative contexts, overlapping legal frameworks, and 
+distinctive vocabularies of legitimate international conduct. Western bloc states operated within a liberal 
+internationalist normative framework emphasizing rule-based order and human rights conditionality; 
+Soviet/Eastern bloc states prioritized formal sovereignty and non-interference as counterweights to 
+Western interventionism; Non-Aligned states, shaped by the Bandung tradition, decolonization, and 
+South–South diplomatic coordination, constructed a third normative repertoire emphasizing 
+anti-colonialism, sovereign equality, non-interference, and self-determination (Prashad, 2007; Dinkel, 
+2019). If legitimation strategies are shaped by the normative standards that a speaker’s core audience 
+accepts as legitimate grounds – which the Habermasian framework would predict – then bloc membership 
+is the analytically relevant dimension. 
+Second, the bloc structure remains institutionally stable across the full period, unlike post-Cold 
+War alliance configurations or economic groupings which have shifted substantially. The core 
+composition of the Western and Soviet/Eastern blocs remained stable from the early 1950s through 1991. 
+The Non-Aligned Movement, while more heterogeneous, maintained a broadly consistent normative 
+orientation from its founding. This stability allows meaningful temporal comparison across all four 
+analytical periods without requiring recoding of states’ positions. 
+Third, the only structural disruption – the entry of fourteen Eastern European states into NATO 
+after 1991 – is handled through a period-aware transition rule (BLOC_TRANSITIONS): states retain their 
+Soviet/Eastern bloc classification through their year of NATO accession, after which they are reclassified 
+as Western bloc. The states affected by this rule (including Bulgaria, Czech Republic, Estonia, Hungary, 
+Latvia, Lithuania, Poland, Romania, Slovakia, Slovenia – 2004; Albania, Croatia – 2009; Montenegro – 
+ 
+
+--- PAGE 25 ---
+25 
+2017; North Macedonia – 2020) do not appear in the 33-case sample, so the transition rule does not affect 
+the reported results. Its inclusion preserves conceptual integrity and relevance for any expanded analysis. 
+Whether blocs can be shown to differ in their legitimation repertoires is precisely what the 
+statistical comparisons in Chapter 4 test. The bloc classification is not assumed to produce differences; it 
+is a theoretically motivated hypothesis that the data either support or reject. 
+3.4. Coding Framework 
+3.4.1. Habermas’s Typology as the Master Coding Architecture 
+The case-level analysis classifies each coded segment according to Habermas’s (1984) four-type 
+taxonomy of social action. The decision to apply this deductively derived framework rather than 
+developing categories inductively from the corpus follows the logic of directed qualitative content 
+analysis: when existing theory provides sufficiently specified categories, it is both methodologically more 
+defensible and analytically more productive to test those categories against new data rather than 
+reinventing a descriptive vocabulary (Hsieh & Shannon, 2005). Prior IR scholarship supports the 
+applicability of Habermas’s typology to multilateral diplomatic discourse. Risse (2000) demonstrates that 
+the distinction between arguing and bargaining – which maps directly onto communicative versus 
+strategic action in Habermas’s framework – generates empirically testable predictions about actor 
+behavior in international institutions. Müller (2004) extends this by showing that the distinction operates 
+at the level of actor orientation (toward understanding vs. toward success) rather than at the level of 
+specific speech acts, which means that the same argumentative form can be communicative or strategic 
+depending on the speaker’s underlying orientation toward the audience. Bjola (2005) applies the 
+framework directly to UNGA-adjacent discourse, demonstrating its purchase on the analysis of how states 
+construct deliberative legitimacy for contested uses of force. 
+The nine communicative roles employed in this study are derived deductively from the four 
+Habermas types and operationalized as shown in Table 3.1. 
+Table 3.1 
+Habermas’s Typology and Communicative Roles 
+Habermas type 
+Validity claim 
+Communicative roles 
+covered 
+Communicative action 
+(Verständigung) 
+Truth 
+Justification; dialogue 
+appeal 
+ 
+
+--- PAGE 26 ---
+26 
+Habermas type 
+Validity claim 
+Communicative roles 
+covered 
+Normative action 
+(Richtigkeit) 
+Rightness 
+Legal-normative 
+invocation; sovereignty 
+norm 
+Dramaturgical action 
+(Wahrhaftigkeit) 
+Sincerity 
+Historical context; 
+victim narrative 
+Strategic action 
+(success-oriented) 
+– 
+Denial; 
+counter-accusation; 
+delegitimation 
+ 
+This four-part structure allows the analysis to ask not only which strategies appear, but what kind of 
+legitimation work they perform: whether states construct shared reasons (communicative), invoke shared 
+norms (normative), stage authentic self-presentation (dramaturgical), or attempt to foreclose the 
+legitimation game entirely (strategic). As Rapp (2022) observes, in a deeply legalized international 
+system, actors face strong pressure to construct legal justifications even when those justifications are 
+tenuous – which implies that the mode of legitimation itself carries information about the normative 
+constraints states perceive themselves to be operating under. 
+3.4.2. Keyword-Based Classification Procedure 
+Each identified argumentative segment is classified using a keyword density scoring procedure 
+applied across nine role-specific lexicons. For each segment, the score for role r is computed as: 
+ 
+ 𝑠𝑐𝑜𝑟𝑒(𝑟) =  (𝑘𝑒𝑦𝑤𝑜𝑟𝑑 𝑚𝑎𝑡𝑐ℎ𝑒𝑠 𝑓𝑜𝑟 𝑟𝑜𝑙𝑒 𝑟 / 𝑡𝑜𝑡𝑎𝑙 𝑤𝑜𝑟𝑑𝑠 𝑖𝑛 𝑠𝑒𝑔𝑚𝑒𝑛𝑡) × 1, 000.
+This yields a hits-per-thousand-words metric that normalizes for segment length. The dominant 
+role assigned to a segment is the role with the highest non-zero score across all nine lexicons. Segments 
+that return a score of zero across all nine lexicons are designated unclassified; these are analyzed 
+separately as a methodologically informative category rather than treated as missing data. 
+This procedure is not a substitute for the manual reading and interpretation of each speech. Rather, 
+it operationalizes the theoretical categories in a reproducible, transparent, and consistently applied way 
+across the full 33-case sample. Each lexicon was developed deductively from the theoretical definitions in 
+Chapter 2, then refined through iterative engagement with a pilot subset of speeches to ensure that 
+ 
+
+--- PAGE 27 ---
+27 
+keyword patterns reliably track the corresponding argumentative moves. The full lexicons are documented 
+in the study’s analytical code (scripts/ml/communicative_roles.py). 
+The overall unclassified rate is 4.9 percent (5 of 102 segments). The slightly elevated rate for the 
+Western bloc subcorpus (three segments) is itself analytically relevant: it reflects the more institutionally 
+indirect and hedged argumentative style characteristic of US and Israeli diplomatic discourse in the 
+sample periods, where justificatory arguments are often constructed through elaborate conditional 
+framings rather than explicit keyword-dense assertions. This pattern matches Rapp’s (2022) observation 
+that actors in highly legalized contexts invest significant resources in constructing legally palatable 
+arguments rather than simply asserting positions directly. 
+In addition to the Habermas-type classification derived from keyword scoring, a complementary 
+manual strategy coding layer records the dominant legitimation strategy for each segment from a set of 
+eight theoretically derived strategy types (self-defense and necessity; sovereignty and non-interference; 
+denial and reinterpretation; moral and humanitarian framing; counter-terrorism and securitization; 
+whataboutism and tu quoque; procedural-legal claims; historical and existential narratives). This layer 
+follows the two analytical dimensions described in Section 2.3. The two coding layers – Habermas type 
+from keyword classification; manual strategy type – capture different facets of the same speech act and are 
+treated as complementary rather than redundant in the empirical analysis. 
+3.4.3. Historical Periodization 
+Each coded segment is additionally tagged with one of four historical sub-periods, defined by 
+geopolitically significant inflection points rather than arbitrary temporal intervals: 
+●​
+Cold War (1946–1989). The foundational decades of the postwar normative order, marked 
+by superpower bipolarity and the ideological structuring of international legitimation discourse; 
+●​
+Post–Cold 
+War 
+normative 
+expansion 
+(1990–2001). 
+The 
+transition 
+to 
+liberal 
+internationalism’s ascendancy, emergence of humanitarian intervention as a contested norm, and UNSC 
+activism; 
+●​
+Post-9/11 Security Turn (2002–2013). Beginning with UNSC Resolution 1373 (2001), 
+which established counter-terrorism as a universal security obligation and created a new legitimation 
+resource broadly available to state actors; 
+●​
+Post-2014 Normative Fragmentation (2014–2023). Beginning with Russia’s incorporation 
+of Crimea, which General Assembly resolution 68/262 characterized as a violation of territorial integrity, 
+and the subsequent fragmentation of the post-Cold War normative consensus. 
+ 
+
+--- PAGE 28 ---
+28 
+This periodization allows the analysis to test H3 (temporal shift) and provides the temporal 
+structure for the corpus-level H1 convergence analysis. 
+3.5. Statistical Methods 
+The quantitative dimension of the analysis employs a suite of statistical methods, selected to match 
+the data structure (categorical, small-N, often with sparse cell frequencies) and the substantive questions 
+being addressed. 
+Chi-square tests of independence (
+) are used to assess whether the distribution of Habermas 
+χ
+2
+action types differs significantly across blocs (H4) and across historical periods (H3). The chi-square 
+statistic measures the deviation of observed cell frequencies from what would be expected if the two 
+categorical variables were independent. Effect size is reported as Cramér’s V, which normalizes chi-square 
+for table dimensions and sample size. Given the small expected cell frequencies characteristic of the 
+33-case sample (many cells below the conventional threshold of 5), all chi-square results are accompanied 
+by the percentage of cells with expected frequency below 5, and results with high proportions of such cells 
+are interpreted with explicit caution. 
+Fisher’s exact test is used for pairwise bloc comparisons, where the small sample sizes render 
+chi-square approximations unreliable. Fisher’s exact test computes the exact probability of observing the 
+given contingency table or a more extreme one under the null hypothesis of independence, without relying 
+on large-sample approximations. It is preferred over chi-square for 2×2 and small contingency tables with 
+expected cell counts below 5. 
+Adjusted standardized residuals are used to identify which specific role-bloc combinations deviate 
+most substantially from expected frequencies. Unlike raw residuals, adjusted residuals account for both 
+the marginal totals of the row and column and the overall sample size, making comparisons across cells in 
+the same table meaningful. Values exceeding ±2 are interpreted as indicating statistically notable over- or 
+under-representation. 
+Correspondence analysis (CA) provides a geometric representation of the association structure in a 
+contingency table. CA decomposes the chi-square distance between row and column profiles via singular 
+value decomposition (SVD), producing principal coordinates for both rows (communicative roles) and 
+columns (blocs or periods) in a low-dimensional space. The proportion of total inertia (analogous to 
+variance) captured by each dimension is reported via scree plots; dimensions capturing cumulatively more 
+than 80 percent of total inertia are treated as the substantively meaningful space. CA was implemented via 
+SVD in Python (numpy) without external dimensionality-reduction libraries, ensuring full procedural 
+transparency. 
+ 
+
+--- PAGE 29 ---
+29 
+One-way ANOVA is used to test whether the mean corpus-level keyword signal score for the 
+counter-terrorism dimension differs significantly across the three blocs in the pre-2001 and post-2001 
+periods separately. ANOVA tests the null hypothesis that group means are equal; a non-significant result 
+(both pre- and post-2001) is the predicted outcome under H1, indicating that adoption of counter-terrorism 
+framing did not cluster in a single bloc. 
+Two-sample t-tests (independent samples) are used to assess whether the mean counter-terrorism 
+signal score differs significantly between the pre-2001 and post-2001 periods within each bloc. This tests 
+whether the post-9/11 shift detected in the case-level analysis is also present at the corpus level, across all 
+bloc members – not only those in the 33-case sample. 
+3.6. Reliability, Validity, and Scope of Claims 
+Reliability is addressed through double-coding: a subset of the sample (approximately 20 percent 
+of speeches) is independently coded by a trained research assistant working from the same codebook. 
+Inter-coder reliability is calculated using Cohen’s kappa, with 
+ treated as the study’s 
+κ ≥ 0. 70
+pre-specified minimum acceptable threshold – a level corresponding to “substantial agreement” (Landis & 
+Koch, 1977) in standard interpretive scales for kappa. Disagreements are resolved through discussion and 
+codebook refinement. All disagreements and resolutions are documented in an audit trail. 
+Validity in directed content analysis depends on whether the coding categories adequately capture 
+the phenomenon of interest. Construct validity is grounded in the theoretical derivation of the categories 
+from Habermas (1984), operationalized through the IR applications in Risse (2000), Müller (2004), and 
+Bjola (2005). Face validity is assessed through the pilot phase: if trained coders systematically struggle to 
+assign segments to categories, this signals that category definitions require refinement. 
+Claims are appropriately bounded by the study’s design. The analysis identifies and describes the 
+distribution of legitimation strategies within the selected sample of speeches from states facing allegations 
+of contested conduct; it does not claim that this distribution is representative of all UNGA speeches. The 
+temporal dimension captures distributional shifts across the sample; no causal mechanisms are 
+established. No adjudicative claims are made: coding a segment as deploying self-defense framing is not a 
+finding that the state’s action was or was not lawful. The object of analysis is justificatory discourse – how 
+states publicly account for their conduct – not the legal or factual merits of those accounts. 
+Two further constraints apply. The corpus covers only the UNGA General Debate; legitimation 
+strategies operative in the Security Council, bilateral diplomatic communications, or domestic political 
+discourse fall outside the scope of analysis. Translation from non-English originals introduces the risk of 
+ 
+
+--- PAGE 30 ---
+30 
+systematic distortion in cases where specific legal vocabulary is not fully preserved; the interpretive 
+analysis flags this constraint where it is especially salient. 
+Subject to these constraints, the two-level analytical design produces a systematic and theoretically 
+grounded account – adequate for the empirical analysis reported in Chapter 4. 
+ 
+ 
+
+--- PAGE 31 ---
+31 
+4. Empirical Analysis 
+4.1. Sample Overview 
+The analytical sample comprises 33 case-years drawn from the Harvard UN General Debate 
+Corpus (UNGDC), spanning 1956 to 2022. Each case-year represents a state-session in which (1) the 
+government faced externally documented allegations of legally or normatively contested conduct, and (2) 
+the corresponding UNGA General Debate speech contains textual material that addresses those 
+allegations. The case identification procedure follows the criterion-based exhaustive logic described in 
+Chapter 3: no predetermined N was fixed; rather, all speech-years satisfying both inclusion criteria were 
+retained. 
+The 33 cases yield 102 coded segments in total. Ninety-seven of these segments were successfully 
+classified by the Habermas-type keyword classifier; the remaining five – concentrated in the USA 1983 
+(Grenada), USA 2003 (Iraq, one segment), Myanmar 2017, Turkey 2019, and Russia 2008 (Georgia) 
+speeches – returned scores of zero across all role dimensions and were coded as unclassified. The 
+unclassified rate stands at 4.9 percent of the full sample (5/102). The practical significance of this figure is 
+discussed in the methodological note below (Section 4.2). The composition of the case sample by 
+historical period and geopolitical bloc is summarized in Table 4.1. 
+ 
+ 
+
+--- PAGE 32 ---
+32 
+Table 4.1 
+Sample composition. 33 case-years by period and geopolitical bloc 
+Period 
+Western bloc 
+Soviet/Eastern 
+bloc 
+Non-Aligned 
+Movement 
+Cold War (1946–1989) 
+GBR 1956, ​
+USA 1965, ​
+USA 1983 
+RUS 1956, ​
+RUS 1968, ​
+VNM 1980,​
+RUS 1980 
+ZAF 1960 
+Post–Cold War 
+(1990–2001) 
+USA 1999 
+RUS 1995, ​
+RUS 2000 
+IRQ  1990,​
+IDN 1992,​
+CHN 1997, ​
+IRQ 1997, ​
+IDN 1999, ​
+YUG 2001 
+Post-9/11 Security 
+Turn (2002–2013) 
+USA 2003, ​
+USA 2004, ​
+ISR 2006,​
+ISR 2009 
+PRK 2006, ​
+RUS 2008 
+IRN 2011, ​
+SYR 2013 
+Post-2014 
+(2014–2023) 
+TUR 2019 
+AZE 2020, ​
+RUS 2014,​
+RUS 2022 
+SAU 2015, CHN 
+2015, MMR 
+2017, ETH 2021 
+ 
+The distribution across periods is deliberately uneven, reflecting the underlying variation in the 
+density of documented legitimation-relevant episodes across historical phases. The Post-9/11 period yields 
+the largest volume of coded material (31 classified segments from 8 cases), as expected given that the 
+counter-terrorism discursive frame generated a particularly high density of justificatory language across a 
+range of actors and contexts. The Cold War period contributes the fewest classified segments (11 from 8 
+cases), partly because of the smaller number of states with documented allegations in the UNGDC for the 
+1946–1989 range, and partly because some Cold War-era passages proved harder to classify using a 
+keyword-based approach calibrated primarily to post-1990 legitimation vocabulary. 
+Figure 4.1 
+ 
+
+--- PAGE 33 ---
+33 
+Role Heatmap. Communicative Roles per Case-Year, Grouped by Habermas Type and Period 
+ 
+Figure 4.1 provides an overview of the full analytical sample: each row corresponds to one 
+case-year; each column represents one of the nine communicative roles; the color intensity encodes the 
+role’s keyword density score. The banded background distinguishes the four Habermas action types. This 
+figure functions as a reference panel for the case-level variation discussed in Section 4.4. 
+4.2. Analytical Architecture. Operationalization and Methodological Rationale 
+4.2.1. Habermas’s Typology as a Coding Framework 
+The decision to apply Habermas’s (1984) four-type taxonomy of social action – communicative, 
+normative, dramaturgical, and strategic – as the master framework for classifying coded segments, rather 
+than working from an inductively derived set of categories, follows the logic of directed qualitative 
+content analysis (Hsieh & Shannon, 2005). The theory provides the initial categorization structure; the 
+ 
+
+--- PAGE 34 ---
+34 
+data refine it. This approach is defensible here because the theoretical categories are sufficiently specified 
+at the conceptual level to generate operational distinctions, and because prior IR scholarship has 
+consistently found Habermas’s typology applicable to multilateral diplomatic discourse (Risse, 2000; 
+Bjola, 2005; Müller, 2004). 
+The mapping from nine communicative roles to four Habermas action types was constructed 
+deductively: 
+●​
+Communicative action (oriented toward Verständigung, reaching understanding through 
+reasons). Covers the roles of justification (presenting reasons why the action was necessary or defensible) 
+and dialogue_appeal (directly seeking interlocutors’ reasoned engagement). These roles share the validity 
+claim of truth – the speaker presents propositional content as factually or normatively accurate and invites 
+rational assessment; 
+●​
+Normative action (oriented toward Richtigkeit, norm-conformity). Covers legal_normative 
+(explicit invocation of international legal instruments – the UN Charter, UNSC resolutions, treaty 
+provisions) and sovereignty_norm (appeals to the principle of non-interference as a binding norm). These 
+roles assert rightness – the speaker positions the action as consistent with a binding normative standard 
+shared by the audience; 
+●​
+Dramaturgical action (oriented toward Wahrhaftigkeit, self-presentation as authentic). 
+Covers historical_context (contextualizing the action within a narrative of prior injustice or historical 
+claim) and victim_narrative (presenting the state as the injured party). These roles stage sincerity – the 
+speaker constructs a presentation of the situation that positions the self’s motives as genuine and the action 
+as emotionally and morally comprehensible; 
+●​
+Strategic action (oriented toward success, not mutual understanding): covers denial, 
+counter_accusation, and delegitimation. These roles involve no claim to shared normative ground; the 
+speaker moves to remove the accusation rather than address it. 
+This four-part structure permits the analysis to ask not only which strategies appear, but what kind 
+of legitimation work they perform – whether states construct shared reasons, invoke shared norms, display 
+authentic self-presentation, or attempt to shut down the legitimation game entirely. 
+4.2.2. Cold War Bloc Construction and Block Transitions 
+The choice to structure the geopolitical comparison around Cold War institutional blocs – rather 
+than, for instance, UN regional groups, regime type classifications, or contemporary alliance memberships 
+– requires explicit justification. 
+ 
+
+--- PAGE 35 ---
+35 
+Cold War bloc membership reflects shared institutional embeddedness during the period in which 
+the foundational normative architecture of the postwar international order was being constructed and 
+contested. States aligned with NATO and the Western alliance not only shared security arrangements but 
+also participated in overlapping legal, economic, and diplomatic institutions that shaped a common 
+normative vocabulary – one oriented toward liberal rules-based frameworks and, in later decades, human 
+rights conditionality. States of the Soviet and Eastern bloc operated within a distinct normative context 
+that privileged formal sovereignty, non-interference, and the legal primacy of the UN Charter as a check 
+on Western interventionism. Non-Aligned Movement states, particularly through the Bandung framework 
+and subsequent Group of 77 solidarities, constructed a third normative repertoire oriented simultaneously 
+toward formal legal equality, anti-colonialism, and sovereignty protection (Prashad, 2007; Dinkel, 2019). 
+If legitimation strategies are shaped by normative context – by the standards of rightness that a 
+speaker’s core audience treats as legitimate grounds – then bloc membership during the Cold War period 
+should predict rhetorical patterns in ways that post-Cold War alliance configurations or regional groupings 
+would not capture as cleanly. 
+A technical complication arises from the entry of fourteen Eastern European states into NATO 
+after 1991. Treating Poland, Hungary, or Estonia as part of the Soviet/Eastern bloc in 2004 would 
+misrepresent their normative affiliation. The analysis therefore implements period-aware bloc transitions: 
+states retain their Soviet/Eastern bloc classification up to their year of NATO accession, after which they 
+are reclassified as Western bloc members. Since none of the 14 transitioning states appear as case-years in 
+the analytical sample, this coding rule does not affect the results reported here – but it preserves 
+conceptual integrity and would matter significantly in any expanded analysis of the post-1999 Eastern 
+European discourse. 
+4.2.3. Keyword Scoring and the Unclassified Segment Rate 
+Each coded segment is scored by computing keyword hit density across nine role-specific lexicons 
+(hits per 1,000 words). The role with the highest non-zero score is assigned as the dominant role for that 
+segment; segments with all-zero scores across all lexicons are designated unclassified. The overall 
+unclassified rate is 4.9 percent. Within the Western bloc, the rate is notably higher at 11.1 percent (three 
+segments from the nine Western cases). This asymmetry is analytically informative rather than merely 
+methodological: Western diplomatic discourse, particularly from the United States and Israel, frequently 
+employs more institutionally indirect and hedged language than the more direct sovereignty or legal 
+invocations characteristic of Soviet/Eastern and Non-Aligned speeches. A segment that constructs a 
+justificatory argument through elaborate subordinate clauses and conditional framings may be harder to 
+ 
+
+--- PAGE 36 ---
+36 
+classify by keyword frequency than one that straightforwardly asserts non-interference. The higher 
+unclassified rate in the Western subcorpus can therefore be read as a trace of a different rhetorical register 
+– one that operates through implication and institutional framing rather than explicit lexical assertion. 
+4.3. Aggregate Distribution of Communicative Action Types 
+Across all 97 classified segments, communicative action is the most prevalent Habermas type, 
+accounting for 50 segments (51.5 percent). Normative action follows at 35 segments (36.1 percent). 
+Dramaturgical action appears in 12 segments (12.4 percent). Strategic action – denial, counter-accusation, 
+and delegitimation – is entirely absent from the classified sample (zero segments carry strategic action as 
+their dominant mode). Figure 4.2 summarizes this aggregate distribution by bloc. 
+Figure 4.2 
+Habermas Action Types by Cold War Bloc 
+ 
+Figure 4.3 
+Role Distribution by Bloc. Nine Communicative Roles 
+ 
+ 
+
+--- PAGE 37 ---
+37 
+ 
+Note. Bars show the percentage of classified segments assigned to each communicative role within 
+each Cold War bloc. Labels in brackets indicate the corresponding Habermas action type. 
+As shown in Figure 4.3, the three strategic roles – denial, counter-accusation, and delegitimation – 
+do not appear as dominant modes in any bloc. This complete absence of strategic action requires 
+comment. The three strategic roles do appear in the manually coded segmentation layer (the 
+manual_strategy_code field), but not as dominant modes in any classified segment. Every segment, 
+including those that might colloquially be described as deflection or counter-attack, contains sufficient 
+justificatory or normative content to be classified under one of the other three types. This finding does not 
+mean that states never attempt to shut down legitimation challenges through purely strategic moves; it 
+does mean that in the UNGA forum, even the most adversarial speech acts are embedded within a 
+legitimating frame of some kind. The forum’s institutional structure – its public character, universal 
+membership, and founding normative architecture – appears to impose a minimum requirement of 
+normative performance that keeps purely strategic speech acts absent from the classified sample, at least at 
+the textual level. This observation provides preliminary support for H2. 
+At the level of manually coded strategies, the frequency distribution is summarized in Table 4.2. 
+Table 4.2 
+Distribution of Manually Coded Legitimation Strategies 
+Strategy 
+Frequency (n) 
+% of 102 segments 
+Counter-Terrorism & Securitization 
+35 
+34.3% 
+Procedural-Legal Claims 
+28 
+27.5% 
+Historical and Existential Narratives 
+12 
+11.8% 
+ 
+
+--- PAGE 38 ---
+38 
+Strategy 
+Frequency (n) 
+% of 102 segments 
+Sovereignty and Non-Interference 
+10 
+9.8% 
+Whataboutism and Tu Quoque 
+9 
+8.8% 
+Moral and Humanitarian Framing 
+6 
+5.9% 
+Self-Defense and Necessity 
+1 
+1.0% 
+Denial and Reinterpretation 
+1 
+1.0% 
+ 
+Counter-terrorism framing and procedural-legal claims together account for 63 of 102 segments 
+(61.8 percent), confirming their status as the dominant legitimation instruments across the corpus. The 
+near-absence of explicit self-defense invocations (n=1) is a notable finding: despite Article 51 of the UN 
+Charter being the primary legal instrument governing the use of force, states in the sample rarely invoke it 
+directly. The more common pattern is to construct a necessity argument through counter-terrorism framing 
+– establishing that the threat was existential and the response proportionate – without formally triggering 
+the Article 51 architecture. This rhetorical displacement from legal to quasi-legal justificatory language 
+supports Bjola’s (2005) account of deliberative legitimacy: states construct normative consensus through 
+public argumentation outside and alongside formal legal channels, rather than simply asserting legal 
+entitlements. 
+4.3.1. Co-occurrence. Strategy Pairings with Violation Types 
+The reduced co-occurrence matrix (available strategies × documented violation types) suggests 
+that counter-terrorism framing is predominantly associated with use-of-force and human rights allegations 
+– the two violation types most directly implicated in post-9/11 security discourse. Sovereignty and 
+non-interference appeals cluster most strongly with territorial integrity violations. Procedural-legal claims 
+appear across use-of-force cases but are less frequent in human rights or territorial integrity contexts. This 
+patterning matches the expectation that different violation types activate different normative vocabularies: 
+force-related cases require justificatory and procedural arguments; territory-related cases activate 
+sovereignty norms; human rights cases draw on historical and counter-terrorism framings. 
+Although the preceding co-occurrence patterns describe strategy–violation pairings, the bloc-level 
+residual structure reveals a separate pattern of geopolitical differentiation. Figure 4.4 shows the adjusted 
+standardized residuals for communicative roles by Cold War bloc. 
+Figure 4.4 
+Adjusted Residuals Heatmap. Communicative Roles by Cold War Bloc 
+ 
+
+--- PAGE 39 ---
+39 
+ 
+Note. Cells show adjusted standardized residuals from the communicative-role by bloc 
+contingency table. Positive values indicate over-representation relative to expected frequencies; negative 
+values indicate under-representation. Asterisks mark cells with 
+. 
+|𝑧| ≥ 1. 96
+As Figure 4.4 shows, the adjusted residuals heatmap reveals which role-bloc combinations diverge 
+most substantially from expected frequencies. The justification role is most strongly over-represented in 
+the Western bloc (positive residual), while legal_normative and sovereignty_norm are over-represented in 
+the Soviet/Eastern and Non-Aligned blocs. The chi-square test for the roles × blocs contingency table 
+yields 
+, with 53 percent of cells having expected frequency below 5 – 
+χ²(8) =  14. 20,  𝑝 =  0. 077
+indicating that the result should be interpreted cautiously. Nevertheless, the directional pattern holds 
+across multiple analytical layers, as the Fisher’s exact pairwise tests reported in Section 4.4 demonstrate. 
+4.4. Comparative Case Analysis 
+The quantitative mapping of communicative roles and action types identifies aggregate patterns; 
+this section examines the rhetorical logic underlying the three most prevalent strategy types through close 
+reading of representative cases. The cases were selected to illustrate how the dominant modes of 
+legitimation are realized in practice – and to show that the aggregate category labels correspond to 
+coherent argumentative strategies, not merely keyword co-occurrence. 
+4.4.1. Self-Defense, Necessity, and the Counter-Terrorism Frame 
+The most common legitimation pattern across the corpus is what the coding framework captures as 
+justification – a communicative action mode in which the speaker constructs a case for the necessity, 
+proportionality, or defensive character of the contested action through propositional argument rather than 
+ 
+
+--- PAGE 40 ---
+40 
+pure norm invocation. This communicative mode dominates the Western bloc (19 of 24 classified Western 
+segments, 79.2 percent) and is also the single most frequent type in the Soviet/Eastern bloc (19 of 38 
+classified segments, 50.0 percent). 
+The rhetorical structure of justification-dominant speeches follows a recognizable pattern. The 
+speaker first establishes the nature and severity of the threat; then identifies the action taken as a necessary 
+and proportionate response; then frames the action as consistent with the right of self-defense or collective 
+security obligations, without necessarily invoking the specific Article 51 language. Turkey’s 2019 speech 
+on Operation Peace Spring in northeast Syria illustrates this structure. Of the 8 coded segments, 7 were 
+classified, and 6 of those 7 fall under the justification role (86 percent of classified segments). The 
+argument is structured around two claims: that PKK and YPG activities across the Syrian border 
+constituted an active terrorist threat to Turkish territory and population, and that Operation Peace Spring 
+was a proportionate response in conformity with the right of self-defense and relevant UN Security 
+Council resolutions. The word “terrorism” and its morphological variants appear at high keyword density 
+throughout the relevant passages. The explicit Article 51 invocation appears only once; the burden of the 
+argument is carried instead by the counter-terrorism frame. 
+This pattern – necessity argument through counter-terrorism framing, with legal invocation as 
+support rather than primary vehicle – appears consistently across the post-9/11 sample. Israel’s speeches 
+on the Second Lebanon War (2006) and Operation Cast Lead (2009), the United States’ address following 
+the Abu Ghraib allegations (2004), and Russia’s speeches on the First and Second Chechen conflicts 
+(1995, 2000) all follow this architecture. Russia’s 2000 address responds to allegations of civilian harm 
+during the Second Chechen campaign by setting out the government’s account of the conflict: 83 percent 
+of its classified content falls in the justification role, presenting the operation as a necessary 
+counter-terrorism response to internationally organized armed groups and citing the post-1999 Chechen 
+bombings as the immediate precipitating context that rendered the action unavoidable. In this sense, the 
+discursive logic of the “war on terror” was already operationally present in Russian UNGA rhetoric before 
+September 2001, which the post-9/11 institutionalization of counter-terrorism discourse subsequently 
+extended to a much wider range of actors. Figure 4.5 summarizes the contrast between communicative 
+and strategic action across Cold War blocs. 
+Figure 4.5 
+Communicative and Strategic Action by Cold War Bloc 
+ 
+
+--- PAGE 41 ---
+41 
+ 
+Note. Bars show the mean percentage of classified segments assigned to communicative and 
+strategic action within each bloc. Error bars indicate variation across case-years. 
+The Syria 2013 case – the Assad government’s address following allegations of chemical weapons 
+use in Eastern Ghouta – provides a counterpoint. Of 7 classified segments, 85.7 percent fall under 
+justification (communicative), but the content of the argument is not self-defense in the conventional 
+sense. The speaker denies that the government forces deployed chemical weapons and attributes the 
+incident to opposition actors, framing the entire episode as a fabricated pretext for external intervention. 
+The justification is thus oriented toward constructing an alternative factual account rather than defending 
+the original action. This illustrates that the communicative Habermas type captures a family of 
+justification strategies, not a single rhetorical form. 
+4.4.2. Normative-Legal Invocations: Charter Appeals and Sovereignty Framing 
+The second major cluster – normative action – is most pronounced in the Soviet/Eastern and 
+Non-Aligned Movement blocs. Of the 38 classified Soviet/Eastern segments, 15 (39.5 percent) are coded 
+as normative; of the 35 Non-Aligned segments, 17 (48.6 percent). By contrast, only 3 of 24 Western 
+classified segments (12.5 percent) fall under this type. 
+Within the normative cluster, two sub-roles carry distinct rhetorical weight. Legal_normative 
+invocations – direct citation of treaty provisions, Charter articles, or UNSC resolution language – appear 
+most frequently in the Non-Aligned and Soviet/Eastern blocs: 11 and 9 segments respectively, compared 
+to 2 in the Western subcorpus. Sovereignty_norm invocations – appeals to the non-interference principle 
+ 
+
+--- PAGE 42 ---
+42 
+as a binding norm – show a similar distributional pattern: 6 and 6 segments respectively in the 
+Non-Aligned and Soviet/Eastern blocs, against 1 in the Western subcorpus. 
+Iraq’s 1990 speech, delivered in the immediate aftermath of the intervention in Kuwait, offers a 
+concentrated illustration of normative-legal framing. All three coded segments are classified as 
+legal_normative (normative action type), with the speaker grounding the argument in an extended 
+interpretation of UNSC resolutions, historical treaty rights, and claims about the legal status of Kuwait 
+relative to Iraqi territorial jurisdiction. The argument does not construct a counter-terrorism narrative; it 
+constructs a legal claim. China’s 1997 speech on Tibet and Xinjiang concentrates 67 percent of its 
+classified content in legal_normative and 33 percent in sovereignty_norm, producing a two-pronged 
+normative defense: the matters are legally internal to Chinese sovereignty, and external commentary 
+constitutes an impermissible interference. 
+Vietnam’s 1980 speech on the military presence in Cambodia presents an analytically interesting 
+case of normative action at the border of the normative and dramaturgical types. Both coded segments are 
+classified under sovereignty_norm, but the content of the norm invoked is the right of Cambodia to invite 
+fraternal assistance – a normative claim about the legal character of the intervention rather than a 
+straightforward non-interference appeal. The argument inverts the usual structure: rather than defending 
+Vietnam’s conduct by asserting its own sovereignty, the speaker defends it by asserting Cambodia’s 
+normative invitation. This inverted sovereignty argument is structurally similar to the Soviet defense of 
+the intervention in Czechoslovakia (1968), where the legal_normative role carries a parallel argument 
+about the Warsaw Pact’s collective security obligations. 
+Figure 4.6 
+Pairwise Fisher’s Exact Tests: Habermas Type Comparisons Across Blocs 
+ 
+
+--- PAGE 43 ---
+43 
+ 
+Note. Cells show p-values from pairwise Fisher’s exact tests comparing Habermas action-type 
+distributions across blocs. Green cells indicate statistically significant differences at p < .05; n.s. indicates 
+non-significant comparisons. 
+As shown in Figure 4.6, the pairwise Fisher’s exact tests quantify the bloc-level differentiation in 
+normative framing. The Western bloc is significantly less likely to deploy normative action relative to 
+both the Soviet/Eastern bloc (OR = 0.20, p = .023) and the Non-Aligned Movement (OR = 0.14, p = .003). 
+Soviet/Eastern and Non-Aligned states are not significantly differentiated from each other (p = .490). This 
+pattern – Western distinctness against a backdrop of Soviet/Non-Aligned similarity – provides the core 
+empirical content for the assessment of H4.  
+4.4.3 Historical and Dramaturgical Registers 
+Dramaturgical action – oriented toward constructing an authentic self-presentation rather than 
+toward legal argumentation or factual justification – is the least frequent Habermas type in the sample (12 
+segments, 12.4 percent), but its distribution reveals a meaningful pattern. The Non-Aligned Movement 
+carries the highest share: 6 of 35 classified NAM segments (17.1 percent), compared to 4 of 38 (10.5 
+percent) in the Soviet/Eastern subcorpus and 2 of 24 (8.3 percent) in the Western subcorpus. 
+The two dramaturgical roles – historical_context and victim_narrative – tend to appear in cases 
+where the contested action is framed as a response to a longer historical wrong rather than a discrete 
+security threat. South Africa’s 1960 speech on apartheid-era human rights allegations concentrates 50 
+ 
+
+--- PAGE 44 ---
+44 
+percent of its classified content in the historical_context role, constructing a narrative of national 
+development and civilizational transition that contextualizes international criticism as an interference with 
+an ongoing internal process. Iran’s 2011 speech on the IAEA findings concerning its nuclear programme 
+concentrates all classified content in historical_context, situating the dispute within a broader narrative of 
+Western technological imperialism and Iran’s sovereign right to peaceful nuclear development. 
+The victim_narrative role appears in isolated cases where the accused state reframes itself as the 
+injured party: Azerbaijan’s 2020 speech on the Second Nagorno-Karabakh conflict (16.7 percent 
+victim_narrative) illustrates the rhetorical mechanics of victim repositioning: by foregrounding what the 
+speaker characterizes as decades of prior Armenian conduct in Nagorno-Karabakh, the address reframes 
+the initiating actor in the military exchange as a respondent – displacing the normative question of who 
+initiated force onto a prior grievance narrative and thereby converting a justification of offensive action 
+into an account of defensive necessity, and Israel’s 2009 speech on Operation Cast Lead (33.3 percent 
+historical_context alongside 66.7 percent justification). The structural logic holds across these cases: the 
+state does not primarily deny the alleged conduct but claims it was a response to prior victimization, 
+thereby repositioning the normative burden of justification onto the accusing parties. 
+4.5. Temporal Dynamics: Strategy Evolution and the H3 Assessment 
+The temporal structure of the sample – four historical periods defined by geopolitical turning 
+points rather than arbitrary intervals – allows the analysis to trace whether legitimation strategies are 
+historically stable or whether they shift in response to structural changes in the normative environment of 
+international relations. 
+The periodization is constructed as follows. The Cold War period (1946–1989) captures the 
+foundational decades of the postwar order, marked by superpower rivalry and a relatively stable, if 
+contested, distribution of normative authority between the UN system’s legal framework and the 
+ideological blocs that operated alongside it. The Post–Cold War period (1990–2001) marks the transition 
+to a normatively more fluid order in which liberal internationalism expanded its claims, humanitarian 
+intervention emerged as a contested norm, and the UN Security Council became an active (if inconsistent) 
+enforcement body. The Post-9/11 Security Turn (2002–2013) begins with the September 2001 attacks and 
+UNSC Resolution 1373 (2001), which established counter-terrorism as a global security obligation and 
+provided a new legitimation resource to a diverse range of state actors. The Post-2014 Normative 
+Fragmentation period begins with Russia’s incorporation of Crimea in 2014 – which the majority of UN 
+member states characterized as annexation in General Assembly resolution 68/262 – and the subsequent 
+intensification of sovereignty-revisionist rhetoric – a period in which the normative consensus of the 
+ 
+
+--- PAGE 45 ---
+45 
+1990s visibly fractured. Figure 4.7 summarizes the distribution of Habermas action types across the four 
+historical periods. 
+Figure 4.7 
+Habermas Action Types by Historical Period 
+ 
+Note. Bars show the percentage of classified segments assigned to each Habermas action type 
+within each historical period. The annotation reports the chi-square test of independence and Cramér’s V 
+for the period × action-type contingency table. 
+As shown in Figure 4.7, the distributional shift across periods is statistically significant:
+, with Cramér’s 
+ indicating a moderate effect size. During the 
+χ²(6) =  21. 06,  𝑝 =  . 0018
+𝑉 =  . 33
+Cold War period, normative action dominates (7 of 11 classified segments, 63.6 percent), with 
+communicative action accounting for only 9.1 percent. This fits a discursive environment in which formal 
+legal argumentation – Charter invocations, sovereignty norms – is the dominant mode of legitimation in 
+the Cold War sample. In the Post–Cold War period, normative action remains dominant but its share 
+decreases (16 of 28, 57.1 percent) while communicative action rises substantially (11 of 28, 39.3 percent). 
+The Post-9/11 period marks a decisive reversal: communicative action surges to 71.0 percent of classified 
+content (22 of 31 segments), while normative action falls to 16.1 percent. In the Post-2014 period, the 
+pattern partially stabilizes – communicative action remains dominant at 59.3 percent, but normative action 
+recovers to 25.9 percent, suggesting that the sovereignty-revisionist framing of this era re-activated legal 
+and normative argumentation alongside the justification register. 
+ 
+
+--- PAGE 46 ---
+46 
+At the level of communicative roles, the temporal shift is especially visible in the changing balance 
+between justification, legal-normative invocation, sovereignty norms, and historical framing. Figure 4.8 
+summarizes the distribution of communicative roles across the four historical periods. 
+Figure 4.8 
+Communicative Role Distribution Across Historical Periods 
+ 
+Note. Bars show the percentage of classified segments assigned to each communicative role within 
+each historical period. Bracketed labels in the legend indicate the corresponding Habermas action type. 
+As shown in Figure 4.8, these findings provide clear support for H3 (temporal shift). The 
+distribution of legitimation strategies is not stable across the period studied; it shifts in ways that are both 
+statistically significant and theoretically interpretable. The 9/11 inflection point functions not merely as a 
+geopolitical event but as a discursive turning point that reconfigured the normative vocabulary available to 
+state actors seeking to justify contested actions before a universal audience. 
+4.5.1. The Corpus-Level Convergence Test: H1 Assessment 
+The Habermas-type analysis of the 33-case analytical sample captures the rhetoric of states already 
+identified as facing contested conduct allegations. To test H1 – which concerns whether counter-terrorism 
+framing converged across blocs after 2001 rather than being adopted selectively by one bloc – the analysis 
+draws on the wider corpus-level dataset: keyword signal scores computed across a random sample of 
+non-case-year speeches, enabling pre/post-2001 comparisons that are not confounded by the case selection 
+criterion. Figure 4.9 shows the temporal evolution of selected corpus-level keyword signals by Cold War 
+bloc. 
+Figure 4.9 
+ 
+
+--- PAGE 47 ---
+47 
+Temporal Evolution of Selected Keyword Signals by Cold War Bloc 
+ 
+ 
+Note. Lines show mean keyword signal scores per 1,000 words by Cold War bloc across historical 
+periods. Shaded areas represent ±1 standard error of the mean. The dashed vertical line marks the 9/11 
+threshold. 
+Figure 4.11 then tests the pre/post-2001 shift in the counter-terrorism signal within each bloc. 
+Figure 4.10 
+Pre-2001 Versus Post-2001 Counter-Terrorism Signal by Bloc 
+ 
+Note. Box plots show the distribution of the counter-terrorism keyword signal before and after 
+2001 within each bloc. Brackets indicate two-sample t-test significance levels. 
+As shown in Figure 4.10, all three blocs exhibit a statistically significant post-2001 increase in the 
+counter-terrorism signal. One-way ANOVA of the counter-terrorism signal across blocs in the pre-2001 
+period yields 
+, indicating no substantial inter-bloc differentiation before 
+𝐹 =  0. 39,  𝑝 =  0. 678
+ 
+
+--- PAGE 48 ---
+48 
+September 2001. One-way ANOVA in the post-2001 period yields 
+, also not 
+𝐹 =  1. 25,  𝑝 =  0. 288
+significant, confirming that post-2001 adoption of counter-terrorism framing is not concentrated in any 
+single bloc. Two-sample  tests for the pre/post difference within each bloc are all significant at 
+𝑡
+: Western, Soviet/Eastern, and Non-Aligned Movement blocs all show a statistically 
+𝑝 <  0. 001
+significant increase in counter-terrorism keyword density after 2001. 
+Both tests point in the same direction: the post-9/11 adoption of counter-terrorism framing is 
+universal rather than bloc-specific. H1 is supported. The ideational convergence in the counter-terrorism 
+lexicon, observed across states with divergent strategic interests and normative traditions, supports the 
+argument that September 2001 created a new legitimation resource that was rapidly adopted across the 
+international system – not because all states shared the same security interests, but because the discursive 
+frame it provided was normatively available and rhetorically flexible enough to accommodate a wide 
+range of contested actions. Figure 4.11 summarizes the pre- and post-2001 shift across all seven 
+legitimation signals by Cold War bloc. 
+Figure 4.11 
+Seven Legitimation Signals by Cold War Bloc: Pre- and Post-2001 Comparison 
+ 
+Note. Bars show mean keyword signal frequencies per 1,000 words by Cold War bloc before and 
+after 2001. Error bars indicate ±1 standard error of the mean. 
+4.6. Geopolitical Bloc Differentiation. The H4 Assessment 
+Correspondence analysis (CA) provides a spatial representation of the association structure 
+between communicative roles and Cold War blocs, complementing the chi-square and Fisher’s exact 
+results with a geometric account of how roles and blocs relate in the low-dimensional space of the 
+ 
+
+--- PAGE 49 ---
+49 
+contingency 
+table. 
+Figure 
+4.12 
+visualizes 
+the 
+role–bloc 
+association 
+structure 
+in 
+the 
+correspondence-analysis space. 
+Figure 4.12 
+Correspondence Analysis Biplot. Communicative Roles × Cold War Blocs 
+ 
+Note. Points represent row and column coordinates from correspondence analysis. Colored role 
+markers indicate Habermas action types; bloc markers indicate Cold War bloc categories. Dimension 1 
+captures 82.5% of inertia, and Dimension 2 captures 17.5%. 
+Figure 4.13 reports the inertia decomposition used to assess how many correspondence-analysis 
+dimensions are substantively meaningful. 
+Figure 4.13 
+Scree Plots for Correspondence Analysis. Roles × Blocs and Roles × Periods 
+ 
+
+--- PAGE 50 ---
+50 
+ 
+Note. Bars show the share of inertia explained by each correspondence-analysis dimension. The 
+red line shows cumulative inertia. 
+As shown in Figure 4.13, the CA for communicative roles by bloc decomposes 82.5 percent of 
+total inertia on the first dimension – a concentration indicating that bloc differentiation is substantially 
+one-dimensional. The Western bloc loads strongly negative on Dimension 1 (coordinate = -0.555), while 
+the Non-Aligned Movement loads positive (+0.350) and the Soviet/Eastern bloc is near the origin 
+(+0.028). Among roles, justification loads negative on Dimension 1 (-0.334), co-locating it with the 
+Western bloc, while legal_normative (+0.392) and sovereignty_norm (+0.379) load positive, co-locating 
+with the Non-Aligned and Soviet/Eastern blocs. Historical_context occupies an intermediate position 
+(+0.281 on Dim 1, +0.263 on Dim 2), somewhat closer to the Non-Aligned Movement’s dramaturgical 
+profile. The victim_narrative role has an extreme coordinate on Dimension 2 (-1.243), indicating that its 
+association with a specific bloc (isolated cases in the Soviet/Eastern subcorpus) is an outlier pattern rather 
+than a systematic one. 
+The spatial picture is clear: the primary axis of differentiation in the data separates states that 
+legitimize primarily through justification (Western bloc) from states that legitimize primarily through 
+legal_normative and sovereignty_norm invocations (Non-Aligned and Soviet/Eastern). This is not a 
+difference in the overall willingness to engage in legitimation work – all blocs perform legitimation, and 
+none defaults to strategic action. Rather, it is a difference in the register of legitimation: Western states 
+construct arguments about necessity and proportionality, while non-Western states assert their actions’ 
+conformity with binding legal norms. 
+To check whether the same role structure also appears along the temporal dimension, Figure 4.14 
+presents the correspondence-analysis biplot for communicative roles by historical period. 
+Figure 4.14 
+ 
+
+--- PAGE 51 ---
+51 
+Correspondence Analysis Biplot: Communicative Roles × Historical Periods 
+ 
+Note. Points represent row and column coordinates from correspondence analysis. Colored role 
+markers indicate Habermas action types; period markers indicate historical periods. Dimension 1 captures 
+61.6% of inertia, and Dimension 2 captures 29.9%. 
+As shown in Figure 4.14, the temporal correspondence-analysis space separates the Cold War 
+period from the post-9/11 and post-2014 periods. The Cold War period is positioned closer to normative 
+roles, while the post-9/11 and post-2014 periods cluster nearer to justification, reflecting the temporal shift 
+documented in H3. The bloc-level tests nevertheless remain the main evidentiary basis for H4. 
+The chi-square test for Habermas action types by bloc yields 
+, with 
+χ²(4) =  11. 99,  𝑝 =  0. 017
+Cramér’s V = 0.249. The proportion of cells with expected frequency below five (33.3 percent) warrants 
+caution; the Fisher’s exact pairwise tests provide a more reliable basis for inference given the cell size 
+constraints. 
+ 
+
+--- PAGE 52 ---
+52 
+The pairwise comparisons (Fisher’s exact) directly support H4: 
+●​ Western vs. Soviet/Eastern bloc, normative action. 
+. Western 
+𝑜𝑑𝑑𝑠 𝑟𝑎𝑡𝑖𝑜 =  0. 20,  𝑝 =  0. 023
+states are significantly less likely to invoke normative-legal action relative to Soviet/Eastern states; 
+●​ Western vs. Non-Aligned Movement, normative action. 
+. The 
+𝑜𝑑𝑑𝑠 𝑟𝑎𝑡𝑖𝑜 =  0. 14,  𝑝 =  0. 003
+Western bloc’s deficit in normative-legal framing is even more pronounced relative to NAM states; 
+●​ Western vs. Non-Aligned Movement, communicative action. 
+. 
+𝑜𝑑𝑑𝑠 𝑟𝑎𝑡𝑖𝑜 =  4. 75,  𝑝 =  0. 005
+Western states are significantly more likely to deploy communicative (justification-oriented) action than 
+Non-Aligned states. 
+●​ Soviet/Eastern vs. Non-Aligned Movement. No pairwise comparison reaches significance for any 
+Habermas type (all 
+), confirming that these two blocs are not meaningfully differentiated from 
+𝑝 >  0. 18
+each other in their legitimation registers. 
+H4 is supported. Western states occupy a distinct rhetorical position in the legitimation space: 
+characterized by high communicative (justification) framing and low normative-legal invocation. The 
+Soviet/Eastern and Non-Aligned blocs are statistically indistinguishable from each other and together 
+define the normative-legal pole of the Dimension 1 axis in the CA. 
+This finding requires careful interpretation. The Western bloc’s lower normative-legal framing 
+does not indicate a lesser commitment to international law as such. A plausible reading of the data would 
+be that Western states – particularly the United States, which dominates the Western subcorpus – have had 
+greater difficulty grounding contested uses of force in the formal UN Charter framework, where Security 
+Council authorization was either absent or contested, and have therefore been pushed toward justificatory 
+rather than norm-invoking argumentation. Iraq 2003 is the most transparent case: with the UNSC divided 
+and no explicit authorization for the use of force, the US delegation could not ground its legitimation in 
+Chapter VII authorization and instead constructed an extended necessity argument based on Iraqi WMD 
+non-compliance and the residual authority of Resolution 1441. The normative vocabulary was available; 
+its use would have been politically and legally incoherent in that context. 
+The Non-Aligned and Soviet/Eastern blocs’ preference for normative-legal framing may, 
+conversely, reflect the fact that these states have more consistently faced challenges to their sovereign 
+authority – challenges to which the non-interference norm and formal legal equality provide the most 
+immediately available and normatively legitimate response before a universal audience. The UN Charter’s 
+prohibition on interference in internal affairs (Article 2(7)) is particularly salient for states facing human 
+rights allegations or responses to internal conflicts, which are among the most frequent allegation types in 
+the NAM subcorpus. 
+ 
+
+--- PAGE 53 ---
+53 
+4.6.1. Summary of Empirical Findings 
+The four hypotheses receive the following empirical assessments on the basis of the analysis 
+above: 
+H1 (convergence) is supported. Post-9/11 counter-terrorism framing increased uniformly across all 
+three blocs, with no statistically significant inter-bloc differentiation in either the pre- or post-2001 period. 
+The pattern supports the claim of ideational convergence in the adoption of a new legitimation resource. 
+H2 (repertoire) is partially supported with qualification. The dominant strategies across the corpus 
+are not purely strategic evasion or denial – strategic action is entirely absent as a dominant mode. 
+Normative-legal framing is substantial (36.1 percent of classified content) and procedural-legal claims are 
+the second most frequent manual strategy (28 segments). However, the single most prevalent type is 
+communicative action – justification through necessity and counter-terrorism arguments – rather than 
+normative-legal action as H2 predicted. The hypothesis requires reformulation: the repertoire is not 
+primarily normative-legal but is genuinely legitimation-oriented, with justificatory reasoning displacing 
+formal norm invocation, particularly in the post-9/11 period. 
+H3 (temporal shift) is supported. The distribution of Habermas action types shifts significantly 
+across historical periods (
+). The clearest shift is the post-9/11 transition 
+χ²(6) =  21. 06,  𝑝 =  0. 0018
+from normative dominance to communicative dominance, driven by the adoption of counter-terrorism 
+framing. The post-2014 period shows partial reversion toward normative invocation. 
+H4 (geopolitical variation) is supported. Western states show systematically lower normative-legal 
+framing and significantly higher communicative (justification) framing than both Soviet/Eastern and 
+Non-Aligned states. The CA Dimension 1 is interpretable as a justification–norm invocation axis, with the 
+Western bloc at the justification pole and the other two blocs at the normative pole. Soviet/Eastern and 
+Non-Aligned states are not significantly differentiated from each other. 
+5. Discussion 
+5.1. Hypothesis Assessment 
+Four hypotheses were specified in Chapter 2 and subjected to empirical test in Chapter 4. The 
+results are uneven in instructive ways. 
+H1 (ideational convergence) is supported unambiguously. The post-9/11 adoption of 
+counter-terrorism framing is not a Western or Soviet/Eastern phenomenon – it is a cross-bloc one. 
+ANOVA results for the pre-2001 and post-2001 periods both fail to detect inter-bloc differentiation (
+ respectively), while within-bloc t-tests confirm 
+𝐹 =  0. 39,  𝑝 =  . 678 𝑎𝑛𝑑 𝐹 =  1. 29,  𝑝 =  . 288
+ 
+
+--- PAGE 54 ---
+54 
+that all three blocs show a statistically significant increase in counter-terrorism keyword density after 
+September 2001. The implication is that UNSC Resolution 1373 and the normative infrastructure of the 
+“war on terror” created a legitimation resource that was taken up across the international system – not 
+selectively, but uniformly, by states with widely divergent strategic interests and adversarial relationships. 
+Counter-terrorism framing became, in effect, a shared rhetorical commons. 
+H2 (repertoire) is supported with a significant qualification. The hypothesis predicted that 
+dominant strategies would be normative-legal – Charter invocations, self-defense claims, sovereignty 
+appeals. The data show something more complex. Strategic action is indeed absent as a dominant mode – 
+zero classified segments are coded under denial, counter-accusation, or delegitimation as their primary 
+Habermas type – confirming that states before the General Assembly do not simply refuse to legitimize. 
+But the dominant mode is not normative-legal (36.1 percent) but communicative, specifically justificatory 
+(51.5 percent). Direct invocations of Article 51 are nearly absent from the manual coding (n = 1); the more 
+common pattern is the construction of necessity arguments through counter-terrorism framing, with formal 
+legal citation as support rather than as the primary vehicle. H2 requires reformulation: the repertoire is 
+genuinely legitimation-oriented, but the dominant register is argumentative rather than norm-invoking. 
+H3 (temporal shift) is supported. The chi-square result for Habermas action types across periods –
+, Cramér’s 
+ – is the most statistically robust finding in the 
+χ²(6) =  21. 06,  𝑝 =  . 0018
+𝑉 =  . 33
+analysis. The shift from Cold War normative dominance (63.6 percent normative in the 1946–1989 
+sample) to post-9/11 communicative dominance (71.0 percent communicative in 2002–2013) represents 
+not a gradual drift but a threshold crossing. The post-2014 partial reversion toward normative framing 
+(normative rising from 16.1 to 25.9 percent) suggests that the sovereignty-revisionist rhetoric of the 
+fragmentation period partially re-activated the legal argumentation register that the War on Terror years 
+had displaced. 
+H4 (geopolitical variation) is supported. Fisher’s exact tests establish significant pairwise 
+differentiation between the Western bloc and both the Soviet/Eastern (
+) and Non-Aligned (
+𝑝 =  . 023
+) blocs on normative action, with the Western bloc showing a pronounced deficit. The 
+𝑝 =  . 003
+correspondence analysis positions justification and the Western bloc at the same pole of the primary 
+dimension, which accounts for 82.5 percent of total inertia – a concentration indicating that the 
+geopolitical axis of differentiation in legitimation registers is substantially one-dimensional. 
+Soviet/Eastern and Non-Aligned blocs are not significantly differentiated from each other on any 
+Habermas type. 
+ 
+
+--- PAGE 55 ---
+55 
+5.2. Communicative vs. Strategic Action in Practice 
+The finding that most directly speaks to the Habermasian theoretical framework – and that the 
+prior case-study literature anticipated but could not establish at scale – is the complete absence of strategic 
+action as a dominant communicative mode across three Cold War blocs, four historical periods, and eight 
+distinct legitimation strategy types. Risse (2000) and Bjola (2005) argued theoretically that multilateral 
+forums impose communicative constraints on state speech acts; the corpus-level evidence here provides 
+systematic empirical confirmation of that proposition beyond the individual episodes they examined. 
+Habermas (1984) distinguishes communicative action from strategic action on the criterion of 
+orientation: communicative action is oriented toward Verständigung – reaching understanding through the 
+exchange of reasons – while strategic action is oriented toward causal success, treating the other as a 
+means rather than an interlocutor. The empirical pattern in the UNGA corpus suggests that the General 
+Assembly forum imposes a structural constraint on strategic action at the textual level: every coded speech 
+act, including those that colloquially might be described as deflection or counter-attack, contains sufficient 
+justificatory or normative content to be classified under communicative or normative action. The forum’s 
+public character, universal membership, and founding normative architecture appear to require – at 
+minimum – the performance of legitimation. 
+The qualification matters. Risse (2000) and Müller (2004) both observe that the distinction 
+between sincere argumentation and strategic mimicry of argument is empirically difficult to establish from 
+discourse data alone. A state may invoke self-defense language without any genuine orientation toward 
+shared normative evaluation; the verbal form of legitimation does not guarantee its communicative 
+substance. What the data establish is more modest but not trivial: states before the General Assembly 
+cannot afford to appear strategically oriented. The institutional setting generates a performative demand 
+for normative justification that shapes the rhetorical surface of diplomatic discourse regardless of 
+underlying intent. This matches the logic of deliberative legitimacy that Bjola (2005) identifies: the 
+construction of normative consensus through public argumentation operates as a constraint on state 
+behavior even when states have no intention of being bound by the consensus they construct. 
+The bloc-level register differentiation identified under H4 adds a further layer of theoretical 
+complexity. Western states construct necessity arguments; non-Western states invoke legal norms. Both 
+are forms of legitimation, but they make structurally different validity claims (Habermas, 1984): 
+communicative action claims normative rightness through propositional argument about consequences and 
+proportionality, while normative action claims rightness through the assertion of shared binding standards. 
+The Western preference for justificatory framing over formal legal invocation plausibly reflects the 
+ 
+
+--- PAGE 56 ---
+56 
+structural position of states whose contested actions have often been undertaken without Security Council 
+authorization – a context in which formal Charter invocations would be legally and politically incoherent. 
+The structural logic is documented in Section 4.6: when the formal Charter framework is unavailable, the 
+substitution is quasi-legal necessity argumentation rather than an abandonment of legitimation. The 
+non-Western preference for normative-legal framing, by contrast, reflects the centrality of Article 2(7) and 
+formal legal equality to states whose primary exposure to international criticism concerns the exercise of 
+domestic sovereign authority rather than external military conduct. 
+5.3. Theoretical Contributions and Limitations 
+The analysis makes three contributions to the literature on legitimation discourse in international 
+politics. 
+First, it provides systematic, corpus-based evidence for patterns that prior IR scholarship has 
+described primarily through case analysis. Bjola (2005), Risse (2000), and Müller (2004) establish the 
+relevance of communicative action to diplomatic practice through close readings of individual episodes – 
+Kosovo, Iraq, the Helsinki process. The present analysis shows, across 33 case-years and 102 coded 
+segments, that communicative action is not only theoretically applicable but empirically prevalent – and 
+more prevalent than normative-legal invocation in the post-Cold War period. The shift to a corpus-level 
+perspective does not replace the qualitative depth of case analysis; it provides the horizontal dimension 
+that case studies structurally cannot. 
+Second, the register differentiation finding contributes to ongoing debates about what the 
+“rules-based order” means in practice. States that rhetorically champion that order invoke formal legal 
+norms less frequently in cases of contested conduct than their non-Western counterparts – a pattern 
+confirmed at the p < .01 level for the Western vs. Non-Aligned comparison. This is not evidence of 
+hypocrisy in any simple sense; it reflects different structural exposures to the Charter architecture. 
+Koskenniemi’s (2005) account of the structure of international legal argument is instructive here: legal 
+argumentation oscillates between descending claims (appeals to objective norms) and ascending claims 
+(appeals to state consent and practice), and states whose contested actions fall outside the formal Charter 
+authorization framework face a structural disincentive against descending invocations of Charter law – 
+because those very norms would render their conduct indefensible. The quasi-legal justificatory register 
+characteristic of Western diplomatic argumentation in the corpus is, in this reading, a structurally 
+conditioned adaptation rather than a strategic preference. The empirical pattern – non-Western states 
+invoking Charter provisions and legal instruments more consistently, while Western argumentation 
+operates through necessity claims and securitization framing – complicates narratives in which Western 
+ 
+
+--- PAGE 57 ---
+57 
+states function as primary custodians of the rules-based order, pointing instead toward structural 
+asymmetries that are observable in the discourse independently of any actor’s stated normative 
+commitments. 
+Third, the temporal finding supports the argument that September 2001 functioned as a discursive 
+turning point – not merely a geopolitical one – that reconfigured the normative vocabulary available to all 
+state actors regardless of strategic alignment. Wiener’s (2014) theory of contestation provides the 
+theoretical framing: norm-generative events of sufficient salience can reset the available repertoire of 
+legitimation resources across the international system, such that new discursive resources become 
+available to actors whose prior normative positions would not ordinarily support them. The 
+institutionalization of UNSC Resolution 1373’s counter-terrorism framework is precisely such an event: it 
+created a legitimation resource adopted rapidly and uniformly across three blocs with widely divergent 
+strategic interests. 
+Two limitations constrain the scope of these contributions. The keyword-based classification is 
+necessarily reductive: the nine communicative roles are operationalized through lexicons that capture 
+dominant patterns while missing indirect or highly institutionalized formulations, as the elevated Western 
+unclassified rate (11.1 percent) indicates. This is not a methodological failure – it is an analytically 
+informative asymmetry – but it means the classification performs differentially across rhetorical registers 
+and cannot fully capture the hedged, institutionally framed argumentation characteristic of 
+Anglo-American diplomatic prose. The analysis also covers a single venue. Whether the legitimation 
+patterns identified in General Debate speeches characterize diplomatic discourse more broadly – in the 
+Security Council, in bilateral channels, in official state media – remains an open question that the UNGDC 
+corpus, by design, cannot address. 
+5.4. Directions for Future Research 
+Three extensions appear most immediately productive. The first is a cross-venue comparison: 
+systematically applying the coding framework to Security Council debates for the same state-years as the 
+present sample would test whether legitimation registers shift when the audience changes from the 
+universal membership of the General Assembly to the restricted great-power veto context of the Council. 
+The expectation is that Security Council rhetoric would show higher normative-legal framing and reduced 
+counter-terrorism argumentation – the Council’s institutional architecture incentivizes legal citation more 
+directly than the General Debate format, while the absence of a universal audience reduces the rhetorical 
+payoff of broad-coalition counter-terrorism framing. 
+ 
+
+--- PAGE 58 ---
+58 
+The second extension concerns the temporal scope of the corpus itself. Pre-1956 speeches – which 
+fall within the UNGDC’s coverage from Jankin, Baturo, and Dasandi (2025) but are underrepresented in 
+the present sample due to sparser documentation of contested episodes – would allow assessment of 
+whether Cold War normative dominance was present from the founding of the UN system or emerged 
+gradually over the first decade of the organization’s operation. The hypothesis that early General 
+Assembly sessions showed more explicit legal-formalist argumentation, before counter-terrorism framing 
+and quasi-legal necessity arguments became available, is testable with the extended corpus. 
+The third extension addresses the translation constraint. All non-English speeches in the UNGDC 
+are represented through official UN translations. For the Arabic, Chinese, and Russian subcorpora – which 
+together account for the majority of the Non-Aligned and Soviet/Eastern segments in the present sample – 
+systematic comparison of original-language texts with their English translations would test whether the 
+keyword-based classification performs equivalently across the two versions or whether the translation 
+process consistently flattens strategic distinctions in ways that distort the role assignments. Such a 
+comparison would be particularly important for the assessment of the H4 finding, where bloc-level 
+differences in normative-legal framing are substantial and theoretically consequential. 
+Conclusion 
+The question driving this analysis was what legitimation strategies state leaders employ at the 
+UNGA General Debate to justify legally or normatively contested conduct – which appear most 
+frequently, how their distribution has shifted across seven decades of international politics, and whether 
+geopolitical blocs draw on distinguishable repertoires. Examined across 33 case-years and 102 manually 
+coded segments spanning 1946 to 2023, the corpus permits systematic answers to each of these questions. 
+The analysis of legitimation discourse in UNGA General Debate speeches between 1946 and 2023 
+yields findings that confirm three of the four hypotheses directly, and require the reformulation of H2 in a 
+way that is itself a substantive conclusion. State leaders facing allegations of legally or normatively 
+contested conduct do not refuse to legitimize: the complete absence of strategic action as a dominant mode 
+– across 33 case-years, four historical periods, and three geopolitical blocs – indicates that the General 
+Assembly forum imposes a structural demand for normative performance that operates independently of 
+the speaker’s strategic intent. Every coded speech in the sample, including those delivered by 
+governments under sustained international criticism, contains sufficient justificatory or normative content 
+to be classified as communicative or normative action. H2, as specified, predicted normative-legal 
+dominance; the data show communicative-justificatory framing in the leading register instead. The 
+ 
+
+--- PAGE 59 ---
+59 
+structural claim holds – strategic action is absent as a dominant mode – but the characteristic form 
+legitimation takes in the corpus is argumentative rather than norm-invoking. 
+Of the strategies identified, counter-terrorism and securitization framing (34.3% of coded 
+segments) and procedural-legal claims (27.5%) together account for nearly two-thirds of the sample. 
+Explicit self-defense invocations under Article 51 of the UN Charter appear in only one coded segment; 
+the characteristic pattern is the construction of necessity arguments through securitization language, with 
+formal legal citation as supporting rather than primary vehicle. The temporal distribution of these 
+strategies is not stable. A statistically significant shift – χ²(6) = 21.06, p = .0018 – marks the transition 
+from Cold War normative dominance, when Charter invocations and sovereignty appeals accounted for 
+63.6% of classified segments, to post-9/11 communicative dominance, when justificatory framing reached 
+71.0% of classified content in the 2002–2013 sample. September 2001 functions in this data as a threshold 
+crossing rather than a gradual drift: the counter-terrorism infrastructure that followed created a 
+legitimation resource adopted rapidly across the full spectrum of the UN membership. The Post-2014 
+period partially reverses this trajectory – normative-legal framing recovers to 25.9% – consistent with the 
+intensification of sovereignty-revisionist argumentation among states operating in an environment of 
+increased normative contestation. 
+The geopolitical dimension of the analysis produces a more complex picture than either 
+convergence or divergence accounts alone can accommodate. At the level of counter-terrorism rhetoric, 
+convergence is unambiguous: post-2001 adoption of securitization framing is cross-bloc and not 
+significantly differentiated across the three analytical groupings. At the level of legitimation register, 
+however, divergence is equally robust: Western states rely predominantly on communicative justification, 
+while Soviet/Eastern and Non-Aligned states rely more consistently on normative-legal invocations – 
+Charter provisions, treaty authority, the non-interference principle. The Fisher’s exact pairwise 
+comparisons confirm the Western bloc’s deficit in normative-legal framing at 
+ relative to the 
+𝑝 =  . 023
+Soviet/Eastern grouping and 
+ relative to the Non-Aligned Movement. These two patterns – 
+𝑝 =  . 003
+surface convergence in rhetorical resources, structural divergence in legitimation register – operate at 
+different analytical levels and are not contradictory. They reflect the availability of a shared post-2001 
+vocabulary alongside the persistence of structurally conditioned differences in how states relate to the 
+Charter architecture. 
+These findings make three contributions to the IR literature. At the empirical level, the analysis 
+provides systematic, corpus-based evidence for patterns that prior scholarship has identified through case 
+analysis – confirming, across 102 coded segments, that communicative action is empirically prevalent in 
+ 
+
+--- PAGE 60 ---
+60 
+UNGA legitimation discourse and more frequent than normative-legal invocation in every post-Cold War 
+period. At the theoretical level, the results extend Bjola’s (2005) account of deliberative legitimacy 
+beyond the two episodes – Kosovo and Iraq – on which it was originally grounded, demonstrating that the 
+forum-level constraint it describes holds across three blocs and seven decades. At the interpretive level, 
+the register differentiation finding – Western states employing quasi-legal justificatory framing while 
+non-Western states invoke formal Charter-grounded norms – complicates received narratives of Western 
+states as primary custodians of the ‘rules-based order’, pointing instead toward structurally conditioned 
+asymmetries – of the kind Koskenniemi (2005) describes in tracing the oscillation between descending 
+and ascending legal argument – that are observable in the discourse independently of any actor’s stated 
+normative commitments. 
+The broader significance of these findings lies in what they reveal about the durability of the 
+UNGA as a legitimation arena. The General Debate remains the single venue at which every UN member 
+state is obligated to appear and address a universal audience – without veto and without the procedural 
+constraints of the Security Council. As the normative architecture of the postwar order has come under 
+sustained pressure since 2014, the question of how states legitimize legally contested conduct before that 
+audience becomes analytically important precisely because the forum continues to function. The evidence 
+presented here suggests that the communicative demand of the General Assembly has not collapsed under 
+normative fragmentation: even in the most recent period of the corpus, states continue to perform 
+legitimation rather than abandon it. Tracking the strategies through which that performance is constructed, 
+and the conditions under which the repertoire shifts, is a precondition for any systematic account of how 
+international norms are contested, sustained, and reconstructed under pressure. For the period 1946–2023, 
+across four historical periods and three geopolitical blocs, this analysis has provided that account – 
+documenting not the collapse of legitimation under normative fragmentation, but its persistence and 
+structural transformation. 
+ 
+ 
+
+--- PAGE 61 ---
+61 
+References 
+Baturo, A., Dasandi, N., & Mikhaylov, S. J. (2017). Understanding state preferences with text as 
+data: 
+Introducing 
+the 
+UN 
+General 
+Debate 
+Corpus. 
+Research 
+& 
+Politics, 
+4(2), 
+1–9. 
+https://doi.org/10.1177/2053168017712821 
+Bjola, C. (2005). Legitimating the use of force in international politics: A communicative action 
+perspective. 
+European 
+Journal 
+of 
+International 
+Relations, 
+11(2), 
+266–303. 
+https://doi.org/10.1177/1354066105052968 
+Dinkel, J. (2019). The Non-Aligned Movement: Genesis, Organization and Politics (1927–1992) 
+(A. Skinner, Trans.). Brill. https://doi.org/10.1163/9789004336131 
+Franck, T. M. (1990). The power of legitimacy among nations. Oxford University Press. 
+https://doi.org/10.1093/oso/9780195061789.001.0001 
+Gronau, J., & Schmidtke, H. (2016). The quest for legitimacy in world politics – international 
+institutions’ 
+legitimation 
+strategies. 
+Review 
+of 
+International 
+Studies, 
+42, 
+535–557. 
+https://doi.org/10.1017/S0260210515000492 
+Haberman, S. J. (1973). The analysis of residuals in cross-classified tables. Biometrics, 29(1), 
+205–220.  https://doi.org/10.2307/2529686 
+Habermas, J. (1984). The theory of communicative action: Vol. 1. Reason and the rationalization of 
+society (T. McCarthy, Trans.). Beacon Press. (Original work published 1981) 
+Head, N. (2008). Critical theory and its practices: Habermas, Kosovo and international relations. 
+Politics, 28(3), 150–159. 
+Hsieh, H.-F., & Shannon, S. E. (2005). Three approaches to qualitative content analysis. 
+Qualitative Health Research, 15(9), 1277–1288. https://doi.org/10.1177/1049732305276687 
+Hurd, I. (1999). Legitimacy and authority in international politics. International Organization, 
+53(2), 379–408. 
+Koskenniemi, M. (2005). From apology to utopia: The structure of international legal argument 
+(Reissue with new Epilogue). Cambridge University Press. 
+Landis, J. R., & Koch, G. G. (1977). The measurement of observer agreement for categorical data. 
+Biometrics, 33(1), 159–174. https://doi.org/10.2307/2529310 
+Jankin, S., Baturo, A., & Dasandi, N. (2025). Words to unite nations: The complete United Nations 
+General 
+Debate 
+Corpus, 
+1946–present. 
+Journal 
+of 
+Peace 
+Research, 
+62(4), 
+1339–1351. 
+https://doi.org/10.1177/00223433241275335 
+ 
+
+--- PAGE 62 ---
+62 
+Müller, H. (2004). Arguing, bargaining and all that: Communicative action, rationalist theory and 
+the logic of appropriateness in international relations. European Journal of International Relations, 10(3), 
+395–435. https://doi.org/10.1177/1354066104045542 
+Prashad, V. (2007). The darker nations: A people’s history of the Third World. The New Press. 
+Rapp, K. (2022). Justifying force: International law, foreign policy decision-making, and the use of 
+force. 
+European 
+Journal 
+of 
+International 
+Relations, 
+28(2), 
+337–360. 
+https://doi.org/10.1177/13540661221077162 
+Risse, T. (2000). “Let’s argue!”: Communicative action in world politics. International 
+Organization, 54(1), 1–39. https://www.jstor.org/stable/2601316 
+Wiener, A. (2014). A Theory of Contestation. SpringerBriefs in Political Science. Springer. 
+https://doi.org/10.1007/978-3-642-55235-9 
+Primary Sources and Official Documents 
+United Nations. (1945). Charter of the United Nations. https://www.un.org/en/about-us/un-charter 
+United Nations General Assembly. (2014, March 27). Territorial integrity of Ukraine, 
+A/RES/68/262. https://undocs.org/A/RES/68/262 
+United Nations Security Council. (2001, September 28). Threats to international peace and security 
+caused by terrorist acts, S/RES/1373(2001).https://digitallibrary.un.org/record/449020 
+ 
+
