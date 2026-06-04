@@ -65,6 +65,7 @@ PANDOC_ARGS=(
   --toc
   --toc-depth=3
   -V lang=ru
+  --resource-path="$CHAPTERS_DIR"
   --output="$RAW_DOCX"
 )
 
@@ -75,9 +76,16 @@ echo ""
 echo "Запускаю pandoc..."
 "$PANDOC" "${PANDOC_ARGS[@]}" "${CHAPTERS_LIST[@]}"
 
+DRAFT_DOCX="$PROJECT_DIR/drafts/диплом_итог.docx"
+
 echo ""
-echo "Постобработка (МГТУ: заголовки, списки, формулы, «где»)..."
-python3 "$SCRIPT_DIR/postprocess_docx.py" "$RAW_DOCX" "$FINAL_DOCX"
+echo "Постобработка (МГТУ: заголовки, списки, формулы, рисунки, таблицы, титульник)..."
+if [ -f "$DRAFT_DOCX" ]; then
+  python3 "$SCRIPT_DIR/postprocess_docx.py" "$RAW_DOCX" "$FINAL_DOCX" "$DRAFT_DOCX"
+else
+  echo "  (черновик не найден — титульный лист пропущен)"
+  python3 "$SCRIPT_DIR/postprocess_docx.py" "$RAW_DOCX" "$FINAL_DOCX"
+fi
 
 # Убираем промежуточный файл
 rm -f "$RAW_DOCX"

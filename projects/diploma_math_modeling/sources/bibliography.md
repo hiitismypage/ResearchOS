@@ -4,6 +4,10 @@
 
 ### Статьи
 
+- [Windrum, Fagiolo, Moneta, 2007] Empirical Validation of Agent-Based Models: Alternatives and Prospects. Journal of Artificial Societies and Social Simulation, 10(2), 8. → notes/windrum_fagiolo_moneta_2007_abm_validation.md
+- [Dosi, Fagiolo, Napoletano, Roventini, Treibich, 2014] Fiscal and Monetary Policies in Complex Evolving Economies. GREDEG WP 2014-07 (опубл. JEDC, 52, 2015). → notes/dosi_fagiolo_napoletano_roventini_treibich_2014_ks_fiscal.md
+- [Fagiolo, Giachini, Roventini, 2017] Innovation, Finance, and Economic Growth: An Agent-Based Approach. OFCE WP n°28. → notes/fagiolo_giachini_roventini_2017_finance_growth.md
+- [Dawid, Delli Gatti, 2018] Agent-Based Macroeconomics. In: Handbook of Computational Economics, Vol. IV, Elsevier (Bielefeld WP 02-2018). → notes/dawid_delli_gatti_2018_abm_macroeconomics.md
 - [Никаноров, Павлова, 2023] Динамическая модель Леонтьева с непрерывным временем как управляемая система. DOI: 10.25728/mlsd.2023 → notes/nikanorova_pavlova_2023_leontiev_control.md
 - [Павлова, 2019] Исследование открытой динамической модели Леонтьева с непрерывным временем как линейной динамической системы с управлением. Дифференциальные уравнения, т. 55, № 1, с. 111–116. DOI: 10.1134/S0374064119010114 → notes/pavlova_2019_leontiev_open.md
 - [Jódar, Merello, 2010] Solving an analytic dynamic Leontief model with time dependent capital matrix. Mathematical and Computer Modelling, Vol. 51, pp. 400–404. DOI: 10.1016/j.mcm.2009.12.008 → notes/jodar_merello_2010_leontief_capital.md

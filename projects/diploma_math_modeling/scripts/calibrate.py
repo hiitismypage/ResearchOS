@@ -499,14 +499,21 @@ def calibrate_sector_params(
     K_j = gva_shares * K_total
     nu_j = X_avg / np.where(K_j > 0, K_j, 1.0)
 
-    # kappa_j = I_j / max(π_j, ε), clipped [0.05, 0.45]
-    pi_j = GVA_avg - D1_avg
-    eps_pi = 1e-3 * max(float(np.nanmean(X_avg[X_avg > 0])), 1.0) if (X_avg > 0).any() else 1e-3
-    kappa_j = np.clip(GFCF_avg / np.maximum(pi_j, eps_pi), 0.05, 0.45)
+    # kappa_j = GFCF_j / GOS_j, where GOS = Gross Operating Surplus = GVA - wages
+    # Floor on GOS: at least 25% of GVA (prevents distortion when D1 data is sparse/zero at NACE level)
+    # Clip [0.10, 0.40] — upper bound lowered to 0.40 to match German manufacturing capital CAGR ~2-3%
+    # (0.55 produced CAGR ~4.7% for manufacturing/construction, above historical 2-3%)
+    D1_capped = np.minimum(D1_avg, 0.70 * GVA_avg)          # wages <= 70% of GVA
+    GOS_j = np.maximum(GVA_avg - D1_capped, 0.25 * GVA_avg) # GOS >= 25% of GVA
+    kappa_j = np.clip(GFCF_avg / np.maximum(GOS_j, 1.0), 0.10, 0.40)
 
-    # eta_j: η_j * mean(X_j) ≈ 0.10 * I_j, clipped [0.01, 0.25]
+    # eta_j: sensitivity of investment to capacity gaps
+    # Proxy: coefficient of variation of GFCF captures how reactive investment is to demand fluctuations
+    # Sectors with more volatile investment (cv_gfcf high) react more strongly to unmet demand
     X_safe = np.where(X_avg > 0, X_avg, 1.0)
-    eta_j = np.clip(0.10 * GFCF_avg / X_safe, 0.01, 0.25)
+    gfcf_mean = np.where(np.nanmean(GFCF_ts, axis=0) > 0, np.nanmean(GFCF_ts, axis=0), 1.0)
+    cv_gfcf = np.nanstd(GFCF_ts, axis=0) / gfcf_mean  # coefficient of variation
+    eta_j = np.clip(cv_gfcf * GFCF_avg / X_safe, 0.02, 0.15)
 
     # alpha_j = 1 − vol_j / mean_vol, clipped [0.3, 0.9]
     X_growth = np.diff(X_ts, axis=0) / np.where(X_ts[:-1] > 0, X_ts[:-1], 1.0)
@@ -514,9 +521,11 @@ def calibrate_sector_params(
     mean_vol = float(np.nanmean(vol_j))
     alpha_j = np.clip(1.0 - vol_j / (mean_vol if mean_vol > 0 else 1e-6), 0.3, 0.9)
 
-    # p_inn_j
-    kappa_max = float(kappa_j.max()) if kappa_j.max() > 0 else 1.0
-    p_inn_j = 0.05 + 0.15 * (1.0 - kappa_j / kappa_max)
+    # p_inn_j: innovation probability proxied by output volatility
+    # Sectors with more volatile output (= subject to more innovation shocks and structural change)
+    # get higher innovation probability. This decouples p_inn from kappa.
+    vol_max = float(vol_j.max()) if vol_j.max() > 0 else 1.0
+    p_inn_j = np.clip(0.05 + 0.20 * (vol_j / vol_max), 0.05, 0.25)
 
     # mu_j = 0.01 + 0.04 * (GVA_j / X_j), clipped [0.01, 0.05]
     mu_j = np.clip(0.01 + 0.04 * (GVA_avg / X_safe), 0.01, 0.05)
@@ -560,7 +569,7 @@ def generate_firm_distributions(
     rng = np.random.default_rng(seed)
     n = len(sector_map)
     sigma_a = 0.15
-    sigma_k = 0.6
+    sigma_k = 0.8
 
     K_j  = sector_params["_K_j"]
     nu_j = sector_params["nu_j"]
@@ -583,8 +592,9 @@ def generate_firm_distributions(
         raw_k = rng.lognormal(mu_k, sigma_k, N_j)
         k_jf  = raw_k * (K_val / raw_k.sum()) if raw_k.sum() > 0 else raw_k
 
-        # θ ~ Uniform(lo, hi)
+        # θ ~ Uniform(lo, hi), normalized so sector mean == 1.0
         theta_jf = rng.uniform(lo, hi, N_j)
+        theta_jf = theta_jf / theta_jf.mean()  # normalize sector mean to 1.0
 
         # ω: market shares proportional to capital
         omega_jf = k_jf / (k_jf.sum() + 1e-300)
@@ -687,8 +697,8 @@ def validate_model(
     # 5. Parameter range checks
     sp = sector_params
     range_checks = {
-        "kappa_j_range": (sp["kappa_j"], 0.05, 0.45),
-        "eta_j_range":   (sp["eta_j"],   0.01, 0.25),
+        "kappa_j_range": (sp["kappa_j"], 0.10, 0.55),
+        "eta_j_range":   (sp["eta_j"],   0.02, 0.15),
         "alpha_j_range": (sp["alpha_j"], 0.30, 0.90),
         "mu_j_range":    (sp["mu_j"],    0.01, 0.05),
         "nu_j_positive": (sp["nu_j"],    0.0,  np.inf),
